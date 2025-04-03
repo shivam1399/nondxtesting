@@ -4,12 +4,12 @@
     <standardValue>
         <fullName>Phone</fullName>
         <default>false</default>
-        <label>Phone11</label>
+        <label>Phone178</label>
     </standardValue>
     <standardValue>
         <fullName>Email111</fullName>
         <default>false</default>
-        <label>Email11</label>
+        <label>Email113</label>
     </standardValue>
     <standardValue>
         <fullName>Web</fullName>

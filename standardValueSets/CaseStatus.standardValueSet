@@ -10,7 +10,7 @@
     <standardValue>
         <fullName>Workingedit12wd</fullName>
         <default>false</default>
-        <label>Worksaw</label>
+        <label>Worksaw2we</label>
         <closed>false</closed>
     </standardValue>
     <standardValue>
@@ -20,15 +20,15 @@
         <closed>false</closed>
     </standardValue>
     <standardValue>
-        <fullName>Closed</fullName>
+        <fullName>Closedwd</fullName>
         <default>false</default>
-        <label>Closed</label>
+        <label>Closedds</label>
         <closed>true</closed>
     </standardValue>
     <standardValue>
-        <fullName>Editeddd</fullName>
+        <fullName>Editeddddsd</fullName>
         <default>false</default>
-        <label>Editedds</label>
+        <label>dsdd</label>
         <closed>false</closed>
     </standardValue>
     <standardValue>

@@ -5,6 +5,15 @@
         <name>CustomMetadata</name>
     </types>
     <types>
+        <members>Book__c</members>
+        <members>PrajjwalTest__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>PrajjwalTest__c-PrajjwalTest Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
         <members>AccountContactRole</members>
         <members>AccountOwnership</members>
         <members>AccountRating</members>

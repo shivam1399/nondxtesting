@@ -7,9 +7,9 @@
         <label>Phone11de</label>
     </standardValue>
     <standardValue>
-        <fullName>Email</fullName>
+        <fullName>Email1</fullName>
         <default>false</default>
-        <label>Email</label>
+        <label>Email1</label>
     </standardValue>
     <standardValue>
         <fullName>Web</fullName>

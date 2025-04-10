@@ -2,9 +2,9 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Newnn</fullName>
+        <fullName>Newnnw</fullName>
         <default>true</default>
-        <label>NewEdit</label>
+        <label>NewEditW</label>
         <closed>false</closed>
     </standardValue>
     <standardValue>

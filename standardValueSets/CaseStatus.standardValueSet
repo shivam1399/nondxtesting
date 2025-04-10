@@ -20,9 +20,9 @@
         <closed>true</closed>
     </standardValue>
     <standardValue>
-        <fullName>editdone</fullName>
+        <fullName>editdonee</fullName>
         <default>false</default>
-        <label>editdone</label>
+        <label>editdonee</label>
         <closed>false</closed>
     </standardValue>
     <standardValue>

@@ -2,7 +2,15 @@
     <version>63.0</version>
     <types>
         <members>A</members>
+        <members>A0</members>
         <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Book__c.CheckBox2__c</members>
+        <members>Book__c.Check_Box__c</members>
+        <members>Book__c.GeAppileance_Picklist_check__c</members>
+        <members>Book__c.Price__c</members>
+        <name>CustomField</name>
     </types>
     <types>
         <members>SearchCustomization.SubCustomeMetadata</members>
@@ -16,6 +24,14 @@
     <types>
         <members>PrajjwalTest__c-PrajjwalTest Layout</members>
         <name>Layout</name>
+    </types>
+    <types>
+        <members>Book__c.All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Book__c.geappliancerecordtyep</members>
+        <name>RecordType</name>
     </types>
     <types>
         <members>AccountContactRole</members>
@@ -82,5 +98,9 @@
         <members>WorkOrderStatus</members>
         <members>WorkStepStatus</members>
         <name>StandardValueSet</name>
+    </types>
+    <types>
+        <members>Book__c.Validation_Rule_1</members>
+        <name>ValidationRule</name>
     </types>
 </Package>

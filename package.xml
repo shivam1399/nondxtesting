@@ -30,6 +30,10 @@
         <name>ListView</name>
     </types>
     <types>
+        <members>AShivam</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
         <members>Book__c.geappliancerecordtyep</members>
         <name>RecordType</name>
     </types>

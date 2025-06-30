@@ -1,0 +1,1355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AcknowledgementLetterSentDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Acknowledgement Letter Sent Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActualAdmissionDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Actual Admission Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActualDischargeDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Actual Discharge Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AdmissionNotesText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Admission Notes</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AdmissionSourceID__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Admission Source</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AdmissionTypeID__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Admission Type</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AmbulanceTransportReason__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Ambulance Transport Reason</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AmbulanceTransportType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Ambulance Transport Type</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AorReceivedDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Aor Received Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AorRequestedDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Aor Requested Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AppealEffectuationDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Appeal Effectuation Date Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AppealRequestReasonType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Appeal Request Reason Type</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AppointedRepVerbalContactDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Appointed Rep Verbal Contact Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AppointedRepWrittenContactDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Appointed Rep Written Contact Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AppointedRepresentativeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Appointed Representative</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ApprovedLengthOfStayDayQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Approved Length Of Stay Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ApprovedLevelOfCare__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Approved Level Of Care</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AuthorizationReferenceIdentifier__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Authorization Reference Identifier</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CareRequestCaseId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Care Request Case</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CareRequestQuantityType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Care Request Quantity Type</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CareRequest_MemberId_map_Patient_Id_N_1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequest_MemberId_map_Patient_Id_N_1</label>
+        <referenceTo>ssot__Patient__dlm</referenceTo>
+        <relationshipLabel>CareRequest_MemberId_map_Patient_Id_N_1</relationshipLabel>
+        <relationshipName>CareRequest_MemberId_map_Patient_Id_N_1</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CareRequest_ReopenedById_map_User_Id_N_1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequest_ReopenedById_map_User_Id_N_1</label>
+        <referenceTo>ssot__User__dlm</referenceTo>
+        <relationshipLabel>CareRequest_ReopenedById_map_User_Id_N_1</relationshipLabel>
+        <relationshipName>CareRequest_ReopenedById_map_User_Id_N_1</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ClaimNumberText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Claim Number</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ClinicalCaseType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Clinical Case Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CriteriaMet__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Criteria Met</label>
+        <length>5</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CumulativeLengthOfStayDays__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Cumulative Length Of Stay Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CurrentLevelOfCare__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Current Level Of Care</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DecisionDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Decision Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DecisionDaysRemainingQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Decision Days Remaining</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DecisionLetterText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Decision Letter</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DecisionNotesText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Decision Notes</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DecisionReasonDescriptionText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Decision Reason Description</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DecisionReason__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Decision Reason</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeniedLengthOfStayDayQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Denied Length Of Stay Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeniedLevelOfCare__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Denied Level Of Care</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DispositionNotesText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Disposition Notes</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DocAttachmentStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Document Attachment Status</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EffectiveFromDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Effective From Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EffectiveToDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Effective To Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExpirationDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Expiration Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExtensionRequestReceivedDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Extension Request Received Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalComplaintIdentifierText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Complaint Identifier</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FacilityRecordNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>FacilityRecordNumber</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FacilityRoomBedType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Facility Room Bed Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FacilityRoomNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>FacilityRoomNumber</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FinalLevelOfCare__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Final Level Of Care</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FirstReviewerId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>First Reviewer</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FirstReviewerNotesText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>First Reviewer Notes</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GeneralPractitionerId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>General Practitioner</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GeneralPractitionerObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>General Practitioner Object</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GenlPrctnrVerbalNtfyDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>General Prctnr Verbal Notified Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GenlPrctnrWrittenNtfyDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>General Prctnr Written Ntfy Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GrievanceType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Grievance Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HealthPlanSubscriberId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Health Plan Subscriber</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HomeHealthCertificationEndDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Home Health Certification End Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HomeHealthCertificationStartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Home Health Certification Start Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HomeHealthStartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Home Health Start Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Care Request Id</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IndependentReviewDeterminationDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Independent Review Determination Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IndependentReviewDeterminationText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Independent Review Determination</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IndependentReviewSubmissionDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Independent Review Submission Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InfoReceivedDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Info Received Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InfoRequestedDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Info Requested Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InitialDenialNotificationDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Initial Denial Notification Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InitialDenialNotificationTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Initial Denial Notification Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsExtendedRequest__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Extended Request</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsIndependentReviewRequired__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Independent Review Required</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsMedicareCoverage__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Medicare Coverage</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsParticipatingProvider__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Participating Provider</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsReadmission__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Readmission</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsServiceOrMedicationReceived__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Service Or Medication Received</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MedicalDirectorId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Medical Director</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MedicalDirectorNotesText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Medical Director Notes</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MemberAccountId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Member Account</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MemberConditionText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Member Condition</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MemberContactDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Member Contact Date Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MemberDateOfBirth__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Member Date Of Birth</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MemberFirstName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Member First Name</label>
+        <length>32</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MemberGender__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Member Gender</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MemberGroupNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Member Group Number</label>
+        <length>64</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MemberId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Member</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MemberInsuranceIdentifier__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Member Insurance Identifier</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MemberLastName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Member Last Name</label>
+        <length>32</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MemberPrimaryPlanId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Member Primary Plan</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MemberPrognosis__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Member Prognosis</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MemberSecondaryPlanId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Member Secondary Plan</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MemberStatusText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Member Status</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MemberVerbalNotificationDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Member Verbal Notification Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MemberWrittenNotificationDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Member Written Notification Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModificationDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modification Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifiedLengthOfStayDayQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modified Length Of Stay Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifiedLevelOfCare__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modified Level Of Care</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NextReviewDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>NextR eview Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NursingHomeResidentialStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Nursing Home Residential Status</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OriginalDenialMedicalDirectorId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Original Denial Medical Director</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ParProvider__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Par Provider</label>
+        <length>40</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PlaceOfServiceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Place Of Service</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PractitionerContactDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>PractitionerContactDateTime</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PriorDischargeStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Prior Discharge Status</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReceivedDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Received Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReconsiderationDenialNotificationDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reconsideration Denial Notification Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReconsiderationDenialNotificationTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reconsideration Denial Notification Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReferenceCareRequestCaseId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reference Care Request Case</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReferenceCaseNumberText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reference Case Number</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReferenceCaseRelationType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reference Case Relation Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReopenDecisionDateTimeTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reopen Decision Date Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReopenReasonDescription__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reopen Reason Description</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReopenReasonID__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reopen Reason</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReopenRequestOutcomeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reopen Request Outcome</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReopenRequestType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reopen Request Type</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReopenedById__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reopened By</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReopenedDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reopened Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequestDueDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Request Due Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequestExtensionReasonText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Request Extension Reason</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequestExtnDecisionDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Request Extn Decision Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequestOutcomeDescText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Request Outcome Description</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequestOutcomeType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Request Outcome Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequestPrctnrWrittenNtfyDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Request Prctnr Written Notified Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequestType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Request Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequestedDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Requested Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequestedLengthOfStayDayQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Requested Length Of Stay Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequestedLevelOfCareID__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Requested Level Of Care</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequesterType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Requester Type</label>
+        <length>40</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequestingPractitionerId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Requesting Practitioner</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequestingPractitionerLicenseID__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Requesting Practitioner License</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequestingPractitionerObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Requesting Practitioner Object</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequestingPractitionerSpecialty__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Requesting Practitioner Specialty</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ResolutionDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Resolution Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ResolutionDescriptionText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Resolution Description</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ResolutionLetterSentDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Resolution Letter Sent Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ResolutionNotesText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Resolution Notes</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReviewDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Review Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RootCauseNotesText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Root Cause Notes</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RqstPrctnrVerbalNtfyDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Request Prctnr Verbal Ntfy Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ScheduledAdmissionDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scheduled Admission Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ScheduledDischargeDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scheduled Discharge Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ServiceDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Service Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ServiceLevelType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Service Level Type</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ServiceTypeText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Service Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ServicingFacilityId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Servicing Facility</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ServicingFacilityObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Servicing Facility Object</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ServicingPractitionerId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Servicing Practitioner</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ServicingPractitionerLicense__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Servicing Practitioner License</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ServicingPractitionerObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Servicing Practitioner Object</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ServicingPractitionerSpecialty__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Servicing Practitioner Specialty</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SubscriberMemberIdentifierText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Subscriber Member Identifier</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalAmbulanceTransportDistanceNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Ambulance Transport Distance</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UnitofMeasureId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Unit of Measure</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716722507936_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequest_MemberSecondaryPlanId_ma_rel</label>
+        <referenceTo>ssot__MemberPlan__dlm</referenceTo>
+        <relationshipLabel>CareRequest_MemberSecondaryPlanId_ma_rel</relationshipLabel>
+        <relationshipName>rel_1716722507936_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716722518349_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequest_GeneralPractitionerId_ma_rel</label>
+        <referenceTo>ssot__HealthcareProvider__dlm</referenceTo>
+        <relationshipLabel>CareRequest_GeneralPractitionerId_ma_rel</relationshipLabel>
+        <relationshipName>rel_1716722518349_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716722523817_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequest_RequestingPractitionerId_rel</label>
+        <referenceTo>ssot__HealthcareProvider__dlm</referenceTo>
+        <relationshipLabel>CareRequest_RequestingPractitionerId_rel</relationshipLabel>
+        <relationshipName>rel_1716722523817_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716722531068_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequest_MemberPrimaryPlanId_map__rel</label>
+        <referenceTo>ssot__MemberPlan__dlm</referenceTo>
+        <relationshipLabel>CareRequest_MemberPrimaryPlanId_map__rel</relationshipLabel>
+        <relationshipName>rel_1716722531068_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1718544749169_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequest_RequestingPractitionerId_rel</label>
+        <referenceTo>ssot__AccountContact__dlm</referenceTo>
+        <relationshipLabel>CareRequest_RequestingPractitionerId_rel</relationshipLabel>
+        <relationshipName>rel_1718544749169_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1718544752499_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequest_ServicingPractitionerId__rel</label>
+        <referenceTo>ssot__AccountContact__dlm</referenceTo>
+        <relationshipLabel>CareRequest_ServicingPractitionerId__rel</relationshipLabel>
+        <relationshipName>rel_1718544752499_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1718544757063_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequest_GeneralPractitionerId_ma_rel</label>
+        <referenceTo>ssot__AccountContact__dlm</referenceTo>
+        <relationshipLabel>CareRequest_GeneralPractitionerId_ma_rel</relationshipLabel>
+        <relationshipName>rel_1718544757063_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1718549031313_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequest_CareRequestCaseId_map_Ca_rel</label>
+        <referenceTo>ssot__Case__dlm</referenceTo>
+        <relationshipLabel>CareRequest_CareRequestCaseId_map_Ca_rel</relationshipLabel>
+        <relationshipName>rel_1718549031313_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1718549040356_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequest_ReferenceCareRequestCase_rel</label>
+        <referenceTo>ssot__Case__dlm</referenceTo>
+        <relationshipLabel>CareRequest_ReferenceCareRequestCase_rel</relationshipLabel>
+        <relationshipName>rel_1718549040356_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1720283026635_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequest_UnitofMeasureId_map_Unit_rel</label>
+        <referenceTo>ssot__UnitOfMeasure__dlm</referenceTo>
+        <relationshipLabel>CareRequest_UnitofMeasureId_map_Unit_rel</relationshipLabel>
+        <relationshipName>rel_1720283026635_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1720290985053_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequest_OriginalDenialMedicalDir_rel</label>
+        <referenceTo>ssot__User__dlm</referenceTo>
+        <relationshipLabel>CareRequest_OriginalDenialMedicalDir_rel</relationshipLabel>
+        <relationshipName>rel_1720290985053_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1720290988387_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequest_FirstReviewerId_map_User_rel</label>
+        <referenceTo>ssot__User__dlm</referenceTo>
+        <relationshipLabel>CareRequest_FirstReviewerId_map_User_rel</relationshipLabel>
+        <relationshipName>rel_1720290988387_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1720290991692_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequest_MedicalDirectorId_map_Us_rel</label>
+        <referenceTo>ssot__User__dlm</referenceTo>
+        <relationshipLabel>CareRequest_MedicalDirectorId_map_Us_rel</relationshipLabel>
+        <relationshipName>rel_1720290991692_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1721380904747_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequest_MemberAccountId_map_Acco_rel</label>
+        <referenceTo>ssot__Account__dlm</referenceTo>
+        <relationshipLabel>CareRequest_MemberAccountId_map_Acco_rel</relationshipLabel>
+        <relationshipName>rel_1721380904747_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1723127898475_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequest_PlaceOfServiceId_map_Hea_rel</label>
+        <referenceTo>ssot__HealthcareFacility__dlm</referenceTo>
+        <relationshipLabel>CareRequest_PlaceOfServiceId_map_Hea_rel</relationshipLabel>
+        <relationshipName>rel_1723127898475_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1723127908142_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequest_ServicingFacilityId_map__rel</label>
+        <referenceTo>ssot__HealthcareFacility__dlm</referenceTo>
+        <relationshipLabel>CareRequest_ServicingFacilityId_map__rel</relationshipLabel>
+        <relationshipName>rel_1723127908142_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

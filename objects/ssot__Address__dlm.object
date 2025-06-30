@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AddressLine1__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Address Line 1</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AddressLine2__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Address Line 2</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AddressLine3__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Address Line 3</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AddressLine4__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Address Line 4</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AddressType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Address Type</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CityName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>City Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ContactPhoneId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Contact Phone Id</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ContactPointPhoneId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Contact Point Phone</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CountryCode__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Country Code</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CountryName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Country Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Country__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Country Code</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CountyRegion__c</fullName>
+        <deprecated>false</deprecated>
+        <label>County Region</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Address Id</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Latitude__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Latitude</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Longitude__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Longitude</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PhysicalLocationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Physical Location Id</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PostalCodeText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Postal Code Text</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PostalCode__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Postal Code</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProvinceStateId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>State Province Code</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__StateProvinceCode__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]State Province Code</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__StateProvinceName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>State Province Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761210944_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>Address_PhysicalLocationId_map_Locat_rel</label>
+        <referenceTo>ssot__Location__dlm</referenceTo>
+        <relationshipLabel>Address_PhysicalLocationId_map_Locat_rel</relationshipLabel>
+        <relationshipName>rel_1697761210944_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761211304_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>Address_StateProvinceCode_map_StateP_rel</label>
+        <referenceTo>ssot__StateProvince__dlm</referenceTo>
+        <relationshipLabel>Address_StateProvinceCode_map_StateP_rel</relationshipLabel>
+        <relationshipName>rel_1697761211304_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761211592_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>Address_ProvinceStateId_map_StatePro_rel</label>
+        <referenceTo>ssot__StateProvince__dlm</referenceTo>
+        <relationshipLabel>Address_ProvinceStateId_map_StatePro_rel</relationshipLabel>
+        <relationshipName>rel_1697761211592_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761212018_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>Address_ContactPointPhoneId_map_Cont_rel</label>
+        <referenceTo>ssot__ContactPointPhone__dlm</referenceTo>
+        <relationshipLabel>Address_ContactPointPhoneId_map_Cont_rel</relationshipLabel>
+        <relationshipName>rel_1697761212018_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

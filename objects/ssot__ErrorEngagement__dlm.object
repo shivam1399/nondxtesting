@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AccountContactId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Account Contact</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BrowserModel__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Browser Model</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BrowserName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Browser Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BrowserVersionNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Browser Version Number</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ContactPointAddressId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Contact Point Address</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ContactPointAppId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Contact Point App</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ContactPointEmailId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Contact Point Email</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ContactPointId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Contact Point</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ContactPointLocationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Contact Point Location</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ContactPointOTTServiceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Contact Point OTT Service</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ContactPointPhoneId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Contact Point Phone</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ContactPointSocialId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Contact Point Social</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CorrelationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Correlation Id</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreatedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Created Date</label>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeviceApplicationTemplateId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Device Application Template</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeviceCountry__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Device Country</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeviceIPAddress__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Device IP Address</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeviceLatitude__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Device Latitude</label>
+        <precision>8</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeviceLocaleId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Device Locale</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeviceLongitude__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Device Longitude</label>
+        <precision>9</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeviceModelName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Device Model Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DevicePostalCode__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Device Postal Code</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeviceType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Device Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeviceVendorName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Device Vendor</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EmailTemplateId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Email Template</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngagementActionReasonText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Action Reason</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngagementChannelAction__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Channel Action</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngagementChannelId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Channel</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngagementChannelType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Channel Type</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngagementDateTm__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Date Time</label>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngagementErrorCodeText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Error Code</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngagementErrorId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Error</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngagementErrorMessageText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Error Message</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngagementErrorTypeText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Error Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngagementEventDirection__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Event Direction</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngagementType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Type</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalRecordId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Record Id</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Source Id</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FlowElementRunId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Flow Element Run</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GeographicRegion__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Geographic Region</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IPAddress__c</fullName>
+        <deprecated>false</deprecated>
+        <label>IP Address</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Error Engagement Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IndividualId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Individual</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsTestSend__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Test Send</label>
+        <length>5</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LeadlId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Lead</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LinkName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Link Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LinkURL__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Link URL</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MessageTemplateId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Message Template</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OSModelName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>OS Model Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OSName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>OS Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OSVersionNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>OS Version Number</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PageId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Page Id</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PageName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Page Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PagePublicTitleName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Page Public Title</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PageURL__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Page URL</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyWebAddressId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Party Web Address</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PerslServiceProviderName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Personalization Service Provider</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonalizationContentId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Personalization Content</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonalizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Personalization</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonalizationRequestId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Personalization Request</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RecipientIPAddress__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Recipient IP Address</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RecipientMessageId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Recipient Message Id</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReferrerURL__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Referrer URL</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Referrer__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Referrer</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RelatedEngagementId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Related Engagement</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RelatedEngagementObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Related Engagement Object</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ResolvedURL__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Resolved URL</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SMSTemplateId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>SMS Template</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ScreenHeightPixelsQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Screen Height Pixels</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ScreenWidthPixelsQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Screen Width Pixels</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UIComponentId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>UI Component Id</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UserAgentText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>User Agent</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__WebCookieId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Web Cookie</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__WebSession__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Web Session</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__WebpageType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Webpage Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__WebsiteEngagementId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Website Engagement</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__WebsiteId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Website</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+</CustomObject>

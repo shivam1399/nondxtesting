@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__BrowserName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Browser Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BrowserRenderEngineName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Browser Render Engine Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BrowserVendorName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Browser Vendor Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BrowserVersionNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Browser Version Number</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeviceCountry__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Device Country</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeviceCountyRegion__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Device County Region</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeviceLatitude__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Device Latitude</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeviceLocaleId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Device Locale</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeviceLongitude__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Device Longitude</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeviceModelName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Device Model Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeviceOSName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Device OS Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeviceOSVersionNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Device OS Version Number</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeviceStateProvinceName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Device State Province</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeviceType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Device Type</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeviceVendorName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Device Vendor Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DigitalContentId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Digital Content</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ElectronicMediaId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Electronic Media</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngagementChannelActionId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Channel Action</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngagementChannelAction__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Channel Action</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngagementChannelType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Channel Type</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngagementDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Date Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngagementType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EventLocalDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Event Local Date Time</label>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Media Engagement Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IndividualId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Individual</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsPageView__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Page View</label>
+        <length>5</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsRecognizedBrowser__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Recognized Browser</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsVisible__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Visible</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OSModelName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>OS Model Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OSVendor__c</fullName>
+        <deprecated>false</deprecated>
+        <label>OS Vendor</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PagePublicTitleName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Page Public Title</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PageURL__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Page URL</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PerslServiceProviderName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Personalization Service Provider</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonalizationContentId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Personalization Content</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonalizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Personalization</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonalizationRequestId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Personalization Request</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReferrerURL__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Referrer URL</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SoftwareApplicationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Software Application</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TimeZone__c</fullName>
+        <deprecated>false</deprecated>
+        <label>TimeZone</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UserAgentText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>User Agent</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UserName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>User Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UtmCampaignName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>UTM Campaign</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UtmContentDescription__c</fullName>
+        <deprecated>false</deprecated>
+        <label>UTM Content</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UtmId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>UTM Id</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UtmMediumName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>UTM Medium</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UtmSourceName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>UTM Source</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UtmSourcePlatformName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>UTM Source Platform</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UtmTermDescription__c</fullName>
+        <deprecated>false</deprecated>
+        <label>UTM Term</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VideoCompletedPercent__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Video Completed Percent</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VideoDurationMinutes__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Video Duration Minutes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VideoElapsedTimeMinutes__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Video Elapsed Time Minutes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__WebSession__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Web Session</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__WebpageType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Webpage Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1726212150136_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>MediaEngagement_ElectronicMediaId_ma_rel</label>
+        <referenceTo>ssot__ElectronicMedia__dlm</referenceTo>
+        <relationshipLabel>MediaEngagement_ElectronicMediaId_ma_rel</relationshipLabel>
+        <relationshipName>rel_1726212150136_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1726212156564_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>MediaEngagement_IndividualId_map_Ind_rel</label>
+        <referenceTo>ssot__Individual__dlm</referenceTo>
+        <relationshipLabel>MediaEngagement_IndividualId_map_Ind_rel</relationshipLabel>
+        <relationshipName>rel_1726212156564_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1732260222931_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>MediaEngagement_EngagementChannelAct_rel</label>
+        <referenceTo>ssot__EngagementChannelAction__dlm</referenceTo>
+        <relationshipLabel>MediaEngagement_EngagementChannelAct_rel</relationshipLabel>
+        <relationshipName>rel_1732260222931_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1733455146066_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>MediaEngagement_UtmId_map_Campaign_I_rel</label>
+        <referenceTo>ssot__Campaign__dlm</referenceTo>
+        <relationshipLabel>MediaEngagement_UtmId_map_Campaign_I_rel</relationshipLabel>
+        <relationshipName>rel_1733455146066_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1733455153457_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>MediaEngagement_DigitalContentId_map_rel</label>
+        <referenceTo>ssot__DigitalContent__dlm</referenceTo>
+        <relationshipLabel>MediaEngagement_DigitalContentId_map_rel</relationshipLabel>
+        <relationshipName>rel_1733455153457_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1733455158518_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>MediaEngagement_DeviceLocaleId_map_L_rel</label>
+        <referenceTo>ssot__Locale__dlm</referenceTo>
+        <relationshipLabel>MediaEngagement_DeviceLocaleId_map_L_rel</relationshipLabel>
+        <relationshipName>rel_1733455158518_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1733455164851_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>MediaEngagement_PersonalizationConte_rel</label>
+        <referenceTo>ssot__PersonalizationLog__dlm</referenceTo>
+        <relationshipLabel>MediaEngagement_PersonalizationConte_rel</relationshipLabel>
+        <relationshipName>rel_1733455164851_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

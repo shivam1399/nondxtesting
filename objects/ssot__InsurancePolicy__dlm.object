@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__CancellationDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Cancellation Date Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Currency__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Currency</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CurrentDueAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Current Due Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Description</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EffectiveDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Effective Date Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EmployerContributionAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Employer Contribution Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExpirationDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Expiration Date Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FinancialAccountID__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Financial Account</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FinancialPolicyTerm__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Financial Policy Term</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GrossWrittenPremiumAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Gross Written Premium Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HasAnyAutoCoverage__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Has Any Auto Coverage</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Insurance Policy Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InsurancePolicyChangeSubType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Insurance Policy Change Sub Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InsurancePolicyChangeType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Insurance Policy Change Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InsurancePolicyNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Insurance Policy Number</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InsurancePolicyStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Insurance Policy Status</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InsurancePolicySubStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Insurance Policy Sub Status</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InsurancePolicyType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Insurance Policy Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InsuredAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Insured Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsActive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Active</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsLoanEligibile__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is LoanEligibile</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsRenewedPolicy__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Renewed Policy</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NextRenewalDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Next Renewal Date Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OriginalEffectiveDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Original Effective Date Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OriginalInsurancePolicyId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Original Insurance Policy</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PolicyCancellationReasonType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Policy Cancellation Reason Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PolicyPlanTier__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Policy Plan Tier</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PolicyPlanType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Policy Plan Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PolicyRenewalChannelType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Policy Renewal Channel Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PremiumAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Premium Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PremiumFrequency__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Premium Frequency</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PremiumPaymentType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Premium Payment Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PreviousPremiumAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Previous Premium Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PreviousRenewalDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Previous Renewal Date Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryInsuredId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Insured</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryProducerId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Producer</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PriorInsurancePolicy__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Prior Insurance Policy</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProductId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Product</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RenewalDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Renewal Date Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RenewalDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Renewal Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RenewalDeadlineDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Renewal Deadline Date Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SaleDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Sale Date Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ServingOfficeAddress__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Serving Office Address</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SourceOpportunityId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Source Opportunity</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__StandardFeeAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Standard Fee Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__StandardTaxAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Standard Tax Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TaxesSurchargesAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Taxes Surcharges Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TermFeeAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Term Fee Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TermPremiumAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Term Premium Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalCommissionAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Commission Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalStandardAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Standard Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalTermFeeAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Term Fee Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalTermPremiumAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Term Premium Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalTermTaxAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Term Tax Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UniversalPolicyIdentifier__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Universal Policy Identifier</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__WritingCarrierAccountId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Writing Carrier Account</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761237026_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>InsurancePolicy_FinancialAccountID_m_rel</label>
+        <referenceTo>ssot__FinancialAccount__dlm</referenceTo>
+        <relationshipLabel>InsurancePolicy_FinancialAccountID_m_rel</relationshipLabel>
+        <relationshipName>rel_1697761237026_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

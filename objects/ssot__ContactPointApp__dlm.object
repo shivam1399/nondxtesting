@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__ActiveFromDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Active From Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActiveToDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Active To Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ApplicationLoginId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Application Login Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BestTimeToContactEndTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Best Time To Contact End Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BestTimeToContactStartTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Best Time To Contact Start Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BestTimeToContactTimezoneId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Best Time to Contact Timezone</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ContactPointTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Contact Point Type</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CookieIdText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Cookie Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreatedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Created Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeviceEndPointId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Device End Point</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeviceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Device</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalRecordId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Record Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Source Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ForBusinessUse__c</fullName>
+        <deprecated>false</deprecated>
+        <label>For Business Use</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ForPersonalUse__c</fullName>
+        <deprecated>false</deprecated>
+        <label>For Personal Use</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Contact Point App Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsActive__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Active</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsUndeliverable__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Undeliverable</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastModifiedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Modified Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Party</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyRoleId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Party Role</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryFlag__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Flag</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProfileFirstCreatedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Profile First Created Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProfileLastUpdatedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Profile Last Updated Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProfileOccurrenceCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Profile Occurrence Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SoftwareApplicationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Software Application</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TimezoneCode__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Timezone Code</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761159645_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ContactPointApp_DeviceId_map_Device__rel</label>
+        <referenceTo>ssot__Device__dlm</referenceTo>
+        <relationshipLabel>ContactPointApp_DeviceId_map_Device__rel</relationshipLabel>
+        <relationshipName>rel_1697761159645_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761160558_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ContactPointApp_PartyId_map_Individu_rel</label>
+        <referenceTo>ssot__Individual__dlm</referenceTo>
+        <relationshipLabel>ContactPointApp_PartyId_map_Individu_rel</relationshipLabel>
+        <relationshipName>rel_1697761160558_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761160625_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ContactPointApp_SoftwareApplicationI_rel</label>
+        <referenceTo>ssot__SoftwareApplication__dlm</referenceTo>
+        <relationshipLabel>ContactPointApp_SoftwareApplicationI_rel</relationshipLabel>
+        <relationshipName>rel_1697761160625_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761168612_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>Device_Id_map_ContactPointApp_Device_rel</label>
+        <referenceTo>ssot__Device__dlm</referenceTo>
+        <relationshipLabel>Device_Id_map_ContactPointApp_Device_rel</relationshipLabel>
+        <relationshipName>rel_1697761168612_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761176101_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>Individual_Id_map_ContactPointApp_Pa_rel</label>
+        <referenceTo>ssot__Individual__dlm</referenceTo>
+        <relationshipLabel>Individual_Id_map_ContactPointApp_Pa_rel</relationshipLabel>
+        <relationshipName>rel_1697761176101_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761204445_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>SoftwareApplication_Id_map_ContactPo_rel</label>
+        <referenceTo>ssot__SoftwareApplication__dlm</referenceTo>
+        <relationshipLabel>SoftwareApplication_Id_map_ContactPo_rel</relationshipLabel>
+        <relationshipName>rel_1697761204445_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ssot_Id_map_ssot_Id_16299040167734__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ssot_Id_map_ssot_Id_16299040167734</label>
+        <referenceTo>ssot__Account__dlm</referenceTo>
+        <relationshipLabel>ssot_Id_map_ssot_Id_16299040167734</relationshipLabel>
+        <relationshipName>ssot_Id_map_ssot_Id_16299040167734</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

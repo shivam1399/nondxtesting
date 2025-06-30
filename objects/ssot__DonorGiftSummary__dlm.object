@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AverageGiftAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Average Gift Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BestGiftYear__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Best Gift Year</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CurrentRecurringStartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Current Recurring Gift Start Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CurrentYearGiftCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Current Year Gift Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DaysSinceLastGift__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Days Since Last Gift</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DonorId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Donor</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FirstGiftAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>First Gift Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FirstGiftCampaignId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>First Gift Campaign</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FirstGiftDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>First Gift Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FirstRecurringStartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>First Recurring Gift Start Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FirstSoftCreditAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>First Soft Credit Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FirstSoftCreditDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>First Soft Credit Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GiftCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Gift Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GiftsLastYearAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Gifts Last Year Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GiftsThisYearAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Gifts This Year Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GiftsTwoYearsAgoAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Gifts Two Years Ago Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GivingLevel__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Giving Level</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HighestGiftAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Highest Gift Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HighestGiftYearAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Highest Gift Year Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HighestSoftCreditAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Highest Soft Credit Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HighestSoftCreditDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Highest Soft Credit Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Donor Gift Summary Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastGiftAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Gift Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastGiftDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Gift Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastRecurringPaymentDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Recurring Gift Payment Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastSoftCreditAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Soft Credit Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastSoftCreditDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Soft Credit Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastTwoYearGiftCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Two Year Gift Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastYearGiftCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Year Gift Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LowestGiftAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Lowest Gift Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SecondGiftDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Second Gift Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SoftCreditCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Soft Credit Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalGiftsAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Gifts Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalHardSoftCreditsAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Hard and Soft Credits Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalHardSoftCredits__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Hard and Soft Credits</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalPaidRcrInstallments__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Paid Recurring Installments</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalPaidRcrInstlAmt__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Paid Recurring Installments Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761238092_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>DonorGiftSummary_DonorId_map_Account_rel</label>
+        <referenceTo>ssot__Account__dlm</referenceTo>
+        <relationshipLabel>DonorGiftSummary_DonorId_map_Account_rel</relationshipLabel>
+        <relationshipName>rel_1697761238092_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761238167_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>DonorGiftSummary_FirstGiftCampaignId_rel</label>
+        <referenceTo>ssot__Campaign__dlm</referenceTo>
+        <relationshipLabel>DonorGiftSummary_FirstGiftCampaignId_rel</relationshipLabel>
+        <relationshipName>rel_1697761238167_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

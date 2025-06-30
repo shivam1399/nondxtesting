@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngagementActionId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Action</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Voice Call Engagement Id</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VoiceCallFromName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Voice Call From Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VoiceCallFromPhoneNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Voice Call From Phone Number</label>
+        <length>40</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VoiceCallId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Voice Call Id</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1719818354499_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>VoiceCallEngagement_VoiceCallId_map__rel</label>
+        <referenceTo>ssot__VoiceCall__dlm</referenceTo>
+        <relationshipLabel>VoiceCallEngagement_VoiceCallId_map__rel</relationshipLabel>
+        <relationshipName>rel_1719818354499_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1720024290593_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>VoiceCallEngagement_EngagementAction_rel</label>
+        <referenceTo>ssot__EngagementAction__dlm</referenceTo>
+        <relationshipLabel>VoiceCallEngagement_EngagementAction_rel</relationshipLabel>
+        <relationshipName>rel_1720024290593_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

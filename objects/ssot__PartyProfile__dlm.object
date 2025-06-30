@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AccountContactId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Related Account Contact</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AccountId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Account</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BusLicIssuingAuthorityName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Business Lic Issuing Authority Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BusinessEntityCountryofInc__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Business Entity Country of Inc</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BusinessEntityCountryofRgstr__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Business Entity Country of Rgstr</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BusinessEntityIncorporationDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Business Entity Incorporation Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BusinessEntityIncorporationNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Business Entity Incorporation Number</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BusinessEntityPreviousNames__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Business Entity Previous Names</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BusinessEntityRegistrationDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Business Entity Registration Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BusinessEntityRegistrationNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Business Entity Registration Number</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BusinessEntityTradeName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Business Entity Trade Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CountryOfDomicile__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Domicile Country</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CountryofBirth__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Birth Country</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreditScoreNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Credit Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CustomerReferenceNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Customer Reference Number</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DateOfBirth__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Date of Birth</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FirstName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>First Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FullName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Full Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Gender__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Gender</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HasHighNetWorth__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Has High Net Worth</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HouseholdAccountId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Household Account</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Party Profile Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsAged__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Aged</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsBusinessEntityListonStockExchange__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is BE Listed on Stock Exchange</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsDisabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Disabled</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsFlaggedCustomer__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Flagged Customer</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsInstitutionalized__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Institutionalized</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsLowIncome__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Low Income</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsMedicaidEligible__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Medicaid Eligible</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsOffBoarded__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Off-Boarded</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsRecalculationRequired__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Recalculation Required</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastProfileReviewDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Profile Review Date Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LeadId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Lead</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LegalEntityIdentifier__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Legal Entity Identifier</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MiddleName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Middle Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Party Profile Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NextProfileReviewDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Next Profile Review Date Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OffBoardingComments__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Off-Boarding Comments</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyFundSource__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Party Fund Source</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Party</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyPrimaryIdentifierType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Party Primary Identification Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyProfileBusinessEntityType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Party Profile Business Entity Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyProfileCreditScoreProvider__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Credit Score Provider</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyProfileEmploymentIndustry__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Party Profile Employment Industry</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyProfileEmploymentType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Party Profile Employment Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyProfileIndustryClsfnCode__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Party Profile Industry Clsfn Code</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyProfileIndustry__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Party Profile Industry</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyProfileNationality__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Party Profile Nationality</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyProfileOffBoardingReason__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Party Profile Off-Boarding Reason</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyProfileResidentType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Party Profile Resident Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyProfileReviewDecision__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Party Profile Review Decision</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyProfileStage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Party Profile Stage</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyProfileType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Party Profile Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyProfileVerificationStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Party Profile Verification Status</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyProfile_LeadId_map_Lead_Id_N_1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>PartyProfile_LeadId_map_Lead_Id_N_1</label>
+        <referenceTo>ssot__Lead__dlm</referenceTo>
+        <relationshipLabel>PartyProfile_LeadId_map_Lead_Id_N_1</relationshipLabel>
+        <relationshipName>PartyProfile_LeadId_map_Lead_Id_N_1</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyProfile_PartyId_map_Party_Id_N_1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>PartyProfile_PartyId_map_Party_Id_N_1</label>
+        <referenceTo>ssot__Party__dlm</referenceTo>
+        <relationshipLabel>PartyProfile_PartyId_map_Party_Id_N_1</relationshipLabel>
+        <relationshipName>PartyProfile_PartyId_map_Party_Id_N_1</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyTaxpayerIdentificationType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Party Taxpayer Identification Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Prefix__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Prefix</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryEmail__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Email</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryIdentificationName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Identification Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryIdentifier__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Identifier</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryPhone__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Phone</label>
+        <length>40</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RelatedPartyProfileId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Related Party Profile</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RetirementFundAccountNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Retirement Fund Account Number</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__StockExchange__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Stock Exchange</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Suffix__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Suffix</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SurnameAtBirth__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Birth Surname</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TaxpayerIdentificationNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Taxpayer Identification Number</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1731658745908_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>PartyProfile_AccountContactId_map_Ac_rel</label>
+        <referenceTo>ssot__AccountContact__dlm</referenceTo>
+        <relationshipLabel>PartyProfile_AccountContactId_map_Ac_rel</relationshipLabel>
+        <relationshipName>rel_1731658745908_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1731658769704_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>PartyProfile_HouseholdAccountId_map__rel</label>
+        <referenceTo>ssot__Account__dlm</referenceTo>
+        <relationshipLabel>PartyProfile_HouseholdAccountId_map__rel</relationshipLabel>
+        <relationshipName>rel_1731658769704_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1731658775275_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>PartyProfile_AccountId_map_Account_I_rel</label>
+        <referenceTo>ssot__Account__dlm</referenceTo>
+        <relationshipLabel>PartyProfile_AccountId_map_Account_I_rel</relationshipLabel>
+        <relationshipName>rel_1731658775275_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1731659059043_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>PartyProfile_RelatedPartyProfileId_m_rel</label>
+        <referenceTo>ssot__PartyProfile__dlm</referenceTo>
+        <relationshipLabel>PartyProfile_RelatedPartyProfileId_m_rel</relationshipLabel>
+        <relationshipName>rel_1731659059043_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

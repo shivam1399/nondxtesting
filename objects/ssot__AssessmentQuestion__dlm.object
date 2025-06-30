@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__ActiveAssessmentQuestionVersionId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Active Assessment Question Version</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AssessmentQuestionCategory__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Assessment Question Category</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AssessmentQuestionDataType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Assessment Question Data Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AssessmentQuestionSetId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Assessment Question Set</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Description</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Assessment Question Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__QuestionText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Question Text</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RelatedQuestionId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Related Question</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UniqueIdentifier__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Unique Identifier</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1720291284379_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AssessmentQuestion_RelatedQuestionId_rel</label>
+        <referenceTo>ssot__AssessmentQuestion__dlm</referenceTo>
+        <relationshipLabel>AssessmentQuestion_RelatedQuestionId_rel</relationshipLabel>
+        <relationshipName>rel_1720291284379_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1720291819043_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AssessmentQuestion_ActiveAssessmentQ_rel</label>
+        <referenceTo>ssot__AssessmentQuestionVersion__dlm</referenceTo>
+        <relationshipLabel>AssessmentQuestion_ActiveAssessmentQ_rel</relationshipLabel>
+        <relationshipName>rel_1720291819043_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

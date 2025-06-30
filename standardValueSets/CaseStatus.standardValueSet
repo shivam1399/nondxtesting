@@ -2,75 +2,27 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>new1111</fullName>
+        <fullName>New</fullName>
         <default>true</default>
-        <label>new1111</label>
+        <label>New</label>
         <closed>false</closed>
     </standardValue>
     <standardValue>
-        <fullName>Work112345</fullName>
+        <fullName>Working</fullName>
         <default>false</default>
-        <label>Work112345</label>
+        <label>Working</label>
         <closed>false</closed>
     </standardValue>
     <standardValue>
-        <fullName>Closedwdwdfde</fullName>
+        <fullName>Escalated</fullName>
         <default>false</default>
-        <label>Closeddsdfww</label>
+        <label>Escalated</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed</fullName>
+        <default>false</default>
+        <label>Closed</label>
         <closed>true</closed>
-    </standardValue>
-    <standardValue>
-        <fullName>editdonee</fullName>
-        <default>false</default>
-        <label>editdonee</label>
-        <closed>false</closed>
-    </standardValue>
-    <standardValue>
-        <fullName>Another Picklist Valuedd</fullName>
-        <default>false</default>
-        <label>Another Picklist Valdwwue11</label>
-        <closed>false</closed>
-    </standardValue>
-    <standardValue>
-        <fullName>With Shivam sri</fullName>
-        <default>false</default>
-        <label>With Shivam sri</label>
-        <closed>false</closed>
-    </standardValue>
-    <standardValue>
-        <fullName>supporttestdddrr</fullName>
-        <default>false</default>
-        <label>supporttestder</label>
-        <closed>false</closed>
-    </standardValue>
-    <standardValue>
-        <fullName>Pick list value 2</fullName>
-        <default>false</default>
-        <label>Pick list value 2</label>
-        <closed>false</closed>
-    </standardValue>
-    <standardValue>
-        <fullName>new value</fullName>
-        <default>false</default>
-        <label>new value</label>
-        <closed>false</closed>
-    </standardValue>
-    <standardValue>
-        <fullName>xcds</fullName>
-        <default>false</default>
-        <label>xcds</label>
-        <closed>false</closed>
-    </standardValue>
-    <standardValue>
-        <fullName>new 241</fullName>
-        <default>false</default>
-        <label>new 241</label>
-        <closed>false</closed>
-    </standardValue>
-    <standardValue>
-        <fullName>new12345678</fullName>
-        <default>false</default>
-        <label>new12345678</label>
-        <closed>false</closed>
     </standardValue>
 </StandardValueSet>

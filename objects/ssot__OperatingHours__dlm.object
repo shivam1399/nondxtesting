@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Description</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Friday_EndTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Friday End Time</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Friday_StartTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Friday Start Time</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HoursType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Hours Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Operating Hours Id</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsTimeSlotUsed__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Time Slots Used</label>
+        <length>5</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Monday_EndTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Monday End Time</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Monday_StartTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Monday Start Time</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Saturday_EndTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Saturday End Time</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Saturday_StartTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Saturday Start Time</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Sunday_EndTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Sunday End Time</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Sunday_StartTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Sunday Start Time</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Thursday_EndTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Thursday End Time</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Thursday_StartTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Thursday Start Time</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TimeZone__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Time Zone</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Tuesday_EndTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Tuesday End Time</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Tuesday_StartTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Tuesday Start Time</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Wednesday_EndTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Wednesday End Time</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Wednesday_StartTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Wednesday Start Time</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__isActive__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Active</label>
+        <length>5</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__isDefault__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Default</label>
+        <length>5</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+</CustomObject>

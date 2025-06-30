@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AgmtStgElpsMilliseconds__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Augmenting Stage Elapsed Milliseconds</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ContentIndexNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Content Index</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ContentItemsQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Content Items Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ContentLengthBytesNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Content Length Bytes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ContentObjectAPIName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Content Object API Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ContentObjectLabelText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Content Object Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ContentObjectRecordId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Content Object Record Id</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ContentText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Content</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ContextAnchorApiName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Context Anchor API Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ContextAnchorRecordId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Context Anchor Record Id</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ContextOnly__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Context Only</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CorrelationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Correlation Id</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreatedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Created Date</label>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Personalization Log Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IndividualId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Individual</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastModifiedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Modified Date</label>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PerslStgElpsMilliseconds__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Personalizing Stage Elapsed Milliseconds</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersnlRequestChannelContextDescription__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Personalization Request Channel Context</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersnlRequestChannel__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Personalization Request Channel</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonalizationContentId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Personalization Content Id</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonalizationDecisionId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Personalization Decision</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonalizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Personalization</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonalizationPointBindingId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Personalization Point Binding</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonalizationPointId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Personalization Point</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonalizationRequestId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Personalization Request Id</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonalizationStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Personalization Status</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonalizationType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Personalization Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonalizerId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Personalizer</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__QualStageElpsMilliseconds__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Qualifying Stage Elapsed Milliseconds</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RecipientMessageId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Recipient Message Id</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequestDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Request DateTime</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ResponseTimeMillisecond__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Response Time Millisecond</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RootPersonalizationPointId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Root Personalization Point</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__StatusCode__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Status Code</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TargetObjectAPIName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Target Object API Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TargetObjectLabelText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Target Object Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TargetObjectRecordId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Target Object Record Id</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1702009344285_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>PersonalizationLog_IndividualId_map__rel</label>
+        <referenceTo>ssot__Individual__dlm</referenceTo>
+        <relationshipLabel>PersonalizationLog_IndividualId_map__rel</relationshipLabel>
+        <relationshipName>rel_1702009344285_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1702009344903_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>PersonalizationLog_PersonalizationPo_rel</label>
+        <referenceTo>ssot__PersonalizationPoint__dlm</referenceTo>
+        <relationshipLabel>PersonalizationLog_PersonalizationPo_rel</relationshipLabel>
+        <relationshipName>rel_1702009344903_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1702009345226_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>PersonalizationLog_PersonalizerId_ma_rel</label>
+        <referenceTo>ssot__Personalizer__dlm</referenceTo>
+        <relationshipLabel>PersonalizationLog_PersonalizerId_ma_rel</relationshipLabel>
+        <relationshipName>rel_1702009345226_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1711101247898_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>PersonalizationLog_PersonalizationDe_rel</label>
+        <referenceTo>ssot__PersonalizationDecision__dlm</referenceTo>
+        <relationshipLabel>PersonalizationLog_PersonalizationDe_rel</relationshipLabel>
+        <relationshipName>rel_1711101247898_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1726212147856_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>PersonalizationLog_RootPersonalizati_rel</label>
+        <referenceTo>ssot__PersonalizationPoint__dlm</referenceTo>
+        <relationshipLabel>PersonalizationLog_RootPersonalizati_rel</relationshipLabel>
+        <relationshipName>rel_1726212147856_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

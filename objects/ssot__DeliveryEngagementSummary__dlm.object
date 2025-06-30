@@ -1,0 +1,1194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__ActionClicksInMailCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Action Clicks In Mail</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AdExchangeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Ad Exchange Id</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AdId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Ad Id</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AdKeywordId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Ad Keyword Id</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AdStrategyId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Ad Strategy Id</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AdUnitClicksInMailCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Ad Unit Clicks In Mail</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AudioCompanionClicksCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Audio Companion Clicks</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AudioCompanionImpressionsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Audio Companion Impressions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AutoInitiatedExpansionsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Auto Initiated Expansions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AverageDisplayPositionNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Average Display Positions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BookedCostAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Booked Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BookedImpressionsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Booked Impressions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ClicksCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Clicks</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Currency__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Currency</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeliveryEngagementSummaryDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Delivery Engagement Summary Date Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeviceTypeConfigurationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Device Type Configuration Id</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DislikesCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Dislikes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExpansionsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Expansions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FrequencyNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Frequency</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FullScreenVideoPlaysCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Full Screen Video Plays</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GrossRatingPointNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Gross Rating Point</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Delivery Engagement Summary Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ImpressionsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Impressions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InteractionsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Interactions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LandingPageClicksCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Landing Page Clicks</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LeadGenerationMailInterestedClicksCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Lead Generation Mail Interested Clicks</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MarketingChannelEngagedAudienceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Marketing Channel Engaged Audience</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MarketingChannelTargetedSegmentId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Marketing Channel Targeted Segment</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MaxBidAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Max Bid</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MediaBuyId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Media Buy Id</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OneClickLeadFormOpensCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>One Click Lead Form Opens</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OneClickLeadsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>One Click Leads</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OpensCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Opens</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PaidCommentsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Paid Comments</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PaidEngagementsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Paid Engagements</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PaidFollowersCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Paid Followers</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PaidFollowsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Paid Follows</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PaidLikesCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Paid Likes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PaidSharesCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Paid Shares</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReachCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reach</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaAudioCompletionsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Audio Completions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaAudioFirstQtrCompletesCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Audio First Qtr Completes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaAudioMidpointsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Audio Midpoints</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaAudioMutesCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Audio Mutes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaAudioPausesCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Audio Pauses</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaAudioPlaysCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Audio Plays</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaAudioReplaysCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Audio Replays</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaAudioThirdQtrCompletesCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Audio Third Qtr Completes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaAudioUnmutesCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Audio Unmutes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaBackupImagesCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Backup Images</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaClicksCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Clicks</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaCodeServesCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Code Serves</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaCustomEventsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Custom Events</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaCustomExitsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Custom Exits</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaCustomTimersCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Custom Timers</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaCustomVariableCnt1Count__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Custom Variable Count 1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaCustomVariableCnt2Count__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Custom Variable Count 2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaDisplayTimeSeconds__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Display Time</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaEngagementsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Engagements</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaEventTimersCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Event Timers</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaEventsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Events</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaExpansionTimeSeconds__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Expansion Time</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaExpansionsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Expansions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaFullScreenImpressionsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Full Screen Impressions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaFullScreenVideoCompletesCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Full Screen Video Completes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaFullScreenVideoPlaysCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Full Screen Video Plays</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaHTML5ImpressionsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media HTML5 Impressions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaImpressionsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Impressions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaInteractionTimeSeconds__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Interaction Time</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaInteractionsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Interactions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaInteractiveImpressionsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Interactive Impressions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaManualClosesCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Manual Closes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaScrollsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Scrolls</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaVideoCompanionClicksCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Video Companion Clicks</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaVideoCompletionsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Video Completions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaVideoFirstQtrCompletesCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Video First Qtr Completes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaVideoFullScreensCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Video Full Screens</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaVideoInteractionsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Video Interactions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaVideoMidpointsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Video Midpoints</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaVideoProgressEventsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Video Progress Events</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RichMediaVideoReplaysCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rich Media Video Replays</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SavesCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Saves</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SearchBudgetLostImpressionSharePercent__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Search Budget Lost Impression Share</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SearchImpressionSharePercent__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Search Impression Share</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SearchKeywordRankNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Search Keyword Rank</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SearchRankLostImpressionSharePercent__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Search Rank Lost Impression Share</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SendsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Sends</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SocialActionsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Social Actions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SocialAppInstallsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Social App Installs</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SocialClicksCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Social Clicks</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SocialEventResponsesCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Social Event Responses</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SocialFollowsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Social Follows</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SocialImpressionsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Social Impressions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SocialPageLikesCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Social Page Likes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SocialPostCommentsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Social Post Comments</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SocialPostEngagementCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Social Post Engagement</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SocialPostLikesCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Social Post Likes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SocialPostSharesCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Social Post Shares</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SocialReachCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Social Reach</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SocialRepliesCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Social Replies</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SocialRetweetsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Social Retweets</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SocialTotalEngagementCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Social Total Engagement</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SocialUnfollowsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Social Unfollows</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SpendAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Spend</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SpendMarginPercent__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Spend Margin</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__StoryCompletesCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Story Completes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__StoryOpensCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Story Opens</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TextURLClicksCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Text URL Clicks</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalDisplayTimeSeconds__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Display Time</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalInteractionTimeSeconds__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Interaction Time</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VideoAverageDurationSeconds__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Video Average Duration</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VideoCompletions25Count__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Video Completions 25</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VideoCompletions50Count__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Video Completions 50</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VideoCompletions75Count__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Video Completions 75</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VideoFullyPlayedCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Video Fully Played</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VideoMutesCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Video Mutes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VideoPausesCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Video Pauses</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VideoPlaysCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Video Plays</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VideoResumesCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Video Resumes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VideoSkipsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Video Skips</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VideoTrueViewsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Video True Views</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VideoUnmutesCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Video Unmutes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VideoViews10SCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Video Views 10S</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VideoViews15SCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Video Views 15S</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VideoViews2SCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Video Views 2S</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VideoViews3SCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Video Views 3S</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VideoViews6SCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Video Views 6S</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VideoViewsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Video Views</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VideoViewsEarnedCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Video Views Earned</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ViewCompaniesClicksCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>View Companies Clicks</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__WebsiteClicksCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Website Clicks</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+</CustomObject>

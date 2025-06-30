@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__CreatedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Created Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CurrencyExpirationExtensionModelId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Currency Expiration Extension Model</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CurrencyExpirationModelId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Currency Expiration Model</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CurrencyTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Currency Type</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DoesAllowLedgerTracing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Allow Ledger Tracing</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DoesAllowNegativeBalance__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Allow Negative Balance</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExpirationPeriodFrequencyNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Expiration Period Frequency</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExpirationPeriodFrequencyTimeUOM__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Expiration Period Frequency Time UOM</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalRecordId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Record Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Source Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HasEscrow__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Has Escrow</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Loyalty Program Currency Id</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsActive__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Active</label>
+        <length>5</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsPrimary__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Primary</label>
+        <length>5</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastModifiedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Modified Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LoyaltyProgramId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Loyalty Program</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LoyaltyTierGroupId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Loyalty Tier Group</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__QualifyingPointEndDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Qualifying Point End Date</label>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__QualifyingPointStartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Qualifying Point Start Date</label>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UnitCostAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Unit Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761182257_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>LoyaltyProgramCurrency_LoyaltyProgra_rel</label>
+        <referenceTo>ssot__LoyaltyProgram__dlm</referenceTo>
+        <relationshipLabel>LoyaltyProgramCurrency_LoyaltyProgra_rel</relationshipLabel>
+        <relationshipName>rel_1697761182257_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761182338_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>LoyaltyProgramCurrency_LoyaltyTierGr_rel</label>
+        <referenceTo>ssot__LoyaltyTierGroup__dlm</referenceTo>
+        <relationshipLabel>LoyaltyProgramCurrency_LoyaltyTierGr_rel</relationshipLabel>
+        <relationshipName>rel_1697761182338_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761184186_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>LoyaltyProgram_Id_map_LoyaltyProgram_rel</label>
+        <referenceTo>ssot__LoyaltyProgram__dlm</referenceTo>
+        <relationshipLabel>LoyaltyProgram_Id_map_LoyaltyProgram_rel</relationshipLabel>
+        <relationshipName>rel_1697761184186_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761184825_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>LoyaltyTierGroup_Id_map_LoyaltyProgr_rel</label>
+        <referenceTo>ssot__LoyaltyTierGroup__dlm</referenceTo>
+        <relationshipLabel>LoyaltyTierGroup_Id_map_LoyaltyProgr_rel</relationshipLabel>
+        <relationshipName>rel_1697761184825_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

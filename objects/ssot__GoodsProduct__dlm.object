@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AgeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Age</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AllowCustomerReturn__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Allow Customer Return</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AllowPartialRefund__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Allow Partial Refund</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BrandId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Brand</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CanUseQuantitySchedule__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Quantity Scheduling Enabled</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CanUseRevenueSchedule__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Revenue Scheduling Enabled</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ColorId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Color</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreatedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Created Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Depth__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Depth</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Product Description</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Diameter__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Diameter</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DisposalTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Disposal Type</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DrainedWeight__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Drained Weight</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EnvironmentRequirementId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Environment Requirement</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalRecordId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Record Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Source Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalSourceRecordId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Source Record Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FabricId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Fabric</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GenderId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Gender</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GlAccountCode__c</fullName>
+        <deprecated>false</deprecated>
+        <label>GL Account Code</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GrossWeight__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Gross Weight</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Height__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Height</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Goods Product Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsAutoProvisionable__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Auto Provisionable</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsBackOrdered__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Back Ordered</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsCouponRedemptionAllowed__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Coupon Redemption Allowed</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsCustomerDiscountAllowed__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Customer Discount Allowed</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsDynamicBundle__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Dynamic Bundle</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsFoodstampPaymentAllowed__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Foodstamp Payment Allowed</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsInstallable__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Installable</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsIntellectualPropertyProtected__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Intellectual Property Protected</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsMadeToOrder__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Made To Order</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsManualPriceEntryRequired__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Manual Price Entry Required</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsMultipleCouponsAllowed__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Multiple Coupons Allowed</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsPartnerDiscountAllowed__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Partner Discount Allowed</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsPerishable__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Perishable</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsPreOrderable__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Pre Orderable</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsQualityVerificationRequired__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Quality Verification Required</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsQuantityEntryRequired__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Quantity Entry Required</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsRainCheckAllowed__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Rain Check Allowed</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsReturnable__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Returnable</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsSellableIndependently__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Sellable Independently</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsSellableWithoutPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Sellable Without Price</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsSellable__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Sellable</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsSerialized__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Serialized</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsWeightEntryRequired__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Weight Entry Required</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsWorkerDiscountAllowed__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Worker Discount Allowed</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastModifiedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Modified Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LongDescription__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Product Long Description</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LotIdentifier__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Lot Identifier</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MSRPAmountCurrency__c</fullName>
+        <deprecated>false</deprecated>
+        <label>MSRP Amount Currency</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MSRPAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>MSRP Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ManufacturerName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Manufacturer Name</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MasterProductId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Master Product</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MaxHoldingDayCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Max Holding Day Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MaximumOrderQuantityCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Maximum Order Quantity Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MinimumAdvertisementAmountCurrency__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Minimum Advertisement Amount Currency</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MinimumAdvertisementAmountStartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Minimum Advertisement Amount Start Date</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MinimumAdvertisementAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Minimum Advertisement Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MinimumOrderQuantityCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Minimum Order Quantity Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModelNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Model Number</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModelYear__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Model Year</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Product Name</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NetWeight__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Net Weight</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PackagedInCountry__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Packaged in Country</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PatternId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Pattern</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PriceChargeTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Price Charge Type Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryProductCategory__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Product Category</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimarySalesChannelId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Sales Channel</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProducedInCountry__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Produced in Country</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProductMayExpand__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Product May Expand</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProductSKU__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Product SKU</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProductSecurityRequirementId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Product Security Requirement</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProductStatusId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Product Status</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__QuantityInstallmentCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Quantity Installment Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__QuantityInstallmentPeriodId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Quantity Installment Period</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__QuantityScheduleTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Quantity Schedule Type</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequiredCleanupProcessId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Required Cleanup Process</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequiredDepositAmountCurrency__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Required Deposit Amount Currency</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequiredDepositAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Required Deposit Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequiredDepositPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Required Deposit Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequiredHumidityPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Required Humidity Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequiredTemperatureHighestNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Required Temperature Highest Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequiredTemperatureLowestNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Required Temperature Lowest Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequiredTemperatureUOMId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Required Temperature UOM</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequiresInvididualUnitPricing__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Requires Individual Unit Pricing</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequiresUnitPriceLabel__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Requires Unit Price Label</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RevenueInstallmentCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Revenue Installment Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RevenueInstallmentPeriodId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Revenue Installment Period</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RevenueScheduleTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Revenue Schedule Type</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RewardProgramPointsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reward Program Points Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SeasonId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Season</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ServiceEntitlementTemplateId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Service Entitlement Template</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ShelfFacingUnitCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Shelf Facing Unit Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SizeUOMId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Size UOM</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__StandardWarrantyLengthMonth__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Standard Warranty Length Month</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__StockLedgerValuationAmountCurrency__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Stock Ledger Valuation Amount Currency</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__StockLedgerValuationAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Stock Ledger Valuation Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__StyleId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Style</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TareWeight__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Tare Weight</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ValidForPeriodCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Valid For Period Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ValidForPeriodUOMId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Valid For Period Unit Of Measure</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ValidFromDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Valid From Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ValidToDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Valid To Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VersionNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Version Number</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__WeightUOMId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Weight UOM</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Width__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Width</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761154551_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>Brand_Id_map_GoodsProduct_BrandId_N__rel</label>
+        <referenceTo>ssot__Brand__dlm</referenceTo>
+        <relationshipLabel>Brand_Id_map_GoodsProduct_BrandId_N__rel</relationshipLabel>
+        <relationshipName>rel_1697761154551_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761154935_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>BundleProduct_Id_map_GoodsProduct_Ma_rel</label>
+        <referenceTo>ssot__BundleProduct__dlm</referenceTo>
+        <relationshipLabel>BundleProduct_Id_map_GoodsProduct_Ma_rel</relationshipLabel>
+        <relationshipName>rel_1697761154935_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761174410_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>GoodsProduct_BrandId_map_Brand_Id_N__rel</label>
+        <referenceTo>ssot__Brand__dlm</referenceTo>
+        <relationshipLabel>GoodsProduct_BrandId_map_Brand_Id_N__rel</relationshipLabel>
+        <relationshipName>rel_1697761174410_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761174573_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>GoodsProduct_Id_map_GoodsProduct_Mas_rel</label>
+        <referenceTo>ssot__GoodsProduct__dlm</referenceTo>
+        <relationshipLabel>GoodsProduct_Id_map_GoodsProduct_Mas_rel</relationshipLabel>
+        <relationshipName>rel_1697761174573_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761175402_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>GoodsProduct_MasterProductId_map_Bun_rel</label>
+        <referenceTo>ssot__BundleProduct__dlm</referenceTo>
+        <relationshipLabel>GoodsProduct_MasterProductId_map_Bun_rel</relationshipLabel>
+        <relationshipName>rel_1697761175402_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761175488_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>GoodsProduct_MasterProductId_map_Goo_rel</label>
+        <referenceTo>ssot__GoodsProduct__dlm</referenceTo>
+        <relationshipLabel>GoodsProduct_MasterProductId_map_Goo_rel</relationshipLabel>
+        <relationshipName>rel_1697761175488_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761175564_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>GoodsProduct_MasterProductId_map_Mas_rel</label>
+        <referenceTo>ssot__MasterProduct__dlm</referenceTo>
+        <relationshipLabel>GoodsProduct_MasterProductId_map_Mas_rel</relationshipLabel>
+        <relationshipName>rel_1697761175564_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761175636_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>GoodsProduct_PrimaryProductCategory__rel</label>
+        <referenceTo>ssot__ProductCategory__dlm</referenceTo>
+        <relationshipLabel>GoodsProduct_PrimaryProductCategory__rel</relationshipLabel>
+        <relationshipName>rel_1697761175636_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761188279_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>MasterProduct_Id_map_GoodsProduct_Ma_rel</label>
+        <referenceTo>ssot__MasterProduct__dlm</referenceTo>
+        <relationshipLabel>MasterProduct_Id_map_GoodsProduct_Ma_rel</relationshipLabel>
+        <relationshipName>rel_1697761188279_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761194575_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ProductCategory_Id_map_GoodsProduct__rel</label>
+        <referenceTo>ssot__ProductCategory__dlm</referenceTo>
+        <relationshipLabel>ProductCategory_Id_map_GoodsProduct__rel</relationshipLabel>
+        <relationshipName>rel_1697761194575_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

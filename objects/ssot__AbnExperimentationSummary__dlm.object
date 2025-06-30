@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AbnExperimentCohortId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Experiment Cohort</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AbnExperimentId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Experiment</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AssignedParticipantsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Assigned Participants Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CredibleIntervalLowerNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Credible Interval Lower</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CredibleIntervalUpperNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Credible Interval Upper</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExperimentSummaryMetricType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Metric Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Abn Experimentation Summary Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsPrimary__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Primary</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastUpdatedDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Updated Date Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MaxMetricValueNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Max Metric Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MeanMetricValueNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Mean Metric Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MetricName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Metric Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MetricValueNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Metric Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MinMetricValueNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Min Metric Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProbabilityToBeatAllPercent__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Probability To Beat All</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProbabilityToBeatControlPercent__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Probability To Beat Control</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SignalDenominatorValueNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Signal Denominator Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SignalNumeratorValueNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Signal Numerator Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VarianceNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Variance</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1726745173103_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AbnExperimentationSummary_AbnExperim_rel</label>
+        <referenceTo>ssot__AbnExperimentCohort__dlm</referenceTo>
+        <relationshipLabel>AbnExperimentationSummary_AbnExperim_rel</relationshipLabel>
+        <relationshipName>rel_1726745173103_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1726745177302_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AbnExperimentationSummary_AbnExperim_rel</label>
+        <referenceTo>ssot__AbnExperiment__dlm</referenceTo>
+        <relationshipLabel>AbnExperimentationSummary_AbnExperim_rel</relationshipLabel>
+        <relationshipName>rel_1726745177302_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

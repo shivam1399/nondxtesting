@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__ActivityCountPerRepetitionQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Activity Count Per Repetition</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActivityDurationQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Activity Duration</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActivityDurationUOMId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Activity Duration Unit</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActivityTimeOffset__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Activity Time Offset</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActivityTimeText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Activity Time</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActivityTimingText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Activity Timing</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActivityTimingUsageType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Activity Timing Usage Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CountInPeriodNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>CountIn Period</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Health Activity Timing Id</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MaxActivityCountPerRepetitionQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Max Activity Count Per Repetition</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MaxActivityDurationQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Max Activity Duration</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MaxCountInPeriodNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Max CountIn Period</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MaxInPeriodCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Max In Period Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MaxRepetitionCycleLengthNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Max Repetition Cycle Length</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PeriodEndDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period End DateTime</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PeriodLengthLowerLimitNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period Length Lower Limit</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PeriodLengthNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period Length</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PeriodLengthUOMId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period Length Unit</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PeriodLengthUpperLimitNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period Length Upper Limit</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PeriodStartDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period Start DateTime</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RepetitionCycleLengthNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Repetition Cycle Length</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RepetitionCycleUOMId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Repetition Cycle Unit</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TimingCodeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Timing Code</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__WeeklyActivityTimeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Weekly Activity Time</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716726408979_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ActivityTiming_TimingCodeId_map_Code_rel</label>
+        <referenceTo>ssot__CodeSet__dlm</referenceTo>
+        <relationshipLabel>ActivityTiming_TimingCodeId_map_Code_rel</relationshipLabel>
+        <relationshipName>rel_1716726408979_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1720282902951_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ActivityTiming_PeriodLengthUOMId_map_rel</label>
+        <referenceTo>ssot__UnitOfMeasure__dlm</referenceTo>
+        <relationshipLabel>ActivityTiming_PeriodLengthUOMId_map_rel</relationshipLabel>
+        <relationshipName>rel_1720282902951_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1720282904727_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ActivityTiming_RepetitionCycleUOMId__rel</label>
+        <referenceTo>ssot__UnitOfMeasure__dlm</referenceTo>
+        <relationshipLabel>ActivityTiming_RepetitionCycleUOMId__rel</relationshipLabel>
+        <relationshipName>rel_1720282904727_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1720282910010_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ActivityTiming_ActivityDurationUOMId_rel</label>
+        <referenceTo>ssot__UnitOfMeasure__dlm</referenceTo>
+        <relationshipLabel>ActivityTiming_ActivityDurationUOMId_rel</relationshipLabel>
+        <relationshipName>rel_1720282910010_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__ConversationEntryId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Conversation Entry</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ConversationIntentStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Conversation Intent Status</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ConversationReasonId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Conversation Reason</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DurationInSeconds__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Duration In Seconds</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EmailMessageId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Email Message</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngagementChannelType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Channel Type</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExcerptSequenceNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Excerpt Sequence Number</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExcerptTextIndexText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Excerpt Text Index</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalRecordId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Record Id</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Source Id</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Conversation Entry Transcript Excerpt Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsMoved__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Moved</label>
+        <length>5</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Language__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Language</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MessagingSessionId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Messaging Session</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TranscriptExcerptText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Transcript Excerpt</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TranscriptSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Transcript Source Id</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TranscriptSourceObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Transcript Source Object</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TurnCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Turn Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VoiceCallId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Voice Call</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1702009487088_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ConversationEntryTranscriptExcerpt_E_rel</label>
+        <referenceTo>ssot__EmailMessage__dlm</referenceTo>
+        <relationshipLabel>ConversationEntryTranscriptExcerpt_E_rel</relationshipLabel>
+        <relationshipName>rel_1702009487088_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1702009487670_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ConversationEntryTranscriptExcerpt_C_rel</label>
+        <referenceTo>ssot__ConversationEntry__dlm</referenceTo>
+        <relationshipLabel>ConversationEntryTranscriptExcerpt_C_rel</relationshipLabel>
+        <relationshipName>rel_1702009487670_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716726629568_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ConversationEntryTranscriptExcerpt_T_rel</label>
+        <referenceTo>ssot__EmailMessage__dlm</referenceTo>
+        <relationshipLabel>ConversationEntryTranscriptExcerpt_T_rel</relationshipLabel>
+        <relationshipName>rel_1716726629568_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716726631110_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ConversationEntryTranscriptExcerpt_T_rel</label>
+        <referenceTo>ssot__VoiceCall__dlm</referenceTo>
+        <relationshipLabel>ConversationEntryTranscriptExcerpt_T_rel</relationshipLabel>
+        <relationshipName>rel_1716726631110_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716726638959_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ConversationEntryTranscriptExcerpt_T_rel</label>
+        <referenceTo>ssot__Case__dlm</referenceTo>
+        <relationshipLabel>ConversationEntryTranscriptExcerpt_T_rel</relationshipLabel>
+        <relationshipName>rel_1716726638959_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

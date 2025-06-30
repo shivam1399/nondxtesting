@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Program Cohort Member Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsRemovedFromCohort__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Removed From Cohort</label>
+        <length>6</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProgramCohortId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Program Cohort</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProgramEnrollee__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Program Enrollee</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProgramEnrollmentId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Program Enrollment</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProgramEnrollmentStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Program Enrollment Status</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RemovalDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Removal Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716668769381_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ProgramCohortMember_ProgramCohortId__rel</label>
+        <referenceTo>ssot__ProgramCohort__dlm</referenceTo>
+        <relationshipLabel>ProgramCohortMember_ProgramCohortId__rel</relationshipLabel>
+        <relationshipName>rel_1716668769381_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716668778294_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ProgramCohortMember_ProgramEnrollmen_rel</label>
+        <referenceTo>ssot__ProgramEnrollment__dlm</referenceTo>
+        <relationshipLabel>ProgramCohortMember_ProgramEnrollmen_rel</relationshipLabel>
+        <relationshipName>rel_1716668778294_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FaultCodeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Fault Code</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FaultCodeSensorValuesText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Fault Code Sensor Values</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FaultResolutionDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Fault Resolution Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FaultResolutionType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Fault Resolution Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FreezeFrameId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Freeze Frame Id</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Vehicle Telematics Event Fault Cd Map Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VehicleTelematicsEventId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Vehicle Telematics Event</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761232916_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>VehicleTelematicsEventFaultCdMap_Fau_rel</label>
+        <referenceTo>ssot__CodeSet__dlm</referenceTo>
+        <relationshipLabel>VehicleTelematicsEventFaultCdMap_Fau_rel</relationshipLabel>
+        <relationshipName>rel_1697761232916_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761232994_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>VehicleTelematicsEventFaultCdMap_Veh_rel</label>
+        <referenceTo>ssot__VehicleTelematicsEvent__dlm</referenceTo>
+        <relationshipLabel>VehicleTelematicsEventFaultCdMap_Veh_rel</relationshipLabel>
+        <relationshipName>rel_1697761232994_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

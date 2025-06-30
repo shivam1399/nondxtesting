@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__BodyText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Body Text</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CampaignId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Campaign</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ChannelEngagementId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Channel Engagement</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ChannelEngagementNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Channel Engagement Number</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ClickThroughPercent__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Click Through Percent</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ClickToOpenPercent__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Click To Open Percent</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CommunicationSubscriptionChannelTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Communication Subscription Channel Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CountryRegion__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Country Region</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CustomDomainAddress__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Custom Domain Address</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeliveryPercent__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Delivery Percent</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DigitalContentId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Digital Content</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DoesTrackClicks__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Does Track Clicks</label>
+        <length>6</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DoesTrackOpens__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Does Track Opens</label>
+        <length>5</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EmailContentId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Email Content</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngagementChannelType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Channel Type</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FlowElementId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Flow Element</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FromAddress__c</fullName>
+        <deprecated>false</deprecated>
+        <label>From Address</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FromName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>From Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HTMLBodyText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>HTML Body</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HasAttachment__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Has Attachment</label>
+        <length>5</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Bulk Email Message Id</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MarketAudienceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Market Audience</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MarketJourneyActivity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Market Journey Activity</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MarketSegmentId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Market Segment</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MarketingEmailList__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Marketing Email List</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MessagePurpose__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Message Purpose</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OpenPercent__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Open Percent</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OptOutPercent__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Opt Out Percent</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReplyToAddress__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reply To Address</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ScheduledDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scheduled Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SendMechanismName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Send Mechanism Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SoftwareApplication__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Software Application</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Subject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Subject</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalDeliveredQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Delivered Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalHardBounceQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Hard Bounce Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalOpensQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Opens Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalSentQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Sent Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalSoftBounceQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Soft Bounce Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalSpamComplaintsQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Spam Complaints Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalTrackedLinkClicksQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Tracked Link Clicks Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UniqueClickThroughPercent__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Unique Click Through Percent</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UniqueOpensQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Unique Opens Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UniqueOptOutsQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Unique Opt Outs Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UniqueTrackedLinkClicksQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Unique Tracked Link Clicks Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1696932794606_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>BulkEmailMessage_CommunicationSubscr_rel</label>
+        <referenceTo>ssot__CommunicationSubscriptionChannelType__dlm</referenceTo>
+        <relationshipLabel>BulkEmailMessage_CommunicationSubscr_rel</relationshipLabel>
+        <relationshipName>rel_1696932794606_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761220951_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>BulkEmailMessage_MarketAudienceId_ma_rel</label>
+        <referenceTo>ssot__MarketAudience__dlm</referenceTo>
+        <relationshipLabel>BulkEmailMessage_MarketAudienceId_ma_rel</relationshipLabel>
+        <relationshipName>rel_1697761220951_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761221198_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>BulkEmailMessage_MarketSegmentId_map_rel</label>
+        <referenceTo>ssot__MarketSegment__dlm</referenceTo>
+        <relationshipLabel>BulkEmailMessage_MarketSegmentId_map_rel</relationshipLabel>
+        <relationshipName>rel_1697761221198_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761221268_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>BulkEmailMessage_CampaignId_map_Camp_rel</label>
+        <referenceTo>ssot__Campaign__dlm</referenceTo>
+        <relationshipLabel>BulkEmailMessage_CampaignId_map_Camp_rel</relationshipLabel>
+        <relationshipName>rel_1697761221268_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761222701_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>BulkEmailMessage_EmailContentId_map__rel</label>
+        <referenceTo>ssot__EmailContent__dlm</referenceTo>
+        <relationshipLabel>BulkEmailMessage_EmailContentId_map__rel</relationshipLabel>
+        <relationshipName>rel_1697761222701_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761222841_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>BulkEmailMessage_FlowElementId_map_F_rel</label>
+        <referenceTo>ssot__FlowElement__dlm</referenceTo>
+        <relationshipLabel>BulkEmailMessage_FlowElementId_map_F_rel</relationshipLabel>
+        <relationshipName>rel_1697761222841_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761223004_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>BulkEmailMessage_DigitalContentId_ma_rel</label>
+        <referenceTo>ssot__DigitalContent__dlm</referenceTo>
+        <relationshipLabel>BulkEmailMessage_DigitalContentId_ma_rel</relationshipLabel>
+        <relationshipName>rel_1697761223004_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

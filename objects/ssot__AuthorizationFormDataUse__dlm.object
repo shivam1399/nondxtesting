@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AuthorizationFormId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Authorization Form id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataUsePurposeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Use Purpose Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalRecordId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Record Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Source Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Authorization Form Data Use Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761154108_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AuthorizationFormDataUse_Authorizati_rel</label>
+        <referenceTo>ssot__AuthorizationForm__dlm</referenceTo>
+        <relationshipLabel>AuthorizationFormDataUse_Authorizati_rel</relationshipLabel>
+        <relationshipName>rel_1697761154108_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761154185_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AuthorizationFormDataUse_DataUsePurp_rel</label>
+        <referenceTo>ssot__DataUsePurpose__dlm</referenceTo>
+        <relationshipLabel>AuthorizationFormDataUse_DataUsePurp_rel</relationshipLabel>
+        <relationshipName>rel_1697761154185_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761154316_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AuthorizationForm_Id_map_Authorizati_rel</label>
+        <referenceTo>ssot__AuthorizationForm__dlm</referenceTo>
+        <relationshipLabel>AuthorizationForm_Id_map_Authorizati_rel</relationshipLabel>
+        <relationshipName>rel_1697761154316_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761165410_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>DataUsePurpose_Id_map_AuthorizationF_rel</label>
+        <referenceTo>ssot__DataUsePurpose__dlm</referenceTo>
+        <relationshipLabel>DataUsePurpose_Id_map_AuthorizationF_rel</relationshipLabel>
+        <relationshipName>rel_1697761165410_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

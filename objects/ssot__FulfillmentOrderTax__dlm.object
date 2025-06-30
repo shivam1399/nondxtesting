@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__CurrencyCode__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Currency Code</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FulfillmentOrderPriceAdjustmentTaxId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Fulfillment Order Price Adjustment Tax</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FulfillmentOrderProductTaxId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Fulfillment Order Product Tax</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FulfillmentOrderTaxType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Fulfillment Order Tax Type</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Fulfillment Order Tax Id</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Number</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TaxClass__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Tax Class</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TaxEffectiveDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Tax Effective Date</label>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TaxErrorMessageText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Tax Error Message</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TaxRatePercent__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Tax Rate Percent</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761213581_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>FulfillmentOrderTax_FulfillmentOrder_rel</label>
+        <referenceTo>ssot__FulfillmentOrderPriceAdjTax__dlm</referenceTo>
+        <relationshipLabel>FulfillmentOrderTax_FulfillmentOrder_rel</relationshipLabel>
+        <relationshipName>rel_1697761213581_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761213806_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>FulfillmentOrderTax_FulfillmentOrder_rel</label>
+        <referenceTo>ssot__FulfillmentOrderProductTax__dlm</referenceTo>
+        <relationshipLabel>FulfillmentOrderTax_FulfillmentOrder_rel</relationshipLabel>
+        <relationshipName>rel_1697761213806_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

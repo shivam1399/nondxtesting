@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__BenefitInformationText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Benefit Information</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BenefitNoteText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Benefit Note</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CoinsuranceNoteText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Coinsurance Note</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CommunicationEffectiveDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Communication Effective Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CopayNoteText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Copay Note</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeductibleNoteText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Deductible Notes</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DocumentLocation__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Document Location</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DocumentUrl__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Document Url</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EffectiveFromDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Effective From Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EffectiveToDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Effective To Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EmergencyDepartmentCopayAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Emergency Department Copay Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Plan Benefit Id</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InNetworkCoinsuranceAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>In Network Coinsurance Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InNetworkCoinsurancePercent__c</fullName>
+        <deprecated>false</deprecated>
+        <label>In Network Coinsurance Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InNetworkFamilyDeductibleAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>In Network Family Deductible Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InNetworkFamilyOutofPocketAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>In Network Family Outof Pocket Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InNetworkIndividualDeductibleAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>In Network Individual Deductible Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InNetworkLifetimeMembershipMaxAmt__c</fullName>
+        <deprecated>false</deprecated>
+        <label>In Network Lifetime Membership Max Amt</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InNtwkIndividualOutofPocketAmt__c</fullName>
+        <deprecated>false</deprecated>
+        <label>In Ntwk Individual Outof Pocket Amt</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MaximumLifetimeMembershipNoteText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Maximum Lifetime Membership Note</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OutofNetworkCoinsuranceAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Outof Network Coinsurance Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OutofNetworkCoinsurancePercent__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Outof Network Coinsurance Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OutofNetworkFamilyDeductibleAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Outof Network Family Deductible Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OutofNetworkFamilyOutofPocketAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Outof Network Family Outof Pocket Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OutofNtwkIndividualDeductibleAmt__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Outof Ntwk Individual Deductible Amt</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OutofNtwkIndividualOutofPocketAmt__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Outof Ntwk Individual Outof Pocket Amt</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OutofNtwkMaxLifetimeMembershipAmt__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Outof Ntwk Max Lifetime Membership Amt</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OutofPocketNoteText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Outof Pocket Note</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PlanBenefitStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>PlanBenefitStatus</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryCareCopayAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Care Copay Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PurchaserPlanId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Purchaser Plan</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SourceSystemModified__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Source System Modified Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SourceSystemName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Source System Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SpecialistCopayAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Specialist Copay Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UrgentCareCopayAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Urgent Care Copay Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716723733827_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>PlanBenefit_PurchaserPlanId_map_Purc_rel</label>
+        <referenceTo>ssot__PurchaserPlan__dlm</referenceTo>
+        <relationshipLabel>PlanBenefit_PurchaserPlanId_map_Purc_rel</relationshipLabel>
+        <relationshipName>rel_1716723733827_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

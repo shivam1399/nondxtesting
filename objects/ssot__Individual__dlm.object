@@ -1,0 +1,1226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AdvancementGraduationDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Advancement Graduation Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Age__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Age</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AverageOrderAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Average Order Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BirthDateDay__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Birth Date Day</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BirthDateMonth__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Birth Date Month</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BirthDateYear__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Birth Date Year</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BirthDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Birth Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BirthPlace__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Birth Place</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CanStorePIIElsewhere__c</fullName>
+        <deprecated>false</deprecated>
+        <label>OK To Store PII Data Elsewhere</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ChildrenCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Children Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ConsumerCreditScoreProviderName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Consumer Credit Score Provider Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ConsumerCreditScore__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Consumer Credit Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ConvictionsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Convictions Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreatedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Created Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreationEventId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Creation Event</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreationEventObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Creation Event Object</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CurrentEmployerName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Current Employer Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeathDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Death Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeathPlace__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Death Place</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DependentCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Dependent Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DoExtractMyDataUpdateDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Do Extract My Data Update Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DoForgetMeFromUpdateDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Do Forget Me Update Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DoNotMarketFromUpdateDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Do Not Market Update Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DoNotProcessFromUpdateDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Do Not Process Update Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DoNotProcessReasonId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Do Not Process Reason</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DoNotProcessReason__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Do Not Process Reason</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DoNotProfileFromUpdateDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Do Not Profile Update Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DoNotTrackLocationUpdateDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Do Not Track Location Update Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DoNotTrackUpdateDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Do Not Track Update Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DoesPreferSustainableProduct__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Prefer Sustainable Product</label>
+        <length>5</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EducationalAdvancementType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Educational Advancement Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EmployedSinceDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Employed Since Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EthnicityId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Ethnicity</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalRecordId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Record Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Source Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FirstName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>First Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GenderId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Gender</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GenderIdentity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Gender Identity</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GenerationalCohort__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Generational Cohort</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GlobalPartyId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Global Party</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GraduationAchievement__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Graduation Achievement</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GraduationCohort__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Graduation Cohort</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HasAlcoholAbuseHistory__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Has Alcohol Abuse History</label>
+        <length>5</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HasDrugAbuseHistory__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Has Drug Abuse History</label>
+        <length>5</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HasFerpaParentalDisclosure__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>FERPA Parental Disclosure</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HasFerpaThrdPtyDisclosure__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>FERPA Third-Party Disclosure</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HasOptedOutGeoTracking__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Block Geolocation Tracking</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HasOptedOutProcessing__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Do Not Process</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HasOptedOutProfiling__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Do Not Profile</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HasOptedOutSolicit__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Do Not Solicit</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HasOptedOutTracking__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Do Not Track</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HighestEducationLevelId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Highest Education Level</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HospitalizationsLast5YearsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Hospitalizations Last 5 Years Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Individual Id</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InfluencerRating__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Influencer Rating</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsAlcoholConsumer__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Alcohol Consumer</label>
+        <length>5</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsAnonymous__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Anonymous</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsDeceased__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Deceased</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsDrugConsumer__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Drug Consumer</label>
+        <length>5</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsFirstGenerationStudent__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is First Generation Student</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsGoodDriver__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Good Driver</label>
+        <length>5</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsGoodStudent__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Good Student</label>
+        <length>5</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsHighRiskHobby__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is High Risk Hobby</label>
+        <length>5</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsHighRiskOccupation__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is High Risk Occupation</label>
+        <length>5</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsHomeOwner__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Home Owner</label>
+        <length>5</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsTobaccoConsume__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Tobacco Consumer</label>
+        <length>5</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastModifiedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Modified Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LocationText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Location</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MailingName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Mailing Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MainDietaryHabitTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Main Dietary Habit Type</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MainDisabilityTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Main Disability Type</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MainLifeAttitudeTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Main Life Attitude Type</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MainLifeStyleTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Main Life Style Type</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MainPersonalValueTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Main Personal Value Type</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MainPersonalityTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Main Personality Type</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MajorCitationCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Major Citation Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MaritalStatusId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Marital Status</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MiddleName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Middle Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MilitaryBranch__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Military Branch</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MilitaryServiceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Military Service</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MilitaryStatusId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Military Status</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MinorCitationCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Minor Citation Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MothersMaidenName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Mothers Maiden Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NameSuffix__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name Suffix</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NetWorth__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Net Worth</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NoMergeReasonId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>No Merge Reason</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OccupationTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Occupation Type</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Occupation__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Occupation</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OfficialName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Official Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OrderingName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Ordering Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OriginCountryId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Origin Country</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OverAgeNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Over Age</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyAdditionalNames__c</fullName>
+        <deprecated>false</deprecated>
+        <label>PartyAdditionalNames relationship</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Party</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyRoles__c</fullName>
+        <deprecated>false</deprecated>
+        <label>PartyRoles relationship</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Party Type</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyWebAddresses__c</fullName>
+        <deprecated>false</deprecated>
+        <label>PartyWebAddresses relationship</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonEducations__c</fullName>
+        <deprecated>false</deprecated>
+        <label>PersonEducations relationship</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonEmployments__c</fullName>
+        <deprecated>false</deprecated>
+        <label>PersonEmployments relationship</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonHeightUnitofMeasureId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Person Height Unit of Measure</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonHeight__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Person Height</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonLanguages__c</fullName>
+        <deprecated>false</deprecated>
+        <label>PersonLanguages relationship</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonLifeEvents__c</fullName>
+        <deprecated>false</deprecated>
+        <label>PersonLifeEvents relationship</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonLifeStageId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Secondary Citizenship Country</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonLifeStage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Person Life Stage</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Person Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonWeightUnitofMeasureId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Person Weight Unit of Measure</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonWeight__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Person Weight</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PhotoURL__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Photo URL</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PreferredName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Preferred Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryAccountId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Account</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryAddressId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Address</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryCitizenshipCountryId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Citizenship Country</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryCitizenshipCountry__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Primary Citizenship Country</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryCitizenshipType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Citizenship Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryHobbyId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Hobby</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryHobby__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Primary Hobby</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryHouseholdId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Household</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryLanguageId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Language</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryLanguage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Primary Language</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Pronoun__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Pronoun</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Race__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Race</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReligionId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Religion</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Religion__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Religion</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ResidenceCaptureMethodId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Residence Capture Method</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ResidenceCaptureMethod__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Residence Capture Method</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ResidenceCountryId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Residence Country</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ResidenceCountryName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Residence Country Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ResidenceCountry__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Residence Country</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Salutation__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Salutation</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SecondLastName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Second Last Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SecondaryCitizenshipCountryId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Secondary Citizenship Country Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SecondaryCitizenshipCountry__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Secondary Citizenship Country</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SecondaryCitizenshipType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Secondary Citizenship Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SendIndividualData__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Export Individual&apos;s Data</label>
+        <length>5</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ShouldForget__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Forget This Individual</label>
+        <length>5</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SurgeriesLast5YearsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Surgeries Last 5 Years Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TaxBracketRange__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Tax Bracket Range</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TitleName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Title</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__WebSiteURL__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Web Site URL</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__WeddingAnniversaryDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Wedding Anniversary Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__YearlyIncomeCurrencyId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Yearly Income Currency</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__YearlyIncomeCurrency__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Yearly Income Currency</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__YearlyIncomeRangeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Yearly Income Range</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__YearlyIncomeRange__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Yearly Income Range</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__YearlyIncome__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Yearly Income</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761151778_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>Account_Id_map_Individual_PrimaryAcc_rel</label>
+        <referenceTo>ssot__Account__dlm</referenceTo>
+        <relationshipLabel>Account_Id_map_Individual_PrimaryAcc_rel</relationshipLabel>
+        <relationshipName>rel_1697761151778_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761177549_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>Individual_PrimaryAccountId_map_Acco_rel</label>
+        <referenceTo>ssot__Account__dlm</referenceTo>
+        <relationshipLabel>Individual_PrimaryAccountId_map_Acco_rel</relationshipLabel>
+        <relationshipName>rel_1697761177549_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AccelerationTimeText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Acceleration Time</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AdBlueCapacityNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>AdBlue Capacity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AdBlueCapacityUomId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>AdBlue Capacity UOM</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AuxiliaryBatteryTypeText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Auxiliary Battery Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BatteryCapacityNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Battery Capacity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BatteryCapacityUomId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Battery Capacity UOM</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BodyTypeText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Body Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Co2EmissionNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>CO2 Emission</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Co2EmissionUomId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>CO2 Emission UOM</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CombinedFuelEconomyText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Combined Fuel Economy</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CombinedFuelEconomyUomId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Combined Fuel Economy UOM</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CurbWeightNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Curb Weight</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CurbWeightUomId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Curb Weight UOM</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DoorCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Door Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DoorStyleType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Door Style Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DrivetrainType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Drivetrain Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EmissionStandardTypeText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Emission Standard Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngineCubicCapacityNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engine Cubic Capacity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngineName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engine Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExtraUrbanFuelEconomyNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Extra Urban Fuel Economy</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExtraUrbanFuelEconomyUomId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Extra Urban Fuel Economy UOM</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FuelEfficiencyClassText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Fuel Efficiency Class</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FuelTankCapacityNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Fuel Tank Capacity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FuelTankCapacityUomId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Fuel Tank Capacity UOM</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FuelType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Fuel Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GeoCountry__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Geo Country</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HeightNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Height</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HeightUomId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Height UOM</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Vehicle Definition Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LengthNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Length</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LengthUomId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Length UOM</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MainBatteryTypeText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Main Battery Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MaximumBatteryRangeNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Maximum Battery Range</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MaximumBatteryRangeUomId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Maximum Battery Range UOM</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MaximumGrossWeightNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Maximum Gross Weight</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MaximumGrossWeightUomId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Maximum Gross Weight UOM</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MaximumTorqueNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Maximum Torque</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MaximumTorqueUomId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Maximum Torque UOM</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MinimumBatteryRangeNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Minimum Battery Range</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MinimumBatteryRangeUomId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Minimum Battery Range UOM</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModelCode__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Model Code</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NoxEmissionNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>NOx Emission</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NoxEmissionUomId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>NOx Emission UOM</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProductId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Product</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TopSpeedNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Top Speed</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TopSpeedUomId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Top Speed UOM</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalPowerNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Power</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalPowerUomId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Power UOM</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TransmissionType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Transmission Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TrimTypeText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Trim Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UrbanFuelEconomyNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Urban Fuel Economy</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UrbanFuelEconomyUomId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Urban Fuel Economy UOM</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VariantName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Variant Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VehicleClassText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Vehicle Class</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__WheelBaseNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Wheel Base</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__WheelBaseUomId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Wheel Base UOM</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__WidthNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Width</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__WidthUomId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Width UOM</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+</CustomObject>

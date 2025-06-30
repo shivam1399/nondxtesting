@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>sahringcriteria</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>sahringcriteria</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <criteriaItems>
+            <field>CreatedById</field>
+            <operation>equals</operation>
+            <value>abcd</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>LastModifiedById</field>
+            <operation>equals</operation>
+            <value>acderf</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>shivam1rule</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>shivam1rule</label>
+        <sharedTo>
+            <group>grp2</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>grp1</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

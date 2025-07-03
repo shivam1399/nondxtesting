@@ -16,6 +16,7 @@
         <name>ActvPlatformAdncIdentifier</name>
     </types>
     <types>
+        <members>A</members>
         <members>A0</members>
         <members>AgentforceHomepageController</members>
         <members>AgentforceHomepageControllerTest</members>
@@ -465,6 +466,10 @@
         <members>AuthorizationFormText.Locale</members>
         <members>AuthorizationFormText.Name</members>
         <members>AuthorizationFormText.SummaryAuthFormText</members>
+        <members>Book__c.CheckBox2__c</members>
+        <members>Book__c.Check_Box__c</members>
+        <members>Book__c.GeAppileance_Picklist_check__c</members>
+        <members>Book__c.Price__c</members>
         <members>BusinessBrand.Name</members>
         <members>BusinessBrand.OrgId</members>
         <members>BusinessBrand.OwnerId</members>
@@ -21153,6 +21158,7 @@
     </types>
     <types>
         <members>My_Custom_Metadata.new2</members>
+        <members>SearchCustomization.SubCustomeMetadata</members>
         <members>custommetadata.new3</members>
         <name>CustomMetadata</name>
     </types>
@@ -21200,6 +21206,7 @@
         <members>AuthorizationFormConsent</members>
         <members>AuthorizationFormDataUse</members>
         <members>AuthorizationFormText</members>
+        <members>Book__c</members>
         <members>BusinessBrand</members>
         <members>BuyerGroup</members>
         <members>Campaign</members>
@@ -21355,6 +21362,7 @@
         <members>PaymentLineInvoice</members>
         <members>PaymentMethod</members>
         <members>PendingServiceRouting</members>
+        <members>PrajjwalTest__c</members>
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
         <members>PrivacyJobSession</members>
@@ -24862,6 +24870,7 @@
         <members>PaymentGatewayLog-Payment Gateway Log Layout</members>
         <members>PaymentGroup-Payment Group Layout</members>
         <members>PaymentLineInvoice-Payment Line Invoice Layout</members>
+        <members>PrajjwalTest__c-PrajjwalTest Layout</members>
         <members>Pricebook2-Price Book Layout</members>
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>ProcessException-Process Exception Layout</members>
@@ -24963,6 +24972,7 @@
         <members>AuthorizationFormConsent.All_AuthorizationFormConsents</members>
         <members>AuthorizationFormDataUse.All_AuthorizationFormDataUses</members>
         <members>AuthorizationFormText.All_AuthorizationFormText</members>
+        <members>Book__c.All</members>
         <members>BusinessBrand.All_BusinessBrands</members>
         <members>BuyerGroup.All_Buyer_Groups</members>
         <members>BuyerGroup.My_Buyer_Groups</members>
@@ -25273,6 +25283,7 @@
         <name>QuickAction</name>
     </types>
     <types>
+        <members>Book__c.geappliancerecordtyep</members>
         <members>Idea.InternalIdeasIdeaRecordType</members>
         <name>RecordType</name>
     </types>
@@ -25862,6 +25873,11 @@
     <types>
         <members>en_US</members>
         <name>Translations</name>
+    </types>
+    <types>
+        <members>Book__c.Validation_Rule_1</members>
+        <members>ShivamCustom__c.Firstrule</members>
+        <name>ValidationRule</name>
     </types>
     <types>
         <members>Account.Billing</members>

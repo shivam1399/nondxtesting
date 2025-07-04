@@ -77,6 +77,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.Name</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.NumberOfEmployees</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -88,6 +93,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.OperatingHoursId</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.OwnerId</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -181,7 +191,7 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>shiva2106__shivaobj1__c.shiva2106__shivafield1__c</field>
         <readable>true</readable>
     </fieldPermissions>

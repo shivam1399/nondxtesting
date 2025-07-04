@@ -181,7 +181,7 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>shiva2106__shivaobj1__c.shiva2106__shivafield1__c</field>
         <readable>true</readable>
     </fieldPermissions>

@@ -25875,6 +25875,7 @@
         <name>Translations</name>
     </types>
     <types>
+        <members>Account.Firstrule</members>
         <members>Book__c.Validation_Rule_1</members>
         <members>ShivamCustom__c.Firstrule</members>
         <members>ShivamCustom__c.Secondrule</members>

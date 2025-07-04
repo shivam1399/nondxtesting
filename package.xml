@@ -25877,6 +25877,7 @@
     <types>
         <members>Book__c.Validation_Rule_1</members>
         <members>ShivamCustom__c.Firstrule</members>
+        <members>ShivamCustom__c.Secondrule</members>
         <name>ValidationRule</name>
     </types>
     <types>

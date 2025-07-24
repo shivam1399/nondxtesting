@@ -3156,7 +3156,6 @@
         <members>WorkTypeGroupMember.WorkTypeGroupId</members>
         <members>WorkTypeGroupMember.WorkTypeId</members>
         <members>custommetadata__mdt.checkbox_check__c</members>
-        <members>shiva2106__shivaobj1__c.shiva2106__shivafield1__c</members>
         <members>ssot__AbnExperimentCohort__dlm.ssot__AbnExperimentId__c</members>
         <members>ssot__AbnExperimentCohort__dlm.ssot__AllocationWeight__c</members>
         <members>ssot__AbnExperimentCohort__dlm.ssot__DataSourceId__c</members>

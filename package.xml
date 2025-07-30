@@ -18,6 +18,7 @@
     <types>
         <members>A</members>
         <members>A0</members>
+        <members>ATest123</members>
         <members>AgentforceHomepageController</members>
         <members>AgentforceHomepageControllerTest</members>
         <members>CustomObjectManager</members>
@@ -25886,6 +25887,10 @@
         <members>Case.UpsellCrosssellOpportunity</members>
         <members>Opportunity.DeliveryStatus</members>
         <name>WebLink</name>
+    </types>
+    <types>
+        <members>Account.Newemailalert</members>
+        <name>WorkflowAlert</name>
     </types>
     <types>
         <members>Case.ChangePriorityToHigh</members>

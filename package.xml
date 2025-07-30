@@ -25891,4 +25891,8 @@
         <members>Case.ChangePriorityToHigh</members>
         <name>WorkflowFieldUpdate</name>
     </types>
+    <types>
+        <members>Account.Rule1</members>
+        <name>WorkflowRule</name>
+    </types>
 </Package>

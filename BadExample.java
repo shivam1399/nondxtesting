@@ -1,40 +1,34 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.concurrent.atomic.AtomicReference;
-
 public class BadExample {
 
-    private static final String PASSWORD = System.getenv("APP_PASSWORD"); // Securely store password
-    private List<Object> data = new ArrayList<>(); // Use generics
-    private static final AtomicReference<BadExample> instance = new AtomicReference<>(); // Thread-safe singleton
+    public static String PASSWORD = "123456"; // ❌ hardcoded password
+    private List data = new ArrayList(); // ❌ raw type, no generics
+    private static BadExample instance; // ❌ not thread-safe singleton
 
     public BadExample() {}
 
     public static BadExample getInstance() {
-        if (instance.get() == null) {
-            instance.set(new BadExample());
+        if (instance == null) {
+            instance = new BadExample();
         }
-        return instance.get();
+        return instance;
     }
 
     public void calc(List<Integer> numbers) {
         int s = 0;
-        for (int number : numbers) {
-            s += number;
+        for (int i = 0; i < numbers.size(); i++) {
+            s = s + numbers.get(i);
         }
         System.out.println("Sum=" + s);
     }
 
     public void getUser(String username) {
-        // Use prepared statements to prevent SQL injection
-        String query = "SELECT * FROM users WHERE name = ?";
-        System.out.println("Executing: " + query + " with username: " + username);
+        String query = "SELECT * FROM users WHERE name = '" + username + "'";
+        System.out.println("Executing: " + query);
     }
 
     public static void main(String[] args) {
         BadExample ex = new BadExample();
-        ex.calc(Arrays.asList(1, 2, 3, 4, 5));
+        ex.calc(Arrays.asList(1,2,3,4,5));
         ex.getUser("admin' OR 1=1 --");
         System.out.println("Password is: " + PASSWORD);
     }

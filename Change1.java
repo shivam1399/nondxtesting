@@ -4,33 +4,28 @@ import java.sql.*;
 import java.util.*;
 
 public class Change1 {
-    private String dbUrl = "jdbc:mysql://localhost:3306/mydb"; // Hardcoded DB URL
-    private String dbUser = "root"; // Hardcoded username
-    private String dbPass = "password"; // Hardcoded password
+    private final String dbUrl;
+    private final String dbUser;
+    private final String dbPass;
 
-    public void fetchUserData(String username) {
-        try {
-            Connection conn = DriverManager.getConnection(dbUrl, dbUser, dbPass);
-            Statement stmt = conn.createStatement();
-
-            // ❌ SQL Injection vulnerability
-            String query = "SELECT * FROM users WHERE username = '" + username + "'";
-            ResultSet rs = stmt.executeQuery(query);
-
-            while (rs.next()) {
-                System.out.println("User: " + rs.getString("username"));
-            }
-
-            rs.close();
-            stmt.close();
-            conn.close();
-        } catch (Exception e) {
-            e.printStackTrace(); // ❌ Poor exception handling
-        }
+    public Change1(String dbUrl, String dbUser, String dbPass) {
+        this.dbUrl = dbUrl;
+        this.dbUser = dbUser;
+        this.dbPass = dbPass;
     }
 
-    // ❌ Unused method - Code smell
-    public void printInfo() {
-        System.out.println("This method does nothing");
+    public void fetchUserData(String username) {
+        String query = "SELECT * FROM users WHERE username = ?";
+        try (Connection conn = DriverManager.getConnection(dbUrl, dbUser, dbPass);
+             PreparedStatement pstmt = conn.prepareStatement(query)) {
+            pstmt.setString(1, username);
+            try (ResultSet rs = pstmt.executeQuery()) {
+                while (rs.next()) {
+                    System.out.println("User: " + rs.getString("username"));
+                }
+            }
+        } catch (SQLException e) {
+            System.err.println("Database error: " + e.getMessage());
+        }
     }
 }

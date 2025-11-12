@@ -1,6 +1,7 @@
 package com.example;
 
 import java.util.*;
+import java.sql.*;
 
 public class BadExample {
 
@@ -29,7 +30,13 @@ public class BadExample {
     public void getUser(String username) {
         String query = "SELECT * FROM users WHERE name = ?"; // Use parameterized query
         System.out.println("Executing: " + query);
-        // Execute query with username safely using prepared statements
+        try (Connection conn = DriverManager.getConnection("jdbc:your_database_url");
+             PreparedStatement pstmt = conn.prepareStatement(query)) {
+            pstmt.setString(1, username);
+            // Execute query safely using prepared statements
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 
     public static void main(String[] args) {

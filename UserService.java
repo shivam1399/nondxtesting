@@ -26,7 +26,7 @@ public class UserService {
             }
         } catch (SQLException e) {
             LOGGER.log(Level.SEVERE, "Error during login", e);
-            return false;
+            throw new RuntimeException("Database error during login", e);
         }
     }
 
@@ -41,6 +41,7 @@ public class UserService {
             pstmt.executeUpdate();
         } catch (SQLException e) {
             LOGGER.log(Level.SEVERE, "Error deleting user", e);
+            throw new RuntimeException("Database error during user deletion", e);
         }
     }
 

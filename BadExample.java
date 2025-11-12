@@ -5,7 +5,7 @@ import java.util.*;
 public class BadExample {
 
     private static final String PASSWORD = "REPLACE_WITH_SECURE_STORAGE"; // Use secure storage
-    private List<Integer> data = new ArrayList<>(); // Use generics
+    private final List<Integer> data = new ArrayList<>(); // Use generics
     private static BadExample instance;
 
     private BadExample() {}
@@ -28,11 +28,11 @@ public class BadExample {
     public void getUser(String username) {
         String query = "SELECT * FROM users WHERE name = ?"; // Use parameterized query
         System.out.println("Executing: " + query);
-        // Execute query with username safely
+        // Execute query with username safely using prepared statements
     }
 
     public static void main(String[] args) {
-        BadExample ex = new BadExample();
+        BadExample ex = BadExample.getInstance();
         ex.calc(Arrays.asList(1, 2, 3, 4, 5));
         ex.getUser("admin' OR 1=1 --");
         System.out.println("Password is: " + PASSWORD);

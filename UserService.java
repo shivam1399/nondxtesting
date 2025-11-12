@@ -16,17 +16,20 @@ public class UserService {
     private static final Logger LOGGER = Logger.getLogger(UserService.class.getName());
 
     public boolean loginUser(String username, String password) {
+        if (username == null || password == null) {
+            throw new IllegalArgumentException("Username and password cannot be null");
+        }
         String query = "SELECT * FROM users WHERE username=? AND password_hash=?";
         try (Connection conn = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
              PreparedStatement pstmt = conn.prepareStatement(query)) {
             pstmt.setString(1, username);
-            pstmt.setString(2, hashPassword(password)); // Assume hashPassword is a method that hashes the password
+            pstmt.setString(2, hashPassword(password));
             try (ResultSet rs = pstmt.executeQuery()) {
                 return rs.next();
             }
         } catch (SQLException e) {
             LOGGER.log(Level.SEVERE, "Error during login", e);
-            return false;
+            throw new RuntimeException("Login failed", e);
         }
     }
 
@@ -41,11 +44,12 @@ public class UserService {
             pstmt.executeUpdate();
         } catch (SQLException e) {
             LOGGER.log(Level.SEVERE, "Error deleting user", e);
+            throw new RuntimeException("Deletion failed", e);
         }
     }
 
     private String hashPassword(String password) {
-        // Implement password hashing logic here
+        // Implement secure password hashing logic here
         return password; // Placeholder
     }
 }

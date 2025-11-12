@@ -20,7 +20,7 @@ public class UserService {
         try (Connection conn = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
              PreparedStatement pstmt = conn.prepareStatement(query)) {
             pstmt.setString(1, username);
-            pstmt.setString(2, hashPassword(password)); // Assume hashPassword is a method that hashes the password
+            pstmt.setString(2, hashPassword(password));
             try (ResultSet rs = pstmt.executeQuery()) {
                 return rs.next();
             }
@@ -41,11 +41,12 @@ public class UserService {
             pstmt.executeUpdate();
         } catch (SQLException e) {
             LOGGER.log(Level.SEVERE, "Error deleting user", e);
+            throw new RuntimeException("Failed to delete user", e);
         }
     }
 
     private String hashPassword(String password) {
-        // Implement password hashing logic here
+        // Implement secure password hashing logic here
         return password; // Placeholder
     }
 }

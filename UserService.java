@@ -7,6 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.util.Objects;
 
 public class UserService {
 
@@ -20,7 +21,7 @@ public class UserService {
         try (Connection conn = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
              PreparedStatement pstmt = conn.prepareStatement(query)) {
             pstmt.setString(1, username);
-            pstmt.setString(2, hashPassword(password)); // Assume hashPassword is a method that hashes the password
+            pstmt.setString(2, hashPassword(password));
             try (ResultSet rs = pstmt.executeQuery()) {
                 return rs.next();
             }
@@ -31,7 +32,8 @@ public class UserService {
     }
 
     public void deleteUser(String id) {
-        if (id == null || id.isEmpty()) {
+        Objects.requireNonNull(id, "ID cannot be null");
+        if (id.isEmpty()) {
             throw new IllegalArgumentException("Invalid ID");
         }
         String query = "DELETE FROM users WHERE id = ?";
@@ -45,7 +47,7 @@ public class UserService {
     }
 
     private String hashPassword(String password) {
-        // Implement password hashing logic here
+        // Implement secure password hashing logic here (e.g., BCrypt)
         return password; // Placeholder
     }
 }

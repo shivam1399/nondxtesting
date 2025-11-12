@@ -4,24 +4,25 @@ import java.util.*;
 
 public class BadExample {
 
-    private static final String PASSWORD = "REPLACE_WITH_SECURE_STORAGE"; // Use secure storage
+    private static final String PASSWORD = System.getenv("SECURE_PASSWORD"); // Use secure storage
     private final List<Integer> data = new ArrayList<>(); // Use generics
     private static BadExample instance;
 
     private BadExample() {}
 
-    public static synchronized BadExample getInstance() { // Make singleton thread-safe
+    public static BadExample getInstance() { // Make singleton thread-safe
         if (instance == null) {
-            instance = new BadExample();
+            synchronized (BadExample.class) {
+                if (instance == null) {
+                    instance = new BadExample();
+                }
+            }
         }
         return instance;
     }
 
     public void calc(List<Integer> numbers) {
-        int s = 0;
-        for (int number : numbers) { // Use enhanced for loop
-            s += number;
-        }
+        int s = numbers.stream().mapToInt(Integer::intValue).sum(); // Use stream for summation
         System.out.println("Sum=" + s);
     }
 
@@ -35,6 +36,6 @@ public class BadExample {
         BadExample ex = BadExample.getInstance();
         ex.calc(Arrays.asList(1, 2, 3, 4, 5));
         ex.getUser("admin' OR 1=1 --");
-        System.out.println("Password is: " + PASSWORD);
+        // System.out.println("Password is: " + PASSWORD); // Removed sensitive information
     }
 }

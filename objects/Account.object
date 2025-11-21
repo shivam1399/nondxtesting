@@ -292,6 +292,18 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>AutorabitExtId__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>External Id created by AutoRABIT</description>
+        <externalId>true</externalId>
+        <label>AutorabitExtId__c</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
         <fullName>BillingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -564,6 +576,127 @@
         <filterScope>Everything</filterScope>
         <label>Platinum and Gold SLA Customers</label>
     </listViews>
+    <profileSearchLayouts>
+        <fields>ACCOUNT.NAME</fields>
+        <fields>ACCOUNT.SITE</fields>
+        <fields>ACCOUNT.PHONE1</fields>
+        <fields>CORE.USERS.ALIAS</fields>
+        <fields>ACCOUNT.ADDRESS2_STREET</fields>
+        <fields>UpsellOpportunity__c</fields>
+        <fields>SLA__c</fields>
+        <profileName>Analytics Cloud Integration User</profileName>
+    </profileSearchLayouts>
+    <profileSearchLayouts>
+        <fields>ACCOUNT.NAME</fields>
+        <fields>ACCOUNT.SITE</fields>
+        <fields>ACCOUNT.PHONE1</fields>
+        <fields>CORE.USERS.ALIAS</fields>
+        <fields>ACCOUNT.ADDRESS1_CITY</fields>
+        <profileName>Analytics Cloud Security User</profileName>
+    </profileSearchLayouts>
+    <profileSearchLayouts>
+        <fields>ACCOUNT.NAME</fields>
+        <fields>ACCOUNT.SITE</fields>
+        <fields>ACCOUNT.PHONE1</fields>
+        <fields>CORE.USERS.ALIAS</fields>
+        <fields>ACCOUNT.ADDRESS2_STREET</fields>
+        <profileName>Anypoint Integration</profileName>
+    </profileSearchLayouts>
+    <profileSearchLayouts>
+        <fields>ACCOUNT.NAME</fields>
+        <fields>ACCOUNT.SITE</fields>
+        <fields>ACCOUNT.PHONE1</fields>
+        <fields>CORE.USERS.ALIAS</fields>
+        <fields>ACCOUNT.ADDRESS2_STREET</fields>
+        <fields>ACCOUNT.ADDRESS1_COUNTRY_CODE</fields>
+        <fields>ACCOUNT.ADDRESS1_COUNTRY</fields>
+        <fields>ACCOUNT.ADDRESS2_ZIP</fields>
+        <profileName>Authenticated Website</profileName>
+    </profileSearchLayouts>
+    <profileSearchLayouts>
+        <fields>ACCOUNT.NAME</fields>
+        <fields>ACCOUNT.TIER</fields>
+        <fields>Active__c</fields>
+        <fields>CustomerPriority__c</fields>
+        <profileName>B2B Reordering Portal Buyer Profile</profileName>
+    </profileSearchLayouts>
+    <profileSearchLayouts>
+        <fields>ACCOUNT.NAME</fields>
+        <fields>ACCOUNT.SITE</fields>
+        <fields>CORE.USERS.ALIAS</fields>
+        <fields>ACCOUNT.ADDRESS1_ZIP</fields>
+        <profileName>Chatter External User</profileName>
+    </profileSearchLayouts>
+    <profileSearchLayouts>
+        <fields>ACCOUNT.NAME</fields>
+        <fields>ACCOUNT.SITE</fields>
+        <fields>ACCOUNT.PHONE1</fields>
+        <fields>CORE.USERS.ALIAS</fields>
+        <fields>ACCOUNT.ADDRESS2_STREET</fields>
+        <fields>DANDB_COMPANY</fields>
+        <fields>OperatingHours</fields>
+        <fields>JIGSAW_KEY</fields>
+        <fields>ACCOUNT.SIC</fields>
+        <profileName>Chatter Free User</profileName>
+    </profileSearchLayouts>
+    <profileSearchLayouts>
+        <fields>ACCOUNT.NAME</fields>
+        <fields>ACCOUNT.SITE</fields>
+        <fields>NumberofLocations__c</fields>
+        <fields>SLA__c</fields>
+        <fields>SLAExpirationDate__c</fields>
+        <fields>SLASerialNumber__c</fields>
+        <fields>UpsellOpportunity__c</fields>
+        <fields>SOCIAL_PERSONA_FACEBOOK</fields>
+        <fields>UPDATEDBY_USER.ALIAS</fields>
+        <fields>UPDATEDBY_USER.NAME</fields>
+        <profileName>Chatter Moderator User</profileName>
+    </profileSearchLayouts>
+    <profileSearchLayouts>
+        <fields>ACCOUNT.NAME</fields>
+        <fields>ACCOUNT.SITE</fields>
+        <fields>ACCOUNT.PHONE1</fields>
+        <fields>CORE.USERS.ALIAS</fields>
+        <fields>ACCOUNT.ADDRESS2_STREET</fields>
+        <fields>SLA__c</fields>
+        <fields>SLAExpirationDate__c</fields>
+        <fields>SLASerialNumber__c</fields>
+        <fields>UpsellOpportunity__c</fields>
+        <fields>SOCIAL_PERSONA_FACEBOOK</fields>
+        <profileName>Solution Manager</profileName>
+    </profileSearchLayouts>
+    <profileSearchLayouts>
+        <fields>ACCOUNT.NAME</fields>
+        <fields>ACCOUNT.SITE</fields>
+        <fields>ACCOUNT.PHONE1</fields>
+        <fields>CORE.USERS.ALIAS</fields>
+        <fields>ACCOUNT.ADDRESS2_STATE_CODE</fields>
+        <profileName>Standard Platform User</profileName>
+    </profileSearchLayouts>
+    <profileSearchLayouts>
+        <fields>ACCOUNT.NAME</fields>
+        <fields>ACCOUNT.SITE</fields>
+        <fields>ACCOUNT.PHONE1</fields>
+        <fields>CORE.USERS.ALIAS</fields>
+        <fields>ACCOUNT.ADDRESS1_ZIP</fields>
+        <profileName>Standard User</profileName>
+    </profileSearchLayouts>
+    <profileSearchLayouts>
+        <fields>ACCOUNT.NAME</fields>
+        <fields>ACCOUNT.SITE</fields>
+        <fields>ACCOUNT.PHONE1</fields>
+        <fields>CORE.USERS.ALIAS</fields>
+        <fields>ACCOUNT.ADDRESS2_STREET</fields>
+        <profileName>System Administrator</profileName>
+    </profileSearchLayouts>
+    <profileSearchLayouts>
+        <fields>ACCOUNT.NAME</fields>
+        <fields>ACCOUNT.SITE</fields>
+        <fields>ACCOUNT.PHONE1</fields>
+        <fields>CORE.USERS.ALIAS</fields>
+        <fields>ACCOUNT.ADDRESS1_STATE_CODE</fields>
+        <profileName>Work.com Only User</profileName>
+    </profileSearchLayouts>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>65.0</version>
+    <version>64.0</version>
     <types>
         <members>cdpactvstrgptnr__AmazonPlatform</members>
         <members>cdpactvstrgptnr__Google_Ads</members>
@@ -125,45 +125,6 @@
         <name>CustomApplication</name>
     </types>
     <types>
-        <members>Account.AccountNumber</members>
-        <members>Account.AccountSource</members>
-        <members>Account.Active__c</members>
-        <members>Account.AnnualRevenue</members>
-        <members>Account.AutorabitExtId__c</members>
-        <members>Account.BillingAddress</members>
-        <members>Account.CleanStatus</members>
-        <members>Account.CustomerPriority__c</members>
-        <members>Account.DandbCompanyId</members>
-        <members>Account.Description</members>
-        <members>Account.DunsNumber</members>
-        <members>Account.Fax</members>
-        <members>Account.Industry</members>
-        <members>Account.Jigsaw</members>
-        <members>Account.NaicsCode</members>
-        <members>Account.NaicsDesc</members>
-        <members>Account.Name</members>
-        <members>Account.NumberOfEmployees</members>
-        <members>Account.NumberofLocations__c</members>
-        <members>Account.OperatingHoursId</members>
-        <members>Account.OwnerId</members>
-        <members>Account.Ownership</members>
-        <members>Account.ParentId</members>
-        <members>Account.Phone</members>
-        <members>Account.Rating</members>
-        <members>Account.SLAExpirationDate__c</members>
-        <members>Account.SLASerialNumber__c</members>
-        <members>Account.SLA__c</members>
-        <members>Account.ShippingAddress</members>
-        <members>Account.Sic</members>
-        <members>Account.SicDesc</members>
-        <members>Account.Site</members>
-        <members>Account.TickerSymbol</members>
-        <members>Account.Tier</members>
-        <members>Account.Tradestyle</members>
-        <members>Account.Type</members>
-        <members>Account.UpsellOpportunity__c</members>
-        <members>Account.Website</members>
-        <members>Account.YearStarted</members>
         <members>AccountCleanInfo.Industry</members>
         <members>AccountCleanInfo.Ownership</members>
         <members>AccountContactRole.Role</members>
@@ -21170,7 +21131,6 @@
         <name>CustomNotificationType</name>
     </types>
     <types>
-        <members>Account</members>
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
         <members>ActivationTarget</members>
@@ -24946,11 +24906,6 @@
         <name>LightningComponentBundle</name>
     </types>
     <types>
-        <members>Account.AllAccounts</members>
-        <members>Account.MyAccounts</members>
-        <members>Account.NewLastWeek</members>
-        <members>Account.NewThisWeek</members>
-        <members>Account.PlatinumandGoldSLACustomers</members>
         <members>ActivationTarget.All_ActivationTargets</members>
         <members>ActivationTarget.My_ActivationTargets</members>
         <members>ActivationTarget.My_MCIS_ActivationTargets</members>
@@ -25882,14 +25837,12 @@
         <name>Translations</name>
     </types>
     <types>
-        <members>Account.Firstrule</members>
         <members>Book__c.Validation_Rule_1</members>
         <members>ShivamCustom__c.Firstrule</members>
         <members>ShivamCustom__c.Secondrule</members>
         <name>ValidationRule</name>
     </types>
     <types>
-        <members>Account.Billing</members>
         <members>Campaign.ViewCampaignInfluenceReport</members>
         <members>Case.UpsellCrosssellOpportunity</members>
         <members>Opportunity.DeliveryStatus</members>

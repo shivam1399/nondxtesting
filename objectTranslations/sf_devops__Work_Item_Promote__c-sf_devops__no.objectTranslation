@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Arbeidselementpromotering</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Arbeidselementpromoteringer</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Arbeidselementpromotering</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Arbeidselementpromoteringer</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Arbeidselementpromoteringen</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Arbeidselementpromoteringene</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>sf_devops__Completion_Date__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Deployment_Id__c</name>
+    </fields>
+    <fields>
+        <label>Distribusjonsresultat</label>
+        <name>sf_devops__Deployment_Result__c</name>
+        <relationshipLabel>Arbeidselementpromoteringer</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Fletteresultat</label>
+        <name>sf_devops__Merge_Result__c</name>
+        <relationshipLabel>Arbeidselementpromoteringer</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Pipelinefase</label>
+        <name>sf_devops__Pipeline_Stage__c</name>
+        <relationshipLabel>Arbeidselementpromoteringer</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Basebyttegrense</label>
+        <name>sf_devops__Rebase_Limit__c</name>
+    </fields>
+    <fields>
+        <label>Basebyttestatus</label>
+        <name>sf_devops__Rebase_Status__c</name>
+        <relationshipLabel>Basebytter for arbeidselementpromotering</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label>Status</label>
+        <name>sf_devops__Status__c</name>
+        <relationshipLabel>Arbeidselementpromoteringer</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Arbeidselement</label>
+        <name>sf_devops__Work_Item__c</name>
+        <relationshipLabel>Arbeidselementpromoteringer</relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Navn på arbeidselementpromotering</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Du kan ikke promotere et Work_Item til en inaktiv pipeline.</errorMessage>
+        <name>sf_devops__No_Promotion_to_Inactive_Pipeline</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Et Work_Item som er medlem av en Change_Bundle kan ikke promoteres til en Pipeline_Stage.</errorMessage>
+        <name>sf_devops__Promoted_And_Installed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Et Work_Item kan ikke promoteres til en Pipeline_Stage med versjoner.</errorMessage>
+        <name>sf_devops__Promoted_To_Versioned</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Et arbeidselement kan ikke promoteres hvis det ikke er godkjent.</errorMessage>
+        <name>sf_devops__Promoted_Without_Approval</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Et arbeidselement kan bare promoteres til en fase innenfor samme prosjekt.</errorMessage>
+        <name>sf_devops__Promoted_Wrong_Project</name>
+    </validationRules>
+</CustomObjectTranslation>

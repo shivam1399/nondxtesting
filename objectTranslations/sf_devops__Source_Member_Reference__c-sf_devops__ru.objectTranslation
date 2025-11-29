@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Ссылка на участника источника</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Ссылки на участника источника</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Ссылку на участника источника</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Ссылки на участника источника</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Ссылки на участника источника</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Ссылок на участника источника</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Ссылке на участника источника</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Ссылкам на участника источника</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Ссылкой на участника источника</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Ссылками на участника источника</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value>Ссылке на участника источника</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value>Ссылках на участника источника</value>
+    </caseValues>
+    <fields>
+        <label>Является удалением</label>
+        <name>sf_devops__Is_Delete__c</name>
+    </fields>
+    <fields>
+        <label>Является новым</label>
+        <name>sf_devops__Is_New__c</name>
+    </fields>
+    <fields>
+        <label>Удаленное изменение</label>
+        <name>sf_devops__Remote_Change__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Счетчик исправлений</label>
+        <name>sf_devops__Revision_Counter__c</name>
+    </fields>
+    <fields>
+        <label>Код участника источника</label>
+        <name>sf_devops__Source_Member_Id__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Имя ссылки на участника источника</nameFieldLabel>
+</CustomObjectTranslation>

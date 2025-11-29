@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>sf_devops__Ignore_Rules__c</name>
+    </fields>
+    <fields>
+        <help>分支的名稱。</help>
+        <label></label>
+        <name>sf_devops__Name__c</name>
+    </fields>
+    <fields>
+        <help>遠端參考，其位於我們分支的建立來源分支上。</help>
+        <label></label>
+        <name>sf_devops__Parent_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <help>.forceignore 必須套用至可見的變更。</help>
+        <label></label>
+        <name>sf_devops__Recompute_Visible_Changes__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Remote_Reference_Date__c</name>
+    </fields>
+    <fields>
+        <help>我們分支上的最新遠端參考。</help>
+        <label></label>
+        <name>sf_devops__Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Repository__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

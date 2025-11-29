@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>standard__AnypointPlatform</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <hasActivationRequired>true</hasActivationRequired>
+    <label>PermissionSetService</label>
+    <servicePresenceStatusAccesses>
+        <enabled>true</enabled>
+        <servicePresenceStatus>testpresence2</servicePresenceStatus>
+    </servicePresenceStatusAccesses>
+    <servicePresenceStatusAccesses>
+        <enabled>true</enabled>
+        <servicePresenceStatus>testpresence3</servicePresenceStatus>
+    </servicePresenceStatusAccesses>
+    <servicePresenceStatusAccesses>
+        <enabled>true</enabled>
+        <servicePresenceStatus>testpresencestatus</servicePresenceStatus>
+    </servicePresenceStatusAccesses>
+</PermissionSet>

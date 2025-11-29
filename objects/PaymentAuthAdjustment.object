@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
         <actionName>CancelEdit</actionName>
@@ -174,10 +174,5 @@
     <fields>
         <fullName>Type</fullName>
     </fields>
-    <listViews>
-        <fullName>PaymentAuthAdjustment</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

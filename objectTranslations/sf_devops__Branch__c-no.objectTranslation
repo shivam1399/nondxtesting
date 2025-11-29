@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>sf_devops__Ignore_Rules__c</name>
+    </fields>
+    <fields>
+        <help>Navnet på forgreningen.</help>
+        <label></label>
+        <name>sf_devops__Name__c</name>
+    </fields>
+    <fields>
+        <help>Den eksterne referansen i kildeforgreningen som vår forgrening ble opprettet fra.</help>
+        <label></label>
+        <name>sf_devops__Parent_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <help>.forceignore behov som skal brukes på synlige endringer.</help>
+        <label></label>
+        <name>sf_devops__Recompute_Visible_Changes__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Remote_Reference_Date__c</name>
+    </fields>
+    <fields>
+        <help>Den siste eksterne referansen i vår forgrening.</help>
+        <label></label>
+        <name>sf_devops__Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Repository__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

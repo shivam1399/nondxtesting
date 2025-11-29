@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>オブジェクト活動</value>
+    </caseValues>
+    <fields>
+        <label>活動日</label>
+        <name>sf_devops__Activity_Date__c</name>
+    </fields>
+    <fields>
+        <label>活動種別</label>
+        <name>sf_devops__Activity_Type__c</name>
+    </fields>
+    <fields>
+        <label>変更申請</label>
+        <name>sf_devops__Change_Submission__c</name>
+        <relationshipLabel>オブジェクト活動</relationshipLabel>
+    </fields>
+    <fields>
+        <label>環境</label>
+        <name>sf_devops__Environment__c</name>
+        <relationshipLabel>オブジェクト活動</relationshipLabel>
+    </fields>
+    <fields>
+        <label>非表示</label>
+        <name>sf_devops__Hidden__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Message__c</name>
+    </fields>
+    <fields>
+        <label>操作結果</label>
+        <name>sf_devops__Operation_Result__c</name>
+        <relationshipLabel>オブジェクト活動</relationshipLabel>
+    </fields>
+    <fields>
+        <label>親活動</label>
+        <name>sf_devops__Parent_Activity__c</name>
+        <relationshipLabel>子活動</relationshipLabel>
+    </fields>
+    <fields>
+        <label>パイプライン</label>
+        <name>sf_devops__Pipeline__c</name>
+        <relationshipLabel>オブジェクト活動</relationshipLabel>
+    </fields>
+    <fields>
+        <label>プロジェクト</label>
+        <name>sf_devops__Project__c</name>
+        <relationshipLabel>オブジェクト活動</relationshipLabel>
+    </fields>
+    <fields>
+        <label>概要</label>
+        <name>sf_devops__Summary__c</name>
+    </fields>
+    <fields>
+        <label>対象パイプラインフェーズ</label>
+        <name>sf_devops__Target_Pipeline_Stage__c</name>
+        <relationshipLabel>対象オブジェクト活動</relationshipLabel>
+    </fields>
+    <fields>
+        <label>作業項目</label>
+        <name>sf_devops__Work_Item__c</name>
+        <relationshipLabel>オブジェクト活動</relationshipLabel>
+    </fields>
+    <nameFieldLabel>オブジェクト活動名</nameFieldLabel>
+    <validationRules>
+        <errorMessage>参照されている Change_Submission__c は同じ Work_Item からのものである必要があります。</errorMessage>
+        <name>sf_devops__Change_Submission_Work_Item</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>参照されている Environment__c は Object_Activity__c と同じプロジェクトからのものである必要があります。</errorMessage>
+        <name>sf_devops__Environment_Project</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>参照されている Parent_Activity__c は Object_Activity__c と同じプロジェクトからのものである必要があります。</errorMessage>
+        <name>sf_devops__Parent_Activity_Project</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>参照されている Pipeline__c は Object_Activity__c と同じプロジェクトからのものである必要があります。</errorMessage>
+        <name>sf_devops__Pipeline_Project</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>参照されている Target_Pipeline_Stage__c は同じパイプラインからのものである必要があります。</errorMessage>
+        <name>sf_devops__Target_Stage_Pipeline</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>参照されている Work_Item__c は Object_Activity__c と同じプロジェクトからのものである必要があります。</errorMessage>
+        <name>sf_devops__Work_Item_Project</name>
+    </validationRules>
+</CustomObjectTranslation>

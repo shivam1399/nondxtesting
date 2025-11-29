@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Environnement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Environnements</value>
+    </caseValues>
+    <fields>
+        <label>Peut suivre les modifications</label>
+        <name>sf_devops__Can_Track_Changes__c</name>
+    </fields>
+    <fields>
+        <label>Expiré</label>
+        <name>sf_devops__Expired__c</name>
+    </fields>
+    <fields>
+        <label>Dernier compteur de révision</label>
+        <name>sf_devops__Last_Revision_Counter__c</name>
+    </fields>
+    <fields>
+        <label>Identifiant nommé</label>
+        <name>sf_devops__Named_Credential__c</name>
+    </fields>
+    <fields>
+        <label>Résultat de l'opération</label>
+        <name>sf_devops__Operation_Result__c</name>
+        <relationshipLabel>Environnements</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ID d'organisation</label>
+        <name>sf_devops__Org_Id__c</name>
+    </fields>
+    <fields>
+        <label>Projet</label>
+        <name>sf_devops__Project__c</name>
+        <relationshipLabel>Environnements</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Date d'actualisation</label>
+        <name>sf_devops__Refresh_Date__c</name>
+    </fields>
+    <fields>
+        <label>Actualiser la source</label>
+        <name>sf_devops__Refresh_Source__c</name>
+        <relationshipLabel>Environnements</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Remplace</label>
+        <name>sf_devops__Replaces__c</name>
+        <relationshipLabel>Remplace</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Environnement test</label>
+        <name>sf_devops__Test_Environment__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nom de l'environnement</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage>Le champ Expired__c d'un environnement ne peut pas être défini sur false.</errorMessage>
+        <name>sf_devops__Expired_Changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Un environnement ne peut pas être inséré avec Expired__c défini sur true.</errorMessage>
+        <name>sf_devops__Expired_Insert</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Un environnement de remplacement doit être expiré.</errorMessage>
+        <name>sf_devops__Expired_Replaces</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Refresh_Source et Refresh_Date doivent tous les deux être définis ou vides.</errorMessage>
+        <name>sf_devops__Refresh_Source_And_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Unique_Name</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>非同期操作の結果</value>
+    </caseValues>
+    <fields>
+        <label>連動レコード</label>
+        <name>sf_devops__Dependent_Records__c</name>
+    </fields>
+    <fields>
+        <label>エラーの詳細</label>
+        <name>sf_devops__Error_Details__c</name>
+    </fields>
+    <fields>
+        <label>最終状態</label>
+        <name>sf_devops__In_Terminal_State__c</name>
+    </fields>
+    <fields>
+        <label>ログ ID</label>
+        <name>sf_devops__Log_Id__c</name>
+    </fields>
+    <fields>
+        <label>メッセージ</label>
+        <name>sf_devops__Message__c</name>
+    </fields>
+    <fields>
+        <label>操作</label>
+        <name>sf_devops__Operation__c</name>
+    </fields>
+    <fields>
+        <label>リモートコマンド</label>
+        <name>sf_devops__Remote_Commands__c</name>
+    </fields>
+    <fields>
+        <label>状況</label>
+        <name>sf_devops__Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ignored</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>非同期操作の結果名</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Async_Operation_Result の操作は変更できません。</errorMessage>
+        <name>sf_devops__Operation_No_Change</name>
+    </validationRules>
+</CustomObjectTranslation>

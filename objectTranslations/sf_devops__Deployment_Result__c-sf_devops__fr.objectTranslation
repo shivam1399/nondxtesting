@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Résultat du déploiement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Résultats du déploiement</value>
+    </caseValues>
+    <fields>
+        <label>Date de vérification du déploiement</label>
+        <name>sf_devops__Check_Deploy_Date__c</name>
+    </fields>
+    <fields>
+        <label>Statut de vérification du déploiement</label>
+        <name>sf_devops__Check_Deploy_Status__c</name>
+        <relationshipLabel>Résultats de vérification du déploiement</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Déploiement de vérification</label>
+        <name>sf_devops__Check_Deploy__c</name>
+    </fields>
+    <fields>
+        <label>Date de réalisation</label>
+        <name>sf_devops__Completion_Date__c</name>
+    </fields>
+    <fields>
+        <label>ID de déploiement</label>
+        <name>sf_devops__Deployment_Id__c</name>
+    </fields>
+    <fields>
+        <label>Déploiement complet</label>
+        <name>sf_devops__Full_Deploy__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de tests effectués</label>
+        <name>sf_devops__Number_Tests_Completed__c</name>
+    </fields>
+    <fields>
+        <label>Tests exécutés</label>
+        <name>sf_devops__Run_Tests__c</name>
+    </fields>
+    <fields>
+        <label>Statut</label>
+        <name>sf_devops__Status__c</name>
+        <relationshipLabel>Résultats du déploiement</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Niveau test</label>
+        <name>sf_devops__Test_Level__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nom du résultat du déploiement</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,87 +1,94 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
-        <fullName>Agentforce_Hero_Desc</fullName>
+        <fullName>AC1</fullName>
         <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Hero Description Part 1</shortDescription>
-        <value>Resolve customer cases, improve sales, and anticipate customer needs with autonomous agents.</value>
+        <protected>true</protected>
+        <shortDescription>ac111</shortDescription>
+        <value>121233</value>
     </labels>
     <labels>
-        <fullName>Agentforce_Hero_Desc_Cont</fullName>
+        <fullName>CustomLabel12567CustomLabel12567</fullName>
         <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Hero Description Part 2</shortDescription>
-        <value>When you&apos;re ready to dive in, here are three ways to start using Agentforce.</value>
+        <protected>true</protected>
+        <shortDescription>CustomLabel12567</shortDescription>
+        <value>CustomLabel12567</value>
     </labels>
     <labels>
-        <fullName>Agentforce_Launch_Action</fullName>
+        <fullName>CustomLabel19709</fullName>
         <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Launch Card Action</shortDescription>
-        <value>Start Building</value>
+        <protected>true</protected>
+        <shortDescription>CustomLabel19709</shortDescription>
+        <value>Value added from AR</value>
     </labels>
     <labels>
-        <fullName>Agentforce_Launch_Description</fullName>
+        <fullName>CustomLabel23866</fullName>
         <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Launch Card Description</shortDescription>
-        <value>Navigate to &lt;strong&gt;Agents&lt;/strong&gt; in Setup and select &lt;strong&gt;New Agent&lt;/strong&gt; to create one from scratch or start with a pre-built skill.</value>
+        <protected>true</protected>
+        <shortDescription>CustomLabel23866</shortDescription>
+        <value>CustomLabel23866</value>
     </labels>
     <labels>
-        <fullName>Agentforce_Launch_Title</fullName>
+        <fullName>CustomLabel46416</fullName>
         <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Launch Card Title</shortDescription>
-        <value>Build an Agent</value>
+        <protected>true</protected>
+        <shortDescription>CustomLabel46416</shortDescription>
+        <value>CustomLabel46416</value>
     </labels>
     <labels>
-        <fullName>Agentforce_Learn_Action</fullName>
+        <fullName>CustomLabel60371</fullName>
         <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Learn Card Action</shortDescription>
-        <value>Go to Salesforce Help</value>
+        <protected>true</protected>
+        <shortDescription>CustomLabel60371</shortDescription>
+        <value>CustomLabel60371</value>
     </labels>
     <labels>
-        <fullName>Agentforce_Learn_Description</fullName>
+        <fullName>Test1</fullName>
         <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Learn Card Description</shortDescription>
-        <value>Check out an overview or dig into the details of setting up, launching, and fine-tuning Agentforce.</value>
+        <protected>true</protected>
+        <shortDescription>Test1</shortDescription>
+        <value>Value11</value>
     </labels>
     <labels>
-        <fullName>Agentforce_Learn_Title</fullName>
+        <fullName>custLabel</fullName>
         <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Learn Card Title</shortDescription>
-        <value>Learn About Agentforce</value>
+        <protected>true</protected>
+        <shortDescription>custLabel</shortDescription>
+        <value>https://b2cjudolsit.b333clogin.com/b2&amp;amp;</value>
     </labels>
     <labels>
-        <fullName>Agentforce_Practice_Action</fullName>
+        <fullName>issueFix3</fullName>
         <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Practice Card Action</shortDescription>
-        <value>Take Me to Trailhead</value>
+        <protected>true</protected>
+        <shortDescription>issueFix3</shortDescription>
+        <value>https://b2cjudopreprod.b2clogin.com/b2cjudopreprod.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1A_DIGITAL_SIGNUP&amp;client_id=91f5c011-40d2-47c9-b1b2-94085da0a953&amp;nonce=defaultNonce&amp;redirect_uri=https://judo.bank&amp;scope=openid&amp;response_type=code&amp;prompt=login&amp;enc=</value>
     </labels>
     <labels>
-        <fullName>Agentforce_Practice_Description</fullName>
+        <fullName>issuelabel</fullName>
         <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Practice Card Description</shortDescription>
-        <value>Follow detailed pointers and step-by-step instructions on Trailhead to practice setting up and deploying an agent.</value>
+        <protected>true</protected>
+        <shortDescription>issuelabel</shortDescription>
+        <value>issueTextttt</value>
     </labels>
     <labels>
-        <fullName>Agentforce_Practice_Title</fullName>
+        <fullName>label18000</fullName>
         <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Practice Card Title</shortDescription>
-        <value>Practice Creating an Agent</value>
+        <protected>true</protected>
+        <shortDescription>label18000</shortDescription>
+        <value>demo label is</value>
     </labels>
     <labels>
-        <fullName>Agentforce_Welcome_Title</fullName>
+        <fullName>test2</fullName>
         <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Welcome Hero Title</shortDescription>
-        <value>Welcome to Agentforce</value>
+        <protected>true</protected>
+        <shortDescription>test2</shortDescription>
+        <value>y</value>
+    </labels>
+    <labels>
+        <fullName>tr</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>tr</shortDescription>
+        <value>tr</value>
     </labels>
 </CustomLabels>

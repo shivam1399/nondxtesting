@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
         <actionName>Accept</actionName>
@@ -200,6 +200,10 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>IsVisibleInSelfService</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Location</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -275,7 +279,7 @@
             <operation>equals</operation>
             <value>LAST_N_DAYS:30</value>
         </filters>
-        <label>My Team&apos;s Recent Events</label>
+        <label>My Team's Recent Events</label>
     </listViews>
     <listViews>
         <fullName>MyTeamsUpcomingEvents</fullName>
@@ -292,7 +296,7 @@
             <operation>equals</operation>
             <value>TODAY,NEXT_N_DAYS:30</value>
         </filters>
-        <label>My Team&apos;s Upcoming Events</label>
+        <label>My Team's Upcoming Events</label>
     </listViews>
     <listViews>
         <fullName>MyUpcomingEvents</fullName>
@@ -331,7 +335,7 @@
             <operation>greaterOrEqual</operation>
             <value>TODAY</value>
         </filters>
-        <label>Today&apos;s Agenda</label>
+        <label>Today's Agenda</label>
     </listViews>
     <searchLayouts/>
     <sharingModel>Private</sharingModel>

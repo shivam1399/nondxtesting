@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MlDomain xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>testIntentSet1 Desc</description>
+    <label>testIntentSet1</label>
+    <mlIntents>
+        <description>testIntentSet1</description>
+        <developerName>intent1</developerName>
+        <label>intent1</label>
+    </mlIntents>
+    <mlSlotClasses>
+        <dataType>Text</dataType>
+        <description>desc</description>
+        <developerName>entity1</developerName>
+        <extractionType>Value</extractionType>
+        <label>entity1</label>
+    </mlSlotClasses>
+</MlDomain>

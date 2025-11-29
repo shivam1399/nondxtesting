@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CustomVciO</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CustomVciOs</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>Field216088__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

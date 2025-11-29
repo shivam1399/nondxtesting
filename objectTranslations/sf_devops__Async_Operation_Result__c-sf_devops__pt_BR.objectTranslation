@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Resultado da operação assíncrona</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Resultados da operação assíncrona</value>
+    </caseValues>
+    <fields>
+        <label>Registros dependentes</label>
+        <name>sf_devops__Dependent_Records__c</name>
+    </fields>
+    <fields>
+        <label>Detalhes do erro</label>
+        <name>sf_devops__Error_Details__c</name>
+    </fields>
+    <fields>
+        <label>Em estado terminal</label>
+        <name>sf_devops__In_Terminal_State__c</name>
+    </fields>
+    <fields>
+        <label>ID do log</label>
+        <name>sf_devops__Log_Id__c</name>
+    </fields>
+    <fields>
+        <label>Mensagem</label>
+        <name>sf_devops__Message__c</name>
+    </fields>
+    <fields>
+        <label>Operação</label>
+        <name>sf_devops__Operation__c</name>
+    </fields>
+    <fields>
+        <label>Comandos remotos</label>
+        <name>sf_devops__Remote_Commands__c</name>
+    </fields>
+    <fields>
+        <label>Status</label>
+        <name>sf_devops__Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ignored</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome do resultado da operação assíncrona</nameFieldLabel>
+    <validationRules>
+        <errorMessage>A operação de um Async_Operation_Result não pode ser alterada.</errorMessage>
+        <name>sf_devops__Operation_No_Change</name>
+    </validationRules>
+</CustomObjectTranslation>

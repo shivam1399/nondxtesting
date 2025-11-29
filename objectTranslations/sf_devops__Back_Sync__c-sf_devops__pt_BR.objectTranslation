@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Sincronização de retorno</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Sincronizações de retorno</value>
+    </caseValues>
+    <fields>
+        <label>Resultado da implementação</label>
+        <name>sf_devops__Deployment_Result__c</name>
+        <relationshipLabel>Sincronizações em segundo plano</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Ambiente de destino</label>
+        <name>sf_devops__Destination_Environment__c</name>
+        <relationshipLabel>Sincronizações em segundo plano de destino</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Contador de revisão final</label>
+        <name>sf_devops__End_Revision_Counter__c</name>
+    </fields>
+    <fields>
+        <label>Resultado da operação</label>
+        <name>sf_devops__Operation_Result__c</name>
+        <relationshipLabel>Sincronização em segundo plano</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Estágio do pipeline de origem</label>
+        <name>sf_devops__Source_Pipeline_Stage__c</name>
+        <relationshipLabel>Sincronizações em segundo plano de origem</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Contador de revisão inicial</label>
+        <name>sf_devops__Start_Revision_Counter__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nome da sincronização em segundo plano</nameFieldLabel>
+</CustomObjectTranslation>

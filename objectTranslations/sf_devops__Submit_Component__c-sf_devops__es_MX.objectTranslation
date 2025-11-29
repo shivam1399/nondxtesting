@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Componente de envío</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Componentes de envío</value>
+    </caseValues>
+    <fields>
+        <label>Envío de cambio</label>
+        <name>sf_devops__Change_Submission__c</name>
+        <relationshipLabel>Componentes de envío</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Vacío</label>
+        <name>sf_devops__Empty__c</name>
+    </fields>
+    <fields>
+        <label>Ruta de archivo</label>
+        <name>sf_devops__File_Path__c</name>
+    </fields>
+    <fields>
+        <label>Operación</label>
+        <name>sf_devops__Operation__c</name>
+    </fields>
+    <fields>
+        <label>Componente de origen</label>
+        <name>sf_devops__Source_Component__c</name>
+    </fields>
+    <fields>
+        <label>Cambio remoto de origen</label>
+        <name>sf_devops__Source_Remote_Change__c</name>
+        <relationshipLabel>Componentes de envío</relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nombre de Componente de envío</nameFieldLabel>
+    <validationRules>
+        <errorMessage>No se puede cambiar el campo File_Path__c en un Componente de envío una vez establecido.</errorMessage>
+        <name>sf_devops__File_Path</name>
+    </validationRules>
+</CustomObjectTranslation>

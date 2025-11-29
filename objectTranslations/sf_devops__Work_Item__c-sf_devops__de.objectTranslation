@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Arbeitselement</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Arbeitselemente</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Arbeitselement</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Arbeitselemente</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Arbeitselements</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Arbeitselemente</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Arbeitselement</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Arbeitselementen</value>
+    </caseValues>
+    <fields>
+        <label>Zugewiesen zu</label>
+        <name>sf_devops__Assigned_To__c</name>
+        <relationshipLabel>WorkItems</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Branch_Name__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Branch_Parent_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Branch_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label>Verzweigung</label>
+        <name>sf_devops__Branch__c</name>
+        <relationshipLabel>Arbeitselemente</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Änderungspaket</label>
+        <name>sf_devops__Change_Bundle__c</name>
+        <relationshipLabel>Arbeitselemente</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Kombinationsstatus</label>
+        <name>sf_devops__Combine_Status__c</name>
+        <relationshipLabel>Arbeitselemente kombinieren</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Kombiniert mit</label>
+        <name>sf_devops__Combined_With__c</name>
+        <relationshipLabel>Kombinierte Arbeitselemente</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Abgeschlossen</label>
+        <name>sf_devops__Concluded__c</name>
+    </fields>
+    <fields>
+        <label>Umgebungsübergreifende Kombination</label>
+        <name>sf_devops__Cross_Environment_Combination__c</name>
+    </fields>
+    <fields>
+        <label>Beschreibung</label>
+        <name>sf_devops__Description__c</name>
+    </fields>
+    <fields>
+        <label>Entwicklung genehmigt durch</label>
+        <name>sf_devops__Development_Approved_By__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Entwicklung genehmigt</label>
+        <name>sf_devops__Development_Approved__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Entwicklungsumgebung</label>
+        <name>sf_devops__Development_Environment__c</name>
+    </fields>
+    <fields>
+        <label>Verbundene Umgebung</label>
+        <name>sf_devops__Environment__c</name>
+        <relationshipLabel>Arbeitselemente</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Vorgangstatus</label>
+        <name>sf_devops__Operation_Status__c</name>
+        <relationshipLabel>Arbeitselemente</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Projekt</label>
+        <name>sf_devops__Project__c</name>
+        <relationshipLabel>Arbeitselemente</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Höhergestuft aus Umgebung</label>
+        <name>sf_devops__Promoted_From_Environment__c</name>
+        <relationshipLabel>Arbeitselemente</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Höhergestuft</label>
+        <name>sf_devops__Promoted__c</name>
+    </fields>
+    <fields>
+        <label>Rebase-Verzweigung</label>
+        <name>sf_devops__Rebase_Branch__c</name>
+        <relationshipLabel>Arbeitselemente mit ausgeführtem Rebase</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Rebase_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label>Remote-Verweis prüfen</label>
+        <name>sf_devops__Review_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Status</label>
+        <name>sf_devops__State__c</name>
+    </fields>
+    <fields>
+        <label>Thema</label>
+        <name>sf_devops__Subject__c</name>
+    </fields>
+    <fields>
+        <label>Synchronisierungsstatus</label>
+        <name>sf_devops__Synch_State__c</name>
+        <relationshipLabel>Arbeitselemente</relationshipLabel>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Nummer der Arbeitselemente</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Für ein "Work_Item" kann nicht "Development_Approved_By" festgelegt werden, wenn es nicht "Development_Approved" ist.</errorMessage>
+        <name>sf_devops__Approved_By_Without_Approved</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Sie müssen "Development_Approved_By" festlegen, wenn dieses Arbeitselement genehmigt ist.</errorMessage>
+        <name>sf_devops__Approved_Without_Approved_By</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ein Arbeitselement kann nicht ohne Prüfung genehmigt werden.</errorMessage>
+        <name>sf_devops__Approved_Without_Review</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Branch_Without_Remote_Reference</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ein Arbeitselement muss zu demselben Projekt wie das zugehörige Änderungspaket gehören.</errorMessage>
+        <name>sf_devops__Change_Bundle_Project</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ein Arbeitselement kann nicht kombiniert werden, wenn es sich in einem Paket befindet.</errorMessage>
+        <name>sf_devops__Combined_Bundled</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ein Arbeitselement kann nicht kombiniert werden, wenn es nicht auf das Arbeitselement verweist, mit dem es kombiniert wird.</errorMessage>
+        <name>sf_devops__Combined_Not_Combined_With</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ein Arbeitselement kann nicht kombiniert werden, wenn es noch nie höhergestuft wurde.</errorMessage>
+        <name>sf_devops__Combined_Not_Promoted</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Für ein Arbeitselement kann "Combined_With" nicht festgelegt werden, wenn es sich nicht im Status "Kombiniert" befindet.</errorMessage>
+        <name>sf_devops__Combined_With_Not_Combined</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Bei einem Arbeitselement kann "Combined_With" nicht auf ein Arbeitselement festgelegt werden, für das die Kombination nicht vorgenommen wurde.</errorMessage>
+        <name>sf_devops__Combined_With_Not_Survivor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Mögliche Werte für "Concluded_c": CLOSED, NEVERED, COMBINED oder leer.</errorMessage>
+        <name>sf_devops__Concluded_values</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Das Feld "Concluded__c" eines Arbeitselements kann nach der zugehörigen Festlegung nicht mehr geändert werden.</errorMessage>
+        <name>sf_devops__Disable_Concluded</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Das festgelegte Feld "Promoted__c" eines Arbeitselements kann nicht deaktiviert werden.</errorMessage>
+        <name>sf_devops__Disable_Promoted</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Arbeitselemente können nicht mit abgelaufenen Umgebungen verbunden werden.</errorMessage>
+        <name>sf_devops__Environment_Expired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ein Arbeitselement muss zum selben Projekt wie die zugehörige Umgebung gehören.</errorMessage>
+        <name>sf_devops__Environment_Project</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Es ist nicht möglich, auf eine Umgebung zu verweisen, welche die Änderungsverfolgung nicht unterstützt.</errorMessage>
+        <name>sf_devops__Environment_Requires_Tracking</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Das Feld "Promoted_From_Environment__c" eines Arbeitselements kann nach der zugehörigen Festlegung nicht mehr geändert werden.</errorMessage>
+        <name>sf_devops__PromotedFromEnvironment_Changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Das Feld "Promoted_From_Environment__c" eines Arbeitselements kann nicht auf einen anderen Wert als "Environment__c" festgelegt werden. Außerdem kann es nur festgelegt werden, wenn "Environment__c" auf "null" festgelegt wird.</errorMessage>
+        <name>sf_devops__PromotedFromEnvironment_Set</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ein "Work_Item" kann nur dann Mitglied eines "Change_Bundle" sein, wenn es höhergestuft wurde.</errorMessage>
+        <name>sf_devops__Promoted_And_Installed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Es ist nicht möglich, ein "Work_Item" zu erstellen, dessen Kennzeichnung auf "Höhergestuft" festgelegt ist.</errorMessage>
+        <name>sf_devops__Promoted_On_Create</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ein "WorkItem" kann nur höhergestuft werden, wenn es genehmigt ist.</errorMessage>
+        <name>sf_devops__Promoted_Without_Approval</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Für ein Arbeitselement kann das Feld "Rebase-Verzweigung" nicht festgelegt werden, wenn es nicht höhergestuft, gebündelt oder abgeschlossen wurde.</errorMessage>
+        <name>sf_devops__Rebase_Branch</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Rebase_Remote_Reference</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Remote_Reference_Without_Review</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Review_Without_Remote_Reference</name>
+    </validationRules>
+    <webLinks>
+        <label>Im DevOps-Center anzeigen</label>
+        <name>sf_devops__Devops_Center</name>
+    </webLinks>
+</CustomObjectTranslation>

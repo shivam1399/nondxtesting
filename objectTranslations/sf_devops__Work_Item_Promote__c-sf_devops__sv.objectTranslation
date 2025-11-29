@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Uppflyttning av arbetsobjekt</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Uppflyttningar av arbetsobjekt</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>En uppflyttning av arbetsobjekt</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Uppflyttningar av arbetsobjekt</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Uppflyttningen av arbetsobjekt</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Uppflyttningarna av arbetsobjekt</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>sf_devops__Completion_Date__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Deployment_Id__c</name>
+    </fields>
+    <fields>
+        <label>Distribueringsresultat</label>
+        <name>sf_devops__Deployment_Result__c</name>
+        <relationshipLabel>Uppflyttningar av arbetsobjekt</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Sammanslagningsresultat</label>
+        <name>sf_devops__Merge_Result__c</name>
+        <relationshipLabel>Uppflyttningar av arbetsobjekt</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Pipelinefas</label>
+        <name>sf_devops__Pipeline_Stage__c</name>
+        <relationshipLabel>Uppflyttningar av arbetsobjekt</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Ombaseringsgräns</label>
+        <name>sf_devops__Rebase_Limit__c</name>
+    </fields>
+    <fields>
+        <label>Ombaseringsstatus</label>
+        <name>sf_devops__Rebase_Status__c</name>
+        <relationshipLabel>Ombasering av arbetsobjektuppflyttning</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label>Status</label>
+        <name>sf_devops__Status__c</name>
+        <relationshipLabel>Uppflyttningar av arbetsobjekt</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Arbetsobjekt</label>
+        <name>sf_devops__Work_Item__c</name>
+        <relationshipLabel>Uppflyttningar av arbetsobjekt</relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Namn på arbetsobjektuppflyttning</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Du kan inte flytta upp ett Work_Item till en inaktiv pipeline.</errorMessage>
+        <name>sf_devops__No_Promotion_to_Inactive_Pipeline</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ett Work_Item som är medlem i en Change_Bundle kan inte flyttas upp till en Pipeline_Stage.</errorMessage>
+        <name>sf_devops__Promoted_And_Installed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ett Work_Item kan inte flyttas upp till en versionerad Pipeline_Stage.</errorMessage>
+        <name>sf_devops__Promoted_To_Versioned</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ett arbetsobjekt kan inte flyttas upp om det inte är godkänt.</errorMessage>
+        <name>sf_devops__Promoted_Without_Approval</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ett arbetsobjekt kan endast flyttas upp till en fas inom samma projekt.</errorMessage>
+        <name>sf_devops__Promoted_Wrong_Project</name>
+    </validationRules>
+</CustomObjectTranslation>

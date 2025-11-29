@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
         <actionName>CancelEdit</actionName>
@@ -174,7 +174,7 @@
     </fields>
     <fields>
         <fullName>IsTiered</fullName>
-        <inlineHelpText>This setting is permanent and can&apos;t be changed after the promotion is saved. Create a new promotion instead.</inlineHelpText>
+        <inlineHelpText>This setting is permanent and can't be changed after the promotion is saved. Create a new promotion instead.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>

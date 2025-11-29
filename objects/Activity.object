@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
         <actionName>CancelEdit</actionName>
@@ -113,6 +113,54 @@
         <type>Default</type>
     </actionOverrides>
     <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Data_Quality_Description__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Data_Quality_Score__c =100, "Key Event/Task Details Captured","Missing: "&amp;IF( LEN( Subject ) &lt; 3,"Quality Subject Description, ","")&amp;""&amp;IF(LEN(WhoId)=0,"Contact/Lead Reference, ","")&amp;""&amp;IF(LEN(WhatId)=0,"Account/Opportunity Reference",""))</formula>
+        <label>Data Quality Description</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Data_Quality_Score__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( LEN(  Subject  ) &lt; 3, 0,30) + IF( LEN(  WhoId ) = 0, 0,40) + IF( LEN(  WhatId ) = 0, 0,30)</formula>
+        <label>Data Quality Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Praj_Actv_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Praj_Actv_2</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Prajj_Act_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Prajj_Act_2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Prajjwal_Activity__c</fullName>
+        <externalId>false</externalId>
+        <label>Prajjwal_Activity</label>
+        <length>10</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <listViews>
         <fullName>AllActivities</fullName>
         <filterScope>Team</filterScope>
@@ -141,7 +189,7 @@
             <operation>lessThan</operation>
             <value>TOMORROW</value>
         </filters>
-        <label>Today&apos;s Tasks</label>
+        <label>Today's Tasks</label>
     </listViews>
     <listViews>
         <fullName>UpcomingEvents</fullName>
@@ -158,42 +206,6 @@
         </filters>
         <label>Upcoming Events</label>
     </listViews>
-    <profileSearchLayouts>
-        <fields>TASK.SUBJECT</fields>
-        <fields>TASK.WHO_NAME</fields>
-        <fields>TASK.WHAT_NAME</fields>
-        <fields>TASK.DUE_DATE</fields>
-        <fields>CORE.USERS.ALIAS</fields>
-        <fields>ACTIVITY.TASK</fields>
-        <profileName>Analytics Cloud Integration User</profileName>
-    </profileSearchLayouts>
-    <profileSearchLayouts>
-        <fields>TASK.SUBJECT</fields>
-        <fields>TASK.WHO_NAME</fields>
-        <fields>TASK.WHAT_NAME</fields>
-        <fields>TASK.DUE_DATE</fields>
-        <fields>CORE.USERS.ALIAS</fields>
-        <fields>CORE.USERS.FIRST_NAME</fields>
-        <profileName>Analytics Cloud Security User</profileName>
-    </profileSearchLayouts>
-    <profileSearchLayouts>
-        <fields>TASK.SUBJECT</fields>
-        <fields>TASK.WHO_NAME</fields>
-        <fields>TASK.WHAT_NAME</fields>
-        <fields>TASK.DUE_DATE</fields>
-        <fields>CORE.USERS.ALIAS</fields>
-        <fields>CORE.USERS.FIRST_NAME</fields>
-        <profileName>Anypoint Integration</profileName>
-    </profileSearchLayouts>
-    <profileSearchLayouts>
-        <fields>TASK.SUBJECT</fields>
-        <fields>TASK.WHO_NAME</fields>
-        <fields>TASK.WHAT_NAME</fields>
-        <fields>TASK.DUE_DATE</fields>
-        <fields>CORE.USERS.ALIAS</fields>
-        <fields>OWNER_ROLE</fields>
-        <profileName>Authenticated Website</profileName>
-    </profileSearchLayouts>
     <searchLayouts>
         <searchResultsAdditionalFields>TASK.SUBJECT</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>TASK.WHO_NAME</searchResultsAdditionalFields>

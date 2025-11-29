@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Projekt</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Projekter</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Projekt</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Projekter</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Projektet</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Projekterne</value>
+    </caseValues>
+    <fields>
+        <label>Beskrivelse</label>
+        <name>sf_devops__Description__c</name>
+    </fields>
+    <fields>
+        <label>Skjul</label>
+        <name>sf_devops__Hidden__c</name>
+    </fields>
+    <fields>
+        <label>Sfdx-project.json's pakkebiblioteker</label>
+        <name>sf_devops__Package_Directories__c</name>
+    </fields>
+    <fields>
+        <label>Platformslager</label>
+        <name>sf_devops__Platform_Repository__c</name>
+        <relationshipLabel>Platformsprojekter</relationshipLabel>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Projektnavn</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Platform_Repository__c kan ikke redigeres.</errorMessage>
+        <name>sf_devops__No_Platform_Repository_Change</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Projekter kræver et unikt navn.</errorMessage>
+        <name>sf_devops__Unique_Name</name>
+    </validationRules>
+    <webLinks>
+        <label>Vis i DevOps Center</label>
+        <name>sf_devops__Devops_Center</name>
+    </webLinks>
+</CustomObjectTranslation>

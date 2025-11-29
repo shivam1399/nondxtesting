@@ -11,9 +11,9 @@
     <caseMergeInLightning>false</caseMergeInLightning>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
     <defaultCaseFeedLayoutOn>true</defaultCaseFeedLayoutOn>
-    <defaultCaseOwner>epic.4688c0b56b7f@orgfarm.com</defaultCaseOwner>
+    <defaultCaseOwner>qa2@ar.com</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
-    <defaultCaseUser>epic.4688c0b56b7f@orgfarm.com</defaultCaseUser>
+    <defaultCaseUser>qa2@ar.com</defaultCaseUser>
     <emailToCase>
         <enableEmailToCase>false</enableEmailToCase>
     </emailToCase>
@@ -22,6 +22,8 @@
     <enableCollapseEmailThread>true</enableCollapseEmailThread>
     <enableEarlyEscalationRuleTriggers>false</enableEarlyEscalationRuleTriggers>
     <enableEscalateQfiToCaseInternal>false</enableEscalateQfiToCaseInternal>
+    <enableEscalateQfiToCaseNetworks>false</enableEscalateQfiToCaseNetworks>
+    <enableExtNetworksCaseFeedEnabled>false</enableExtNetworksCaseFeedEnabled>
     <enableMultiLangSolnSrchCSS>false</enableMultiLangSolnSrchCSS>
     <enableMultiLangSolnSrchPKB>false</enableMultiLangSolnSrchPKB>
     <enableMultiLangSolution>false</enableMultiLangSolution>
@@ -30,6 +32,7 @@
     <enableSolutionShortSummary>true</enableSolutionShortSummary>
     <enableSuggestedSolutions>true</enableSuggestedSolutions>
     <escalateCaseBefore>false</escalateCaseBefore>
+    <keepRecordTypeOnAssignmentRule>true</keepRecordTypeOnAssignmentRule>
     <notifyContactOnCaseComment>false</notifyContactOnCaseComment>
     <notifyDefaultCaseOwner>false</notifyDefaultCaseOwner>
     <notifyOwnerOnCaseComment>false</notifyOwnerOnCaseComment>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Entorno</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Entornos</value>
+    </caseValues>
+    <fields>
+        <label>Puede supervisar cambios</label>
+        <name>sf_devops__Can_Track_Changes__c</name>
+    </fields>
+    <fields>
+        <label>Caducado</label>
+        <name>sf_devops__Expired__c</name>
+    </fields>
+    <fields>
+        <label>Último contador de revisiones</label>
+        <name>sf_devops__Last_Revision_Counter__c</name>
+    </fields>
+    <fields>
+        <label>Credencial nombrada</label>
+        <name>sf_devops__Named_Credential__c</name>
+    </fields>
+    <fields>
+        <label>Resultado de operación</label>
+        <name>sf_devops__Operation_Result__c</name>
+        <relationshipLabel>Entornos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Id. de organización</label>
+        <name>sf_devops__Org_Id__c</name>
+    </fields>
+    <fields>
+        <label>Proyecto</label>
+        <name>sf_devops__Project__c</name>
+        <relationshipLabel>Entornos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Fecha de actualización</label>
+        <name>sf_devops__Refresh_Date__c</name>
+    </fields>
+    <fields>
+        <label>Actualizar origen</label>
+        <name>sf_devops__Refresh_Source__c</name>
+        <relationshipLabel>Entornos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Sustituye</label>
+        <name>sf_devops__Replaces__c</name>
+        <relationshipLabel>Sustituye</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Entorno de prueba</label>
+        <name>sf_devops__Test_Environment__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nombre de entorno</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Un entorno puede tener su conjunto de campos Expired__c establecido en false.</errorMessage>
+        <name>sf_devops__Expired_Changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>No se puede insertar un entorno con Expired__c establecido en true.</errorMessage>
+        <name>sf_devops__Expired_Insert</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Debe hacerse caducar un entorno de sustitución.</errorMessage>
+        <name>sf_devops__Expired_Replaces</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Debe establecerse tanto Refresh_Source como Refresh_Date, o que ambas estén vacías.</errorMessage>
+        <name>sf_devops__Refresh_Source_And_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Unique_Name</name>
+    </validationRules>
+</CustomObjectTranslation>

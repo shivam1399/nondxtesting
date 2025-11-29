@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Ausgeblendete Remote-Änderung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Ausgeblendete Remote-Änderungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Ausgeblendete Remote-Änderung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Ausgeblendete Remote-Änderungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Ausgeblendeter Remote-Änderung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Ausgeblendeter Remote-Änderungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Ausgeblendeter Remote-Änderung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Ausgeblendeten Remote-Änderungen</value>
+    </caseValues>
+    <fields>
+        <label>Durch "Erzwingung ignoriert" verborgen</label>
+        <name>sf_devops__Hidden_by_Force_Ignore__c</name>
+    </fields>
+    <fields>
+        <label>Remote-Änderung</label>
+        <name>sf_devops__Remote_Change__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Arbeitselement</label>
+        <name>sf_devops__Work_Item__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Name der ausgeblendeten Remote-Änderung</nameFieldLabel>
+</CustomObjectTranslation>

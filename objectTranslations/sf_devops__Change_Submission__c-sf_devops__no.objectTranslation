@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Endringsinnsending</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Endringsinnsendinger</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Endringsinnsending</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Endringsinnsendinger</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Endringsinnsendingen</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Endringsinnsendingene</value>
+    </caseValues>
+    <fields>
+        <label>Kommenter</label>
+        <name>sf_devops__Comment__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Completed__c</name>
+    </fields>
+    <fields>
+        <label>Opprettelsesresultat</label>
+        <name>sf_devops__Creation_Result__c</name>
+        <relationshipLabel>Endringsinnsendinger</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Inspeksjonsresultat</label>
+        <name>sf_devops__Inspection_Result__c</name>
+        <relationshipLabel>Inspiserte endringsinnsendinger</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Modified_Remote_Changes__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Open_Beta_Migrated__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Prior_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label>Ekstern referanse</label>
+        <name>sf_devops__Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Removed_Remote_Changes__c</name>
+    </fields>
+    <fields>
+        <label>Oppbevaringssted</label>
+        <name>sf_devops__Repository__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Innsendt av, navn</label>
+        <name>sf_devops__Submitted_By_Name__c</name>
+    </fields>
+    <fields>
+        <label>Innsendt av</label>
+        <name>sf_devops__Submitted_By__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Innsendt den</label>
+        <name>sf_devops__Submitted_On__c</name>
+    </fields>
+    <fields>
+        <label>Arbeidselement</label>
+        <name>sf_devops__Work_Item__c</name>
+        <relationshipLabel>Endringsinnsendinger</relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Navn på endringsinnsending</nameFieldLabel>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Prior_Remote_Reference_External_Only</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Kan ikke knyttes til et arbeidselement fra et annet prosjekt.</errorMessage>
+        <name>sf_devops__Work_Item_and_Repository_Same_Project</name>
+    </validationRules>
+</CustomObjectTranslation>

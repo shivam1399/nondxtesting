@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Arbeidselement</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Arbeidselementer</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Arbeidselement</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Arbeidselementer</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Arbeidselementet</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Arbeidselementene</value>
+    </caseValues>
+    <fields>
+        <label>Tildelt til</label>
+        <name>sf_devops__Assigned_To__c</name>
+        <relationshipLabel>Arbeidselementer</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Branch_Name__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Branch_Parent_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Branch_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label>Forgrening</label>
+        <name>sf_devops__Branch__c</name>
+        <relationshipLabel>Arbeidselementer</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Endringspakke</label>
+        <name>sf_devops__Change_Bundle__c</name>
+        <relationshipLabel>Arbeidselementer</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Kombiner status</label>
+        <name>sf_devops__Combine_Status__c</name>
+        <relationshipLabel>Kombiner arbeidselementer</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Kombinert med</label>
+        <name>sf_devops__Combined_With__c</name>
+        <relationshipLabel>Kombinerte arbeidselementer</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Konkludert</label>
+        <name>sf_devops__Concluded__c</name>
+    </fields>
+    <fields>
+        <label>Kryssmiljøkombinasjon</label>
+        <name>sf_devops__Cross_Environment_Combination__c</name>
+    </fields>
+    <fields>
+        <label>Beskrivelse</label>
+        <name>sf_devops__Description__c</name>
+    </fields>
+    <fields>
+        <label>Utvikling godkjent av</label>
+        <name>sf_devops__Development_Approved_By__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Utvikling godkjent</label>
+        <name>sf_devops__Development_Approved__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Utviklingsmiljø</label>
+        <name>sf_devops__Development_Environment__c</name>
+    </fields>
+    <fields>
+        <label>Tilkoblet miljø</label>
+        <name>sf_devops__Environment__c</name>
+        <relationshipLabel>Arbeidselementer</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Operasjonsstatus</label>
+        <name>sf_devops__Operation_Status__c</name>
+        <relationshipLabel>Arbeidselementer</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Prosjekt</label>
+        <name>sf_devops__Project__c</name>
+        <relationshipLabel>Arbeidselementer</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Promotert fra miljø</label>
+        <name>sf_devops__Promoted_From_Environment__c</name>
+        <relationshipLabel>Arbeidselementer</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Promotert</label>
+        <name>sf_devops__Promoted__c</name>
+    </fields>
+    <fields>
+        <label>Basebytte for gren</label>
+        <name>sf_devops__Rebase_Branch__c</name>
+        <relationshipLabel>Arbeidselementer med basebytte</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Rebase_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label>Gjennomgang ekstern referanse</label>
+        <name>sf_devops__Review_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Status</label>
+        <name>sf_devops__State__c</name>
+    </fields>
+    <fields>
+        <label>Emne</label>
+        <name>sf_devops__Subject__c</name>
+    </fields>
+    <fields>
+        <label>Synkroniseringstilstand</label>
+        <name>sf_devops__Synch_State__c</name>
+        <relationshipLabel>Arbeidselementer</relationshipLabel>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Arbeidselementnummer</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Et Work_Item kan ikke ha Development_Approved_By angitt hvis det ikke er Development_Approved.</errorMessage>
+        <name>sf_devops__Approved_By_Without_Approved</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Du må angi Development_Approved_By når dette arbeidselementet er godkjent.</errorMessage>
+        <name>sf_devops__Approved_Without_Approved_By</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Et arbeidselement kan ikke godkjennes uten en gjennomgang.</errorMessage>
+        <name>sf_devops__Approved_Without_Review</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Branch_Without_Remote_Reference</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Et arbeidselement må tilhøre samme prosjekt som dets endringspakke.</errorMessage>
+        <name>sf_devops__Change_Bundle_Project</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Et arbeidselement kan ikke kombineres hvis det er i en pakke.</errorMessage>
+        <name>sf_devops__Combined_Bundled</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Et arbeidselement kan ikke kombineres hvis det ikke refererer til arbeidselementet det er kombinert med.</errorMessage>
+        <name>sf_devops__Combined_Not_Combined_With</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Et arbeidselement kan ikke kombineres hvis det aldri har blitt promotert.</errorMessage>
+        <name>sf_devops__Combined_Not_Promoted</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Et arbeidselement kan ikke ha Combined_With angitt hvis det ikke er i Kombinert-tilstand.</errorMessage>
+        <name>sf_devops__Combined_With_Not_Combined</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Et arbeidselement kan ikke ha Combined_With satt til et arbeidselement som ikke utførte Kombiner-operasjonen.</errorMessage>
+        <name>sf_devops__Combined_With_Not_Survivor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Mulige verdier for Concluded_c er: CLOSED, NEVERED, COMBINED eller tom.</errorMessage>
+        <name>sf_devops__Concluded_values</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Et arbeidselement kan ikke få Concluded__c-feltet endret etter at det er angitt.</errorMessage>
+        <name>sf_devops__Disable_Concluded</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Et arbeidselement kan ikke få Promoted__c-feltet deaktivert etter at det er angitt.</errorMessage>
+        <name>sf_devops__Disable_Promoted</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Arbeidselementer kan ikke være koblet til utløpte miljøer.</errorMessage>
+        <name>sf_devops__Environment_Expired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Et arbeidselement må tilhøre samme prosjekt som dets miljø.</errorMessage>
+        <name>sf_devops__Environment_Project</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Kan ikke referere til miljø som ikke støtter endringssporing.</errorMessage>
+        <name>sf_devops__Environment_Requires_Tracking</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Et arbeidselement kan ikke få Promoted_From_Environment__c-feltet endret etter at det er angitt.</errorMessage>
+        <name>sf_devops__PromotedFromEnvironment_Changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Et arbeidselement kan ikke få Promoted_From_Environment__c-feltet angitt med en verdi som er forskjellig fra verdien for Environment__c, og det kan bare angis når Environment__c blir satt til null.</errorMessage>
+        <name>sf_devops__PromotedFromEnvironment_Set</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Et Work_Item kan ikke være medlem av en Change_Bundle hvis det aldri har vært promotert.</errorMessage>
+        <name>sf_devops__Promoted_And_Installed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Du kan ikke opprette et Work_Item med Promotert-flagget angitt.</errorMessage>
+        <name>sf_devops__Promoted_On_Create</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Et arbeidselement kan ikke promoteres hvis det ikke er godkjent.</errorMessage>
+        <name>sf_devops__Promoted_Without_Approval</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Et arbeidselement kan ikke ha basebytte for gren-feltet angitt hvis det er ikke-promotert, pakket eller konkludert.</errorMessage>
+        <name>sf_devops__Rebase_Branch</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Rebase_Remote_Reference</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Remote_Reference_Without_Review</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Review_Without_Remote_Reference</name>
+    </validationRules>
+    <webLinks>
+        <label>Vis i DevOps Center</label>
+        <name>sf_devops__Devops_Center</name>
+    </webLinks>
+</CustomObjectTranslation>

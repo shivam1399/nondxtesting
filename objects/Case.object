@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
         <actionName>Accept</actionName>
@@ -196,6 +196,26 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
+    <businessProcesses>
+        <fullName>Test</fullName>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Working</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
@@ -250,6 +270,30 @@
     <fields>
         <fullName>ContactPhone</fullName>
         <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Data_Quality_Description__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Data_Quality_Score__c =100,"All Case Details Captured", "Missing: "&amp;IF( ISPICKVAL( Status,""),"Status, ","")&amp;""&amp;IF(ISPICKVAL( Type ,""), "Type, ","")&amp;""&amp;IF( ISPICKVAL( Origin ,""), "Origin, ","")&amp;""&amp;IF( ISPICKVAL( Reason ,""), "Reason, ","")&amp;""&amp;IF( ISPICKVAL( Priority ,""), "Priority, ","")&amp;""&amp;IF( LEN( Subject )&lt;5, "Meaningful Subject Line","")&amp;""&amp;IF( OR(LEN(ContactId)=0,LEN( AccountId)=0), "Associated Account and Contact",""))</formula>
+        <label>Data Quality Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Data_Quality_Score__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( OR(LEN(ContactId)=0,LEN( AccountId)=0), 0,10) + IF( ISPICKVAL( Status ,""), 0,15) + IF( ISPICKVAL( Type ,""), 0,15) + IF( ISPICKVAL( Origin ,""), 0,15) + IF( ISPICKVAL(   Reason ,""), 0,15) + IF(ISPICKVAL(Priority, ""),0,15) + IF(LEN( Subject )&lt;5,0,15)</formula>
+        <label>Data Quality Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Description</fullName>
@@ -515,6 +559,15 @@
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
     </fields>
+    <fields>
+        <fullName>number_field1__c</fullName>
+        <displayFormat>A-{0000}</displayFormat>
+        <externalId>false</externalId>
+        <label>number field1</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
     <listViews>
         <fullName>AllClosedCases</fullName>
         <columns>CASES.CASE_NUMBER</columns>
@@ -535,11 +588,6 @@
     <listViews>
         <fullName>AllOpenCases</fullName>
         <filterScope>Everything</filterScope>
-        <filters>
-            <field>CASES.CREATED_DATE_DATE_ONLY</field>
-            <operation>equals</operation>
-            <value>LAST_N_DAYS:30</value>
-        </filters>
         <filters>
             <field>CASES.CLOSED</field>
             <operation>equals</operation>
@@ -562,6 +610,310 @@
         </filters>
         <label>My Open Cases</label>
     </listViews>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>true</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Custom_Action</fullName>
+        <active>true</active>
+        <businessProcess>Test</businessProcess>
+        <label>Custom_Action</label>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PotentialLiability__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Product__c</picklist>
+            <values>
+                <fullName>GC1020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC1040</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC1060</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC3020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC3040</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC3060</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC5020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC5040</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC5060</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Breakdown</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Equipment Complexity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Equipment Design</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Feedback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Installation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Performance</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SLAViolation__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Electrical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electronic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mechanical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Structural</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>test_Digamber</fullName>
+        <active>true</active>
+        <businessProcess>Test</businessProcess>
+        <label>test Digamber</label>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PotentialLiability__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Product__c</picklist>
+            <values>
+                <fullName>GC1020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC1040</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC1060</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC3020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC3040</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC3060</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC5020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC5040</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC5060</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Breakdown</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Equipment Complexity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Equipment Design</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Feedback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Installation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Performance</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SLAViolation__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Electrical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electronic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mechanical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Structural</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>
         <customTabListAdditionalFields>CASES.SUBJECT</customTabListAdditionalFields>

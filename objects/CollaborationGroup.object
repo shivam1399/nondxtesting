@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
         <actionName>AddMembersAction</actionName>
@@ -138,4 +138,15 @@
         </filters>
         <label>Active Groups</label>
     </listViews>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypes>
+        <fullName>Case_LogACall</fullName>
+        <active>true</active>
+        <label>Case.LogACall</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>RecordType1</fullName>
+        <active>true</active>
+        <label>RecordType1</label>
+    </recordTypes>
 </CustomObject>

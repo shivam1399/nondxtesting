@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Reversión de sincronización</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Reversiones de sincronizaciones</value>
+    </caseValues>
+    <fields>
+        <label>Resultado de implementación</label>
+        <name>sf_devops__Deployment_Result__c</name>
+        <relationshipLabel>Reversiones de sincronizaciones</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Entorno de destino</label>
+        <name>sf_devops__Destination_Environment__c</name>
+        <relationshipLabel>Reversiones de sincronizaciones de destino</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Finalizar contador de revisiones</label>
+        <name>sf_devops__End_Revision_Counter__c</name>
+    </fields>
+    <fields>
+        <label>Resultado de operación</label>
+        <name>sf_devops__Operation_Result__c</name>
+        <relationshipLabel>Reversión de sincronización</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Etapa de canalización de origen</label>
+        <name>sf_devops__Source_Pipeline_Stage__c</name>
+        <relationshipLabel>Reversiones de sincronizaciones de origen</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Iniciar contador de revisiones</label>
+        <name>sf_devops__Start_Revision_Counter__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nombre de reversión de sincronización</nameFieldLabel>
+</CustomObjectTranslation>

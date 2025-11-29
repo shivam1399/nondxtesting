@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Composant à déployer</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Composants à déployer</value>
+    </caseValues>
+    <fields>
+        <label>Résultat du déploiement</label>
+        <name>sf_devops__Deployment_Result__c</name>
+        <relationshipLabel>Composants à déployer</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Chemin d'accès au fichier</label>
+        <name>sf_devops__File_Path__c</name>
+    </fields>
+    <fields>
+        <label>À ignorer</label>
+        <name>sf_devops__Force_Ignored__c</name>
+    </fields>
+    <fields>
+        <label>Opération</label>
+        <name>sf_devops__Operation__c</name>
+    </fields>
+    <fields>
+        <label>Composant source</label>
+        <name>sf_devops__Source_Component__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nom du composant à déployer</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pipeline</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pipeline</value>
+    </caseValues>
+    <fields>
+        <label>Attivata</label>
+        <name>sf_devops__Activated__c</name>
+    </fields>
+    <fields>
+        <label>Progetto</label>
+        <name>sf_devops__Project__c</name>
+        <relationshipLabel>Pipeline</relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nome pipeline</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage>Le pipeline richiedono un nome univoco.</errorMessage>
+        <name>sf_devops__Unique_Name</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Estado de sincronización Vcs</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Estados de sincronizaciones Vcs</value>
+    </caseValues>
+    <fields>
+        <label>Fecha de última sincronización</label>
+        <name>sf_devops__Last_Synch_Date__c</name>
+    </fields>
+    <fields>
+        <label>Proyecto</label>
+        <name>sf_devops__Project__c</name>
+        <relationshipLabel>Estados de sincronización</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Recuento de reintentos</label>
+        <name>sf_devops__Retry_Count__c</name>
+    </fields>
+    <fields>
+        <label>Id. de Trabajo de sincronización</label>
+        <name>sf_devops__Synch_Job_Id__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de sincronización</label>
+        <name>sf_devops__Synch_Name__c</name>
+    </fields>
+    <fields>
+        <label>Estado de sincronización</label>
+        <name>sf_devops__Synch_Status__c</name>
+        <relationshipLabel>Estados de sincronización Vcs</relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nombre de estado de sincronización Vcs</nameFieldLabel>
+</CustomObjectTranslation>

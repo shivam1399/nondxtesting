@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>프로젝트</value>
+    </caseValues>
+    <fields>
+        <label>설명</label>
+        <name>sf_devops__Description__c</name>
+    </fields>
+    <fields>
+        <label>숨기기</label>
+        <name>sf_devops__Hidden__c</name>
+    </fields>
+    <fields>
+        <label>Sfdx-project.json의 패키지 디렉터리</label>
+        <name>sf_devops__Package_Directories__c</name>
+    </fields>
+    <fields>
+        <label>플랫폼 리포지토리</label>
+        <name>sf_devops__Platform_Repository__c</name>
+        <relationshipLabel>플랫폼 프로젝트</relationshipLabel>
+    </fields>
+    <nameFieldLabel>프로젝트 이름</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Platform_Repository__c은(는) 수정할 수 없습니다.</errorMessage>
+        <name>sf_devops__No_Platform_Repository_Change</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>프로젝트에는 고유한 이름이 필요합니다.</errorMessage>
+        <name>sf_devops__Unique_Name</name>
+    </validationRules>
+    <webLinks>
+        <label>DevOps Center에서 보기</label>
+        <name>sf_devops__Devops_Center</name>
+    </webLinks>
+</CustomObjectTranslation>

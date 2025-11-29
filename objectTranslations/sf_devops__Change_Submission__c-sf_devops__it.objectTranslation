@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Invio di modifiche</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Invii di modifiche</value>
+    </caseValues>
+    <fields>
+        <label>Commento</label>
+        <name>sf_devops__Comment__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Completed__c</name>
+    </fields>
+    <fields>
+        <label>Risultato creazione</label>
+        <name>sf_devops__Creation_Result__c</name>
+        <relationshipLabel>Invii di modifiche</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Risultato ispezione</label>
+        <name>sf_devops__Inspection_Result__c</name>
+        <relationshipLabel>Invii di modifiche ispezionati</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Modified_Remote_Changes__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Open_Beta_Migrated__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Prior_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label>Riferimento remoto</label>
+        <name>sf_devops__Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Removed_Remote_Changes__c</name>
+    </fields>
+    <fields>
+        <label>Archivio</label>
+        <name>sf_devops__Repository__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Inviate da Nome</label>
+        <name>sf_devops__Submitted_By_Name__c</name>
+    </fields>
+    <fields>
+        <label>Inviate da</label>
+        <name>sf_devops__Submitted_By__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Inviate il</label>
+        <name>sf_devops__Submitted_On__c</name>
+    </fields>
+    <fields>
+        <label>Voce su cui lavorare</label>
+        <name>sf_devops__Work_Item__c</name>
+        <relationshipLabel>Invii di modifiche</relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome invio di modifiche</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Prior_Remote_Reference_External_Only</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Non può essere associato a un voce su cui lavorare di un altro progetto.</errorMessage>
+        <name>sf_devops__Work_Item_and_Repository_Same_Project</name>
+    </validationRules>
+</CustomObjectTranslation>

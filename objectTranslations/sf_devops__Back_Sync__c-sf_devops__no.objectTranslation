@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Tilbakesynkronisering</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Tilbakesynkroniseringer</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Tilbakesynkronisering</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Tilbakesynkroniseringer</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Tilbakesynkroniseringen</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Tilbakesynkroniseringene</value>
+    </caseValues>
+    <fields>
+        <label>Distribusjonsresultat</label>
+        <name>sf_devops__Deployment_Result__c</name>
+        <relationshipLabel>Tilbakesynkroniseringer</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Målmiljø</label>
+        <name>sf_devops__Destination_Environment__c</name>
+        <relationshipLabel>Mål for tilbakesynkroniseringer</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Sluttrevisjonsteller</label>
+        <name>sf_devops__End_Revision_Counter__c</name>
+    </fields>
+    <fields>
+        <label>Operasjonsresultat</label>
+        <name>sf_devops__Operation_Result__c</name>
+        <relationshipLabel>Tilbakesynkronisering</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Kildepipelinefase</label>
+        <name>sf_devops__Source_Pipeline_Stage__c</name>
+        <relationshipLabel>Kilde for tilbakesynkroniseringer</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Startrevisjonsteller</label>
+        <name>sf_devops__Start_Revision_Counter__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Navn på tilbakesynkronisering</nameFieldLabel>
+</CustomObjectTranslation>

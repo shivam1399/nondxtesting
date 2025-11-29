@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>개체 활동</value>
+    </caseValues>
+    <fields>
+        <label>활동 일자</label>
+        <name>sf_devops__Activity_Date__c</name>
+    </fields>
+    <fields>
+        <label>활동 유형</label>
+        <name>sf_devops__Activity_Type__c</name>
+    </fields>
+    <fields>
+        <label>변경 제출</label>
+        <name>sf_devops__Change_Submission__c</name>
+        <relationshipLabel>개체 활동</relationshipLabel>
+    </fields>
+    <fields>
+        <label>환경</label>
+        <name>sf_devops__Environment__c</name>
+        <relationshipLabel>개체 활동</relationshipLabel>
+    </fields>
+    <fields>
+        <label>숨김</label>
+        <name>sf_devops__Hidden__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Message__c</name>
+    </fields>
+    <fields>
+        <label>작업 결과</label>
+        <name>sf_devops__Operation_Result__c</name>
+        <relationshipLabel>개체 활동</relationshipLabel>
+    </fields>
+    <fields>
+        <label>상위 활동</label>
+        <name>sf_devops__Parent_Activity__c</name>
+        <relationshipLabel>하위 활동</relationshipLabel>
+    </fields>
+    <fields>
+        <label>파이프라인</label>
+        <name>sf_devops__Pipeline__c</name>
+        <relationshipLabel>개체 활동</relationshipLabel>
+    </fields>
+    <fields>
+        <label>프로젝트</label>
+        <name>sf_devops__Project__c</name>
+        <relationshipLabel>개체 활동</relationshipLabel>
+    </fields>
+    <fields>
+        <label>요약</label>
+        <name>sf_devops__Summary__c</name>
+    </fields>
+    <fields>
+        <label>대상 파이프라인 스테이지</label>
+        <name>sf_devops__Target_Pipeline_Stage__c</name>
+        <relationshipLabel>대상 개체 활동</relationshipLabel>
+    </fields>
+    <fields>
+        <label>작업 항목</label>
+        <name>sf_devops__Work_Item__c</name>
+        <relationshipLabel>개체 활동</relationshipLabel>
+    </fields>
+    <nameFieldLabel>개체 활동 이름</nameFieldLabel>
+    <validationRules>
+        <errorMessage>참조된 Change_Submission__c은(는) 동일한 Work_Item에 있어야 합니다.</errorMessage>
+        <name>sf_devops__Change_Submission_Work_Item</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>참조된 Environment__c은(는) Object_Activity__c와(과) 동일한 프로젝트에 있어야 합니다.</errorMessage>
+        <name>sf_devops__Environment_Project</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>참조된 Parent_Activity__c은(는) Object_Activity__c와(과) 동일한 프로젝트에 있어야 합니다.</errorMessage>
+        <name>sf_devops__Parent_Activity_Project</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>참조된 Pipeline__c은(는) Object_Activity__c와(과) 동일한 프로젝트에 있어야 합니다.</errorMessage>
+        <name>sf_devops__Pipeline_Project</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>참조된 Target_Pipeline_Stage__c은(는) 동일한 파이프라인에 있어야 합니다.</errorMessage>
+        <name>sf_devops__Target_Stage_Pipeline</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>참조된 Work_Item__c은(는) Object_Activity__c와(과) 동일한 프로젝트에 있어야 합니다.</errorMessage>
+        <name>sf_devops__Work_Item_Project</name>
+    </validationRules>
+</CustomObjectTranslation>

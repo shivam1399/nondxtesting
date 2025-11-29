@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <assignmentRule>
         <fullName>Standard</fullName>
         <active>true</active>
         <ruleEntry>
-            <assignedTo>epic.4688c0b56b7f@orgfarm.com</assignedTo>
+            <assignedTo>qa2@ar.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>
@@ -13,7 +13,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>epic.4688c0b56b7f@orgfarm.com</assignedTo>
+            <assignedTo>qa2@ar.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>

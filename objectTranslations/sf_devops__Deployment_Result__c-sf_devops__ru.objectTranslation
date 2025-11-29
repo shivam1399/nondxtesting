@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Результат развертывания</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Результаты развертывания</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Результат развертывания</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Результаты развертывания</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Результата развертывания</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Результатов развертывания</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Результату развертывания</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Результатам развертывания</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Результатом развертывания</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Результатами развертывания</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value>Результате развертывания</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value>Результатах развертывания</value>
+    </caseValues>
+    <fields>
+        <label>Проверить дату развертывания</label>
+        <name>sf_devops__Check_Deploy_Date__c</name>
+    </fields>
+    <fields>
+        <label>Проверить статус развертывания</label>
+        <name>sf_devops__Check_Deploy_Status__c</name>
+        <relationshipLabel>Проверить результаты развертывания</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Проверить развертывание</label>
+        <name>sf_devops__Check_Deploy__c</name>
+    </fields>
+    <fields>
+        <label>Дата завершения</label>
+        <name>sf_devops__Completion_Date__c</name>
+    </fields>
+    <fields>
+        <label>Код развертывания</label>
+        <name>sf_devops__Deployment_Id__c</name>
+    </fields>
+    <fields>
+        <label>Полное развертывание</label>
+        <name>sf_devops__Full_Deploy__c</name>
+    </fields>
+    <fields>
+        <label>Количество завершенных тестов</label>
+        <name>sf_devops__Number_Tests_Completed__c</name>
+    </fields>
+    <fields>
+        <label>Выполнить тесты</label>
+        <name>sf_devops__Run_Tests__c</name>
+    </fields>
+    <fields>
+        <label>Статус</label>
+        <name>sf_devops__Status__c</name>
+        <relationshipLabel>Результаты развертывания</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Уровень теста</label>
+        <name>sf_devops__Test_Level__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Имя результата развертывания</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>部署组件</value>
+    </caseValues>
+    <fields>
+        <label>部署结果</label>
+        <name>sf_devops__Deployment_Result__c</name>
+        <relationshipLabel>部署组件</relationshipLabel>
+    </fields>
+    <fields>
+        <label>文件路径</label>
+        <name>sf_devops__File_Path__c</name>
+    </fields>
+    <fields>
+        <label>强制忽略</label>
+        <name>sf_devops__Force_Ignored__c</name>
+    </fields>
+    <fields>
+        <label>操作</label>
+        <name>sf_devops__Operation__c</name>
+    </fields>
+    <fields>
+        <label>源组件</label>
+        <name>sf_devops__Source_Component__c</name>
+    </fields>
+    <nameFieldLabel>部署组件名称</nameFieldLabel>
+</CustomObjectTranslation>

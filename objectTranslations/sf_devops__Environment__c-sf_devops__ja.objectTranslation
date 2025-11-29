@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>環境</value>
+    </caseValues>
+    <fields>
+        <label>変更追跡可能</label>
+        <name>sf_devops__Can_Track_Changes__c</name>
+    </fields>
+    <fields>
+        <label>期限切れ</label>
+        <name>sf_devops__Expired__c</name>
+    </fields>
+    <fields>
+        <label>最終リビジョンカウンタ</label>
+        <name>sf_devops__Last_Revision_Counter__c</name>
+    </fields>
+    <fields>
+        <label>指定ログイン情報</label>
+        <name>sf_devops__Named_Credential__c</name>
+    </fields>
+    <fields>
+        <label>操作結果</label>
+        <name>sf_devops__Operation_Result__c</name>
+        <relationshipLabel>環境</relationshipLabel>
+    </fields>
+    <fields>
+        <label>組織 ID</label>
+        <name>sf_devops__Org_Id__c</name>
+    </fields>
+    <fields>
+        <label>プロジェクト</label>
+        <name>sf_devops__Project__c</name>
+        <relationshipLabel>環境</relationshipLabel>
+    </fields>
+    <fields>
+        <label>更新日</label>
+        <name>sf_devops__Refresh_Date__c</name>
+    </fields>
+    <fields>
+        <label>ソースを更新</label>
+        <name>sf_devops__Refresh_Source__c</name>
+        <relationshipLabel>環境</relationshipLabel>
+    </fields>
+    <fields>
+        <label>置換</label>
+        <name>sf_devops__Replaces__c</name>
+        <relationshipLabel>置換</relationshipLabel>
+    </fields>
+    <fields>
+        <label>テスト環境</label>
+        <name>sf_devops__Test_Environment__c</name>
+    </fields>
+    <nameFieldLabel>環境名</nameFieldLabel>
+    <validationRules>
+        <errorMessage>環境の Expired__c 項目を false に設定することはできません。</errorMessage>
+        <name>sf_devops__Expired_Changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Expired__c を true に設定して環境を挿入することはできません。</errorMessage>
+        <name>sf_devops__Expired_Insert</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>置換環境は期限切れになっている必要があります。</errorMessage>
+        <name>sf_devops__Expired_Replaces</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Refresh_Source と Refresh_Date の両方が設定されているか、両方が空である必要があります。</errorMessage>
+        <name>sf_devops__Refresh_Source_And_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Unique_Name</name>
+    </validationRules>
+</CustomObjectTranslation>

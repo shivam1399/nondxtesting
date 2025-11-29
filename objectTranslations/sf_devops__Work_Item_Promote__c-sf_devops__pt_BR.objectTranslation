@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Promoção de item de trabalho</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Promoções de item de trabalho</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>sf_devops__Completion_Date__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Deployment_Id__c</name>
+    </fields>
+    <fields>
+        <label>Resultado da implementação</label>
+        <name>sf_devops__Deployment_Result__c</name>
+        <relationshipLabel>Item de trabalho promovido</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Resultado da mesclagem</label>
+        <name>sf_devops__Merge_Result__c</name>
+        <relationshipLabel>Item de trabalho promovido</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Fase do pipeline</label>
+        <name>sf_devops__Pipeline_Stage__c</name>
+        <relationshipLabel>Item de trabalho promovido</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Limite do rebase</label>
+        <name>sf_devops__Rebase_Limit__c</name>
+    </fields>
+    <fields>
+        <label>Status do rebase</label>
+        <name>sf_devops__Rebase_Status__c</name>
+        <relationshipLabel>Rebases de item de trabalho promovido</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label>Status</label>
+        <name>sf_devops__Status__c</name>
+        <relationshipLabel>Item de trabalho promovido</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Item de trabalho</label>
+        <name>sf_devops__Work_Item__c</name>
+        <relationshipLabel>Item de trabalho promovido</relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nome da promoção do item de trabalho</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Você não pode promover um Work_Item para um pipeline inativo.</errorMessage>
+        <name>sf_devops__No_Promotion_to_Inactive_Pipeline</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Um Work_Item que seja membro de um Change_Bundle não pode ser promovido para Pipeline_Stage.</errorMessage>
+        <name>sf_devops__Promoted_And_Installed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Um Work_Item não pode ser promovido para um Pipeline_Stage com versão.</errorMessage>
+        <name>sf_devops__Promoted_To_Versioned</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Um item de trabalho não pode ser promovido se não for aprovado.</errorMessage>
+        <name>sf_devops__Promoted_Without_Approval</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Um item de trabalho só pode ser promovido para um estágio dentro do mesmo projeto.</errorMessage>
+        <name>sf_devops__Promoted_Wrong_Project</name>
+    </validationRules>
+</CustomObjectTranslation>

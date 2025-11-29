@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
         <actionName>CancelEdit</actionName>
@@ -155,5 +155,5 @@
         <customTabListAdditionalFields>TotalLifeTimeValue</customTabListAdditionalFields>
         <searchResultsAdditionalFields>TotalLifeTimeValue</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>Private</sharingModel>
+    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

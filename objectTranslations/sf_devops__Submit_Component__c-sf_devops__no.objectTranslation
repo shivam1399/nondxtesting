@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Innsendingskomponent</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Innsendingskomponenter</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Innsendingskomponent</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Innsendingskomponenter</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Innsendingskomponenten</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Innsendingskomponentene</value>
+    </caseValues>
+    <fields>
+        <label>Endringsinnsending</label>
+        <name>sf_devops__Change_Submission__c</name>
+        <relationshipLabel>Innsendingskomponenter</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tom</label>
+        <name>sf_devops__Empty__c</name>
+    </fields>
+    <fields>
+        <label>Filbane</label>
+        <name>sf_devops__File_Path__c</name>
+    </fields>
+    <fields>
+        <label>Operasjon</label>
+        <name>sf_devops__Operation__c</name>
+    </fields>
+    <fields>
+        <label>Kildekomponent</label>
+        <name>sf_devops__Source_Component__c</name>
+    </fields>
+    <fields>
+        <label>Kilde for ekstern endring</label>
+        <name>sf_devops__Source_Remote_Change__c</name>
+        <relationshipLabel>Innsendingskomponenter</relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Navn på innsendingskomponent</nameFieldLabel>
+    <validationRules>
+        <errorMessage>En innsendingskomponent kan ikke ha File_Path__c-feltet endret etter at det er angitt.</errorMessage>
+        <name>sf_devops__File_Path</name>
+    </validationRules>
+</CustomObjectTranslation>

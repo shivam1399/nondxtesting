@@ -10,7 +10,9 @@
     <canExploreDataConversationally>false</canExploreDataConversationally>
     <canShareAppsWithCommunities>false</canShareAppsWithCommunities>
     <canViewThumbnailAssets>false</canViewThumbnailAssets>
+    <cdpQueryCachingOptIn>false</cdpQueryCachingOptIn>
     <concurrencyLimitSharing>false</concurrencyLimitSharing>
+    <disableIncrementalDatasetCreation>false</disableIncrementalDatasetCreation>
     <enableAmazonRedshiftOutputConnector>false</enableAmazonRedshiftOutputConnector>
     <enableAnalyticsSharingEnable>true</enableAnalyticsSharingEnable>
     <enableAutoCompleteCombo>true</enableAutoCompleteCombo>
@@ -19,6 +21,7 @@
     <enableCrtSetupLightningUiPref>true</enableCrtSetupLightningUiPref>
     <enableDashboardComponentSnapshot>false</enableDashboardComponentSnapshot>
     <enableDashboardFlexiTable>true</enableDashboardFlexiTable>
+    <enableDashboardSubOrgEmailPref>false</enableDashboardSubOrgEmailPref>
     <enableDataCloudReportingPref>true</enableDataCloudReportingPref>
     <enableEmailReportsToPortalUsers>false</enableEmailReportsToPortalUsers>
     <enableFirebirdEditor>false</enableFirebirdEditor>
@@ -32,8 +35,8 @@
     <enableNullDimension>false</enableNullDimension>
     <enableOrgCanSeeLivePreviews>false</enableOrgCanSeeLivePreviews>
     <enableOrgCanViewTableau>false</enableOrgCanViewTableau>
-    <enableOrgCanViewThumbnailForOA>true</enableOrgCanViewThumbnailForOA>
-    <enableOrgHasMobileOfflineEnabled>true</enableOrgHasMobileOfflineEnabled>
+    <enableOrgCanViewThumbnailForOA>false</enableOrgCanViewThumbnailForOA>
+    <enableOrgHasMobileOfflineEnabled>false</enableOrgHasMobileOfflineEnabled>
     <enableOrgHasWatchlistEnabled>true</enableOrgHasWatchlistEnabled>
     <enableQueryLiveConnectors>true</enableQueryLiveConnectors>
     <enableRemoveFooterForRepDisplay>false</enableRemoveFooterForRepDisplay>
@@ -56,7 +59,7 @@
     <enableTableauHyperOutputConnector>false</enableTableauHyperOutputConnector>
     <enableUseOldChartsLookAndFeel>false</enableUseOldChartsLookAndFeel>
     <enableWaveAssetsNewDateVersion>false</enableWaveAssetsNewDateVersion>
-    <enableWaveIndexMVDim>true</enableWaveIndexMVDim>
+    <enableWaveIndexMVDim>false</enableWaveIndexMVDim>
     <enableWaveIndexMVDimV2>false</enableWaveIndexMVDimV2>
     <enableWaveRecordNavigation>false</enableWaveRecordNavigation>
     <enableWaveReplication>false</enableWaveReplication>

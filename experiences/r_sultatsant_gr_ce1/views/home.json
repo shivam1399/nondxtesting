@@ -1,0 +1,596 @@
+{
+  "appPageId" : "f632c152-9b03-4d09-933b-d399ba012afe",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ ],
+  "id" : "9c090697-a482-4468-b729-e8d5c341f41e",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"b0010dfb-3617-4d79-bf39-0728330f70a2\",\"columns\":[{\"UUID\":\"26c221a8-91b9-49b1-8438-a3d661cd7e4c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "b0010dfb-3617-4d79-bf39-0728330f70a2",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "backgroundColor" : "",
+            "bannerAlignment" : "center",
+            "bannerLinkAssistiveText" : "",
+            "borderColor" : "",
+            "borderRadius" : 0,
+            "borderWidth" : 0,
+            "buttonDirection" : "horizontal",
+            "buttonGroupAlignment" : "left",
+            "buttonGroupHeight" : 50,
+            "buttonGroupSpacingHorizontal" : "left",
+            "buttonGroupSpacingVertical" : "space-evenly",
+            "buttonGroupWidth" : 50,
+            "contentBgColor" : "rgba(179, 208, 244, 0.43)",
+            "contentPadding" : "large",
+            "contentPosition" : "center left",
+            "contentWidth" : 25,
+            "height" : 450,
+            "imageFit" : "cover",
+            "imageInfo" : "",
+            "imagePosition" : "center center",
+            "isBannerLink" : false,
+            "overlayColor" : "",
+            "showButtons" : true,
+            "showSecondaryButton" : false,
+            "singleButtonAlignment" : "center",
+            "width" : 100
+          },
+          "componentName" : "dxp_content_layout:banner",
+          "id" : "21431e91-1857-4c0b-b0b7-271e27afea0d",
+          "regions" : [ {
+            "components" : [ {
+              "componentAttributes" : {
+                "backgroundColor" : "rgba(255, 255, 255, 0)",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Revolutionizing Health & Wellness",
+                "textAlign" : "left",
+                "textColor" : "rgb(255, 255, 255)",
+                "textDecoration" : "{\"bold\": true}",
+                "textDisplayInfo" : "{\"textStyle\": \"heading-large\", \"headingTag\": \"h1\"}"
+              },
+              "componentName" : "dxp_base:textBlock",
+              "id" : "c2cdfcbb-e16a-4f72-ad15-1174ecca358e",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "10af41d7-19cb-4c6d-88cd-d5d93ce7586a",
+            "regionName" : "contentRegion",
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "alignment" : "center",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Learn More",
+                "type" : "primary"
+              },
+              "componentName" : "dxp_base:button",
+              "id" : "10dc6474-8c4c-47e3-891d-25b3373f0d13",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "7218fce6-6340-45db-bd94-d300d4b39a5a",
+            "regionName" : "bannerPrimaryButton",
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "alignment" : "center",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Contact Us",
+                "type" : "secondary"
+              },
+              "componentName" : "dxp_base:button",
+              "id" : "2548b7fb-80c0-4199-af80-80a392602421",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "fb394e02-c608-4423-b46d-6b3159fcb2a1",
+            "regionName" : "bannerSecondaryButton",
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : { },
+              "componentName" : "dxp_page_layout:placeHolder",
+              "id" : "2b3c017f-a2af-4e8d-9126-367556c283df",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "7e90b318-408d-4438-a2d3-ba94335719f5",
+            "regionName" : "placeholder",
+            "type" : "region"
+          } ],
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "backgroundColor" : "",
+            "paddingHorizontal" : "x-large",
+            "paddingVertical" : "none",
+            "text" : "Healthx is a leading provider of health and wellness products and technology. Onsectetur adipiscing elit. Vivamus viverra ex purus, vel tempus lectus imperdiet et. Nam sed lorem semper erat venenatis lobortis id dapibus dui. ",
+            "textAlign" : "left",
+            "textDecoration" : "{}",
+            "textDisplayInfo" : "{\"textStyle\": \"heading-medium\", \"headingTag\": \"h3\"}"
+          },
+          "componentName" : "dxp_base:textBlock",
+          "id" : "c6ad74a0-a73e-4fc5-9e06-5dab65f483b5",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "26c221a8-91b9-49b1-8438-a3d661cd7e4c",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"9e1bf84b-8457-4b0c-a297-f791a041f22e\",\"columns\":[{\"UUID\":\"cc4ce5ed-97a4-4cb9-a261-ee20cfb68192\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":null},{\"UUID\":\"3f072d72-27d4-4021-94d9-f7ee357becb6\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":null},{\"UUID\":\"56ce08fe-82d5-47eb-84cf-fb06b7c1ad8d\",\"columnName\":\"Column 3\",\"columnKey\":\"col3\",\"columnWidth\":\"4\",\"seedComponents\":null}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "9e1bf84b-8457-4b0c-a297-f791a041f22e",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "backgroundColor" : "",
+            "paddingHorizontal" : "large",
+            "paddingVertical" : "large",
+            "text" : "TESTIMONIAL",
+            "textAlign" : "left",
+            "textColor" : "rgb(85, 81, 255)",
+            "textDecoration" : "{\"bold\": true}",
+            "textDisplayInfo" : "{\"textStyle\": \"heading-large\", \"headingTag\": \"h2\"}"
+          },
+          "componentName" : "dxp_base:textBlock",
+          "id" : "14057cb8-3384-4118-9937-492256a2ab16",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "backgroundColor" : "",
+            "paddingHorizontal" : "large",
+            "paddingVertical" : "none",
+            "text" : "Decade after decade we’ve produced results for our clients. Here’s what they have to say about us.",
+            "textAlign" : "left",
+            "textDecoration" : "{}",
+            "textDisplayInfo" : "{\"textStyle\": \"heading-medium\", \"headingTag\": \"h3\"}"
+          },
+          "componentName" : "dxp_base:textBlock",
+          "id" : "c4c715f7-8753-41a6-9e9e-e4be312350de",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "alignment" : "left",
+            "fit" : "contain",
+            "height" : 350,
+            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"{!Site.basePath}/assets/img/marketing-image-4.png\",\"altText\":\"pulse\",\"contentKey\":\"\"}}",
+            "overlayColor" : "",
+            "position" : "center center",
+            "width" : 100
+          },
+          "componentName" : "dxp_base:image",
+          "id" : "19fa25b5-647c-4038-bc24-f5bbf6002597",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "cc4ce5ed-97a4-4cb9-a261-ee20cfb68192",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "backgroundColor" : "",
+            "borderColor" : "",
+            "borderRadius" : 0,
+            "borderWidth" : 0,
+            "buttonDirection" : "horizontal",
+            "buttonGroupAlignment" : "center",
+            "buttonGroupHeight" : 45,
+            "buttonGroupSpacingHorizontal" : "space-evenly",
+            "buttonGroupSpacingVertical" : "space-evenly",
+            "buttonGroupWidth" : 75,
+            "height" : 325,
+            "imageFit" : "contain",
+            "imageHeight" : 33,
+            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"{!Site.basePath}/assets/img/marketing-image-1.png\",\"altText\":\"Derrick Langley - Partner\",\"contentKey\":\"\"}}",
+            "imagePosition" : "top left",
+            "isLink" : false,
+            "linkAssistiveText" : "",
+            "showButtons" : false,
+            "showSecondaryButton" : false,
+            "singleButtonAlignment" : "center",
+            "width" : 100
+          },
+          "componentName" : "dxp_content_layout:tile2",
+          "id" : "9a7a4105-ac87-4cc7-aed4-baba26bec482",
+          "regions" : [ {
+            "id" : "7c54211d-650d-4bba-b2f7-5175f1f62d89",
+            "regionName" : "topContentRegion",
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "backgroundColor" : "",
+                "paddingHorizontal" : "x-large",
+                "paddingVertical" : "none",
+                "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\": \"heading-medium\", \"headingTag\": \"h3\"}"
+              },
+              "componentName" : "dxp_base:textBlock",
+              "id" : "3cab0f47-1444-4f55-956a-56edaa35c6e4",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "6045d4b6-2e86-4f34-aa4c-82caa42e9d76",
+            "regionName" : "contentRegion",
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "alignment" : "center",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Learn More",
+                "type" : "primary"
+              },
+              "componentName" : "dxp_base:button",
+              "id" : "8ee83041-fb14-47c9-939e-927b57da1be9",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "dab9e8c8-2f30-4293-ad0f-64ef851cd7de",
+            "regionName" : "tilePrimaryButton",
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "alignment" : "center",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Contact Us",
+                "type" : "secondary"
+              },
+              "componentName" : "dxp_base:button",
+              "id" : "6610ece6-e987-4725-9e9e-21b427c2c287",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "90949035-f34e-4ee8-83e2-87df07a735be",
+            "regionName" : "tileSecondaryButton",
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : { },
+              "componentName" : "dxp_page_layout:placeHolder",
+              "id" : "87848089-87fa-4eca-968b-19dc0d8256ca",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "87607936-5b77-48c0-81e2-8c407b67435c",
+            "regionName" : "placeholder",
+            "type" : "region"
+          } ],
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "3f072d72-27d4-4021-94d9-f7ee357becb6",
+        "regionLabel" : "Column 2",
+        "regionName" : "col2",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "backgroundColor" : "",
+            "borderColor" : "",
+            "borderRadius" : 0,
+            "borderWidth" : 0,
+            "buttonDirection" : "horizontal",
+            "buttonGroupAlignment" : "center",
+            "buttonGroupHeight" : 45,
+            "buttonGroupSpacingHorizontal" : "space-evenly",
+            "buttonGroupSpacingVertical" : "space-evenly",
+            "buttonGroupWidth" : 75,
+            "height" : 325,
+            "imageFit" : "contain",
+            "imageHeight" : 33,
+            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"{!Site.basePath}/assets/img/marketing-image-2.png\",\"altText\":\"Catarina Yan - Partner\",\"contentKey\":\"\"}}",
+            "imagePosition" : "top left",
+            "isLink" : false,
+            "linkAssistiveText" : "",
+            "showButtons" : false,
+            "showSecondaryButton" : false,
+            "singleButtonAlignment" : "center",
+            "width" : 100
+          },
+          "componentName" : "dxp_content_layout:tile2",
+          "id" : "486e6657-50e7-470d-a9ec-e79d694aa809",
+          "regions" : [ {
+            "id" : "d1f2429b-63de-4a12-ba65-52439d2075dc",
+            "regionName" : "topContentRegion",
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "backgroundColor" : "",
+                "paddingHorizontal" : "x-large",
+                "paddingVertical" : "none",
+                "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\": \"heading-medium\", \"headingTag\": \"h3\"}"
+              },
+              "componentName" : "dxp_base:textBlock",
+              "id" : "228b6db1-3107-457a-a0f1-b75e6449ebd7",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "9371530c-f181-4dc4-9f0d-52048d9a876c",
+            "regionName" : "contentRegion",
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "alignment" : "center",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Learn More",
+                "type" : "primary"
+              },
+              "componentName" : "dxp_base:button",
+              "id" : "e6999da7-a7a8-44dd-9144-558771b8f36b",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "7033a2eb-bff5-4142-bd17-77b46677679d",
+            "regionName" : "tilePrimaryButton",
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "alignment" : "center",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Contact Us",
+                "type" : "secondary"
+              },
+              "componentName" : "dxp_base:button",
+              "id" : "baa7e677-0945-49d9-9f01-b32ac6f23595",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "76119ad4-807e-42cf-8753-81c2a1db0f62",
+            "regionName" : "tileSecondaryButton",
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : { },
+              "componentName" : "dxp_page_layout:placeHolder",
+              "id" : "8a6cddff-edf6-40f1-ac67-fb8573a6666b",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "2e032421-4e2d-4d56-aa50-895fd88befa8",
+            "regionName" : "placeholder",
+            "type" : "region"
+          } ],
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "56ce08fe-82d5-47eb-84cf-fb06b7c1ad8d",
+        "regionLabel" : "Column 3",
+        "regionName" : "col3",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"03e9bcba-25cb-43d2-8193-ac0e967977c9\",\"columns\":[{\"UUID\":\"4fbfc781-3f59-45c5-b9ca-cfc586d6c901\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":null},{\"UUID\":\"f972f112-dc75-4d4f-a364-d29cf46f3468\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":null}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "03e9bcba-25cb-43d2-8193-ac0e967977c9",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "alignment" : "center",
+            "fit" : "contain",
+            "height" : 350,
+            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"{!Site.basePath}/assets/img/marketing-image-3.png\",\"altText\":\"chart\",\"contentKey\":\"\"}}",
+            "overlayColor" : "",
+            "position" : "center center",
+            "width" : 80
+          },
+          "componentName" : "dxp_base:image",
+          "id" : "2bd1b608-47c4-4c24-bd9b-b593a865e31b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "4fbfc781-3f59-45c5-b9ca-cfc586d6c901",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "backgroundColor" : "",
+            "paddingHorizontal" : "large",
+            "paddingVertical" : "none",
+            "text" : "Stay in the Loop",
+            "textAlign" : "left",
+            "textDecoration" : "{\"bold\": true}",
+            "textDisplayInfo" : "{\"textStyle\": \"heading-large\", \"headingTag\": \"h2\"}"
+          },
+          "componentName" : "dxp_base:textBlock",
+          "id" : "6379b465-93b9-4f6e-995e-c3a13b6f52a2",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "backgroundColor" : "",
+            "paddingHorizontal" : "large",
+            "paddingVertical" : "none",
+            "text" : "Mettre en place des bilans de santé pour vos salariés, c'est leur permettre d'optimiser leur capital santé grâce à des conseils pratiques à appliquer au quotidien pour une bonne hygiène de vie.",
+            "textAlign" : "left",
+            "textDecoration" : "{}",
+            "textDisplayInfo" : "{\"textStyle\": \"heading-medium\", \"headingTag\": \"h3\"}"
+          },
+          "componentName" : "dxp_base:textBlock",
+          "id" : "4d0029f2-e430-4351-8f54-fc48939d19ff",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "buttonAlignment" : "left",
+            "buttonSize" : "standard",
+            "buttonText" : "Sign Up",
+            "companyLabel" : "Company",
+            "companyPlaceholder" : "Enter your company name",
+            "customFieldFiveConfig" : "{\"fieldInputType\":\"Text\",\"isFieldInputTypeEditable\":true,\"fieldMaxLength\":null,\"fieldApiName\":\"\"}",
+            "customFieldFiveLabel" : "Custom Field Label",
+            "customFieldFivePlaceholder" : "Custom Field Placeholder",
+            "customFieldFourConfig" : "{\"fieldInputType\":\"Text\",\"isFieldInputTypeEditable\":true,\"fieldMaxLength\":null,\"fieldApiName\":\"\"}",
+            "customFieldFourLabel" : "Custom Field Label",
+            "customFieldFourPlaceholder" : "Custom Field Placeholder",
+            "customFieldOneConfig" : "{\"fieldInputType\":\"Text\",\"isFieldInputTypeEditable\":true,\"fieldMaxLength\":null,\"fieldApiName\":\"\"}",
+            "customFieldOneLabel" : "Custom Field Label",
+            "customFieldOnePlaceholder" : "Custom Field Placeholder",
+            "customFieldThreeConfig" : "{\"fieldInputType\":\"Text\",\"isFieldInputTypeEditable\":true,\"fieldMaxLength\":null,\"fieldApiName\":\"\"}",
+            "customFieldThreeLabel" : "Custom Field Label",
+            "customFieldThreePlaceholder" : "Custom Field Placeholder",
+            "customFieldTwoConfig" : "{\"fieldInputType\":\"Text\",\"isFieldInputTypeEditable\":true,\"fieldMaxLength\":null,\"fieldApiName\":\"\"}",
+            "customFieldTwoLabel" : "Custom Field Label",
+            "customFieldTwoPlaceholder" : "Custom Field Placeholder",
+            "defaultCompanyValue" : "Company Not Available",
+            "emailFieldConfig" : "{\"fieldInputType\":\"Email\",\"isFieldInputTypeEditable\":false,\"fieldMaxLength\":null,\"fieldApiName\":\"Email\"}",
+            "emailLabel" : "Email",
+            "emailPlaceholder" : "Enter your email address",
+            "firstNameFieldConfig" : "{\"fieldInputType\":\"Text\",\"fieldMaxLength\":80,\"fieldApiName\":\"LastName\",\"isFieldInputTypeEditable\":false}",
+            "firstNameLabel" : "grâce à",
+            "firstNamePlaceholder" : "santé",
+            "isCustomFieldFiveRequired" : false,
+            "isCustomFieldFourRequired" : false,
+            "isCustomFieldOneRequired" : false,
+            "isCustomFieldThreeRequired" : false,
+            "isCustomFieldTwoRequired" : false,
+            "isEmailRequired" : true,
+            "isFirstNameRequired" : false,
+            "isLastNameRequired" : false,
+            "isPhoneRequired" : false,
+            "lastNameFieldConfig" : "{\"fieldInputType\":\"Text\",\"isFieldInputTypeEditable\":false,\"fieldMaxLength\":null,\"fieldApiName\":\"LastName\"}",
+            "lastNameLabel" : "Last Name",
+            "lastNamePlaceholder" : "Enter your last name",
+            "phoneFieldConfig" : "{\"fieldInputType\":\"Phone\",\"isFieldInputTypeEditable\":false,\"fieldMaxLength\":null,\"fieldApiName\":\"Phone\"}",
+            "phoneLabel" : "Phone",
+            "phonePlaceholder" : "Enter your phone number",
+            "position" : "left",
+            "showCompanyField" : true,
+            "showCustomFieldFive" : false,
+            "showCustomFieldFour" : false,
+            "showCustomFieldOne" : false,
+            "showCustomFieldThree" : false,
+            "showCustomFieldTwo" : false,
+            "showEmailField" : true,
+            "showFirstNameField" : true,
+            "showFormLabels" : true,
+            "showLastNameField" : true,
+            "showPhoneField" : false,
+            "submitActionCustomErrorMessage" : "Looks like something went wrong.",
+            "submitActionSuccessInlineMessage" : "Thank you!",
+            "submitActionSuccessInlineMessageFontSize" : "small",
+            "submitActionSuccessInlineMessagePosition" : "left",
+            "submitActionType" : "inline",
+            "width" : 100
+          },
+          "componentName" : "dxp_form:leadForm",
+          "id" : "085d79c3-d1a2-4ee3-be81-02f69deca2a7",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "f972f112-dc75-4d4f-a364-d29cf46f3468",
+        "regionLabel" : "Column 2",
+        "regionName" : "col2",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "8ef75d18-2f50-4e57-9b67-eae68a20ca65",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "Home",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "7c2fb24a-9bc6-46c5-a55e-9e7e7da82e67",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "dadb1f2f-4cfc-4f8f-9f4b-53f4ce49bf19",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}

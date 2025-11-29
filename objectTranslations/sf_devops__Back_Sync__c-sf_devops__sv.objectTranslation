@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Bakåtsynkronisering</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Bakåtsynkroniseringar</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>En bakåtsynkronisering</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Bakåtsynkroniseringar</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Bakåtsynkroniseringen</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Bakåtsynkroniseringarna</value>
+    </caseValues>
+    <fields>
+        <label>Distribueringsresultat</label>
+        <name>sf_devops__Deployment_Result__c</name>
+        <relationshipLabel>Bakåtsynkroniseringar</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Destinationsmiljö</label>
+        <name>sf_devops__Destination_Environment__c</name>
+        <relationshipLabel>Destinationsbakåtsynk</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Stoppa revideringsräknare</label>
+        <name>sf_devops__End_Revision_Counter__c</name>
+    </fields>
+    <fields>
+        <label>Operationsresultat</label>
+        <name>sf_devops__Operation_Result__c</name>
+        <relationshipLabel>Bakåtsynk</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Källpipelinefas</label>
+        <name>sf_devops__Source_Pipeline_Stage__c</name>
+        <relationshipLabel>Källbakåtsynk</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Starta revideringsräknare</label>
+        <name>sf_devops__Start_Revision_Counter__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Namn på bakåtsynk</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Результат слияния</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Результаты слияния</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Результат слияния</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Результаты слияния</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Результата слияния</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Результатов слияния</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Результату слияния</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Результатам слияния</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Результатом слияния</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Результатами слияния</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value>Результате слияния</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value>Результатах слияния</value>
+    </caseValues>
+    <fields>
+        <label>Дата объединения</label>
+        <name>sf_devops__Merge_Date__c</name>
+    </fields>
+    <fields>
+        <label>Предварительная удаленная ссылка</label>
+        <name>sf_devops__Previous_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label>Удаленная ссылка</label>
+        <name>sf_devops__Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label>Имя исходного ответвления</label>
+        <name>sf_devops__Source_Branch_Name__c</name>
+    </fields>
+    <fields>
+        <label>Имя целевого ответвления</label>
+        <name>sf_devops__Target_Branch_Name__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Имя результата слияния</nameFieldLabel>
+</CustomObjectTranslation>

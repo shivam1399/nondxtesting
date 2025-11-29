@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Miljö</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Miljöer</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>En miljö</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Miljöer</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Miljön</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Miljöerna</value>
+    </caseValues>
+    <fields>
+        <label>Kan spåra ändringar</label>
+        <name>sf_devops__Can_Track_Changes__c</name>
+    </fields>
+    <fields>
+        <label>Utgånget</label>
+        <name>sf_devops__Expired__c</name>
+    </fields>
+    <fields>
+        <label>Senaste revideringsräknare</label>
+        <name>sf_devops__Last_Revision_Counter__c</name>
+    </fields>
+    <fields>
+        <label>Autentiseringsuppgift</label>
+        <name>sf_devops__Named_Credential__c</name>
+    </fields>
+    <fields>
+        <label>Operationsresultat</label>
+        <name>sf_devops__Operation_Result__c</name>
+        <relationshipLabel>Miljöer</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Organisations-ID</label>
+        <name>sf_devops__Org_Id__c</name>
+    </fields>
+    <fields>
+        <label>Projekt</label>
+        <name>sf_devops__Project__c</name>
+        <relationshipLabel>Miljöer</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Uppdateringsdatum</label>
+        <name>sf_devops__Refresh_Date__c</name>
+    </fields>
+    <fields>
+        <label>Uppdateringskälla</label>
+        <name>sf_devops__Refresh_Source__c</name>
+        <relationshipLabel>Miljöer</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Ersätter</label>
+        <name>sf_devops__Replaces__c</name>
+        <relationshipLabel>Ersätter</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Testmiljö</label>
+        <name>sf_devops__Test_Environment__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Miljönamn</nameFieldLabel>
+    <validationRules>
+        <errorMessage>En miljö kan inte ha sitt Expired__c-fält inställt på falskt.</errorMessage>
+        <name>sf_devops__Expired_Changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>En miljö kan inte infogas med Expired__c satt till sant.</errorMessage>
+        <name>sf_devops__Expired_Insert</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>En ersättningsmiljö måste upphöra att gälla.</errorMessage>
+        <name>sf_devops__Expired_Replaces</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Refresh_Source och Refresh_Date måste båda vara angivna, eller båda vara tomma.</errorMessage>
+        <name>sf_devops__Refresh_Source_And_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Unique_Name</name>
+    </validationRules>
+</CustomObjectTranslation>

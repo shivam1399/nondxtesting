@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>กิจกรรมของออบเจกต์</value>
+    </caseValues>
+    <fields>
+        <label>วันที่ของกิจกรรม</label>
+        <name>sf_devops__Activity_Date__c</name>
+    </fields>
+    <fields>
+        <label>ประเภทกิจกรรม</label>
+        <name>sf_devops__Activity_Type__c</name>
+    </fields>
+    <fields>
+        <label>การส่งการเปลี่ยนแปลง</label>
+        <name>sf_devops__Change_Submission__c</name>
+        <relationshipLabel>กิจกรรมของออบเจกต์</relationshipLabel>
+    </fields>
+    <fields>
+        <label>สภาพแวดล้อม</label>
+        <name>sf_devops__Environment__c</name>
+        <relationshipLabel>กิจกรรมของออบเจกต์</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ซ่อน</label>
+        <name>sf_devops__Hidden__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Message__c</name>
+    </fields>
+    <fields>
+        <label>ผลการดำเนินการ</label>
+        <name>sf_devops__Operation_Result__c</name>
+        <relationshipLabel>กิจกรรมของออบเจกต์</relationshipLabel>
+    </fields>
+    <fields>
+        <label>กิจกรรมหลัก</label>
+        <name>sf_devops__Parent_Activity__c</name>
+        <relationshipLabel>กิจกรรมย่อย</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ไปป์ไลน์</label>
+        <name>sf_devops__Pipeline__c</name>
+        <relationshipLabel>กิจกรรมของออบเจกต์</relationshipLabel>
+    </fields>
+    <fields>
+        <label>โครงการ</label>
+        <name>sf_devops__Project__c</name>
+        <relationshipLabel>กิจกรรมของออบเจกต์</relationshipLabel>
+    </fields>
+    <fields>
+        <label>สรุป</label>
+        <name>sf_devops__Summary__c</name>
+    </fields>
+    <fields>
+        <label>ลำดับขั้นไปป์ไลน์เป้าหมาย</label>
+        <name>sf_devops__Target_Pipeline_Stage__c</name>
+        <relationshipLabel>กิจกรรมออบเจกต์เป้าหมาย</relationshipLabel>
+    </fields>
+    <fields>
+        <label>รายการงาน</label>
+        <name>sf_devops__Work_Item__c</name>
+        <relationshipLabel>กิจกรรมของออบเจกต์</relationshipLabel>
+    </fields>
+    <nameFieldLabel>ชื่อกิจกรรมออบเจกต์</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Change_Submission__c ที่อ้างอิงต้องมาจาก Work_Item เดียวกัน</errorMessage>
+        <name>sf_devops__Change_Submission_Work_Item</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Environment__c ที่อ้างอิงต้องมาจากโครงการเดียวกันกับ Object_Activity__c</errorMessage>
+        <name>sf_devops__Environment_Project</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Parent_Activity__c ที่อ้างอิงต้องมาจากโครงการเดียวกันกับ Object_Activity__c</errorMessage>
+        <name>sf_devops__Parent_Activity_Project</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Pipeline__c ที่อ้างอิงต้องมาจากโครงการเดียวกันกับ Object_Activity__c</errorMessage>
+        <name>sf_devops__Pipeline_Project</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Target_Pipeline_Stage__c ที่อ้างอิงต้องมาจากไปป์ไลน์เดียวกัน</errorMessage>
+        <name>sf_devops__Target_Stage_Pipeline</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Work_Item__c ที่อ้างอิงต้องมาจากโครงการเดียวกันกับ Object_Activity__c</errorMessage>
+        <name>sf_devops__Work_Item_Project</name>
+    </validationRules>
+</CustomObjectTranslation>

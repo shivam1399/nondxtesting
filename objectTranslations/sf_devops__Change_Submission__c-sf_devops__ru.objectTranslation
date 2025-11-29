@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Отправка изменений</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Отправки изменений</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Отправку изменений</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Отправки изменений</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Отправки изменений</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Отправок изменений</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Отправке изменений</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Отправкам изменений</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Отправкой изменений</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Отправками изменений</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value>Отправке изменений</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value>Отправках изменений</value>
+    </caseValues>
+    <fields>
+        <label>Комментарий</label>
+        <name>sf_devops__Comment__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Completed__c</name>
+    </fields>
+    <fields>
+        <label>Результат создания</label>
+        <name>sf_devops__Creation_Result__c</name>
+        <relationshipLabel>Отправки изменений</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Результат проверки</label>
+        <name>sf_devops__Inspection_Result__c</name>
+        <relationshipLabel>Проверенные отправки изменений</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Modified_Remote_Changes__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Open_Beta_Migrated__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Prior_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label>Удаленная ссылка</label>
+        <name>sf_devops__Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Removed_Remote_Changes__c</name>
+    </fields>
+    <fields>
+        <label>Хранилище</label>
+        <name>sf_devops__Repository__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Отправлено (имя)</label>
+        <name>sf_devops__Submitted_By_Name__c</name>
+    </fields>
+    <fields>
+        <label>Отправил</label>
+        <name>sf_devops__Submitted_By__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Дата отправки</label>
+        <name>sf_devops__Submitted_On__c</name>
+    </fields>
+    <fields>
+        <label>Рабочий элемент</label>
+        <name>sf_devops__Work_Item__c</name>
+        <relationshipLabel>Отправки изменений</relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Имя отправки изменений</nameFieldLabel>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Prior_Remote_Reference_External_Only</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Не может быть связано с рабочим элементов из другого проекта.</errorMessage>
+        <name>sf_devops__Work_Item_and_Repository_Same_Project</name>
+    </validationRules>
+</CustomObjectTranslation>

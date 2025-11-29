@@ -1,0 +1,211 @@
+<aura:component   implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+	
+   <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_striped slds-table_col-bordered slds-border_top">
+  <thead>
+    <tr class="slds-line-height_reset">
+      <th class="" scope="col">
+        <div class="slds-truncate slds-text-color_destructive" title="Problem Statement">Problem Statement</div>
+      </th>
+      <th class="" scope="col">
+        <div class="slds-truncate slds-text-color_destructive" title="Use Cases in AutoRABIT">Use Cases in AutoRABIT</div>
+      </th>
+     
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="slds-hint-parent">
+      
+      <td data-label="Problem Statement">
+        <div class="slds-truncate" title="Problem Statement">Sync your Salesforce box with Version Control on metadata changes, including deletions</div>
+      </td>
+      <td data-label="Use Cases in AutoRABIT">
+        <div class="slds-truncate" title="Use Cases in AutoRABIT">
+            1. Recurrent metadata check-ins  <br/>
+			2. Validate/Test a user story prior to a push <br/>
+			3. Constructive and Destructive changes can be packaged into one commit<br/>
+			4. Code quality check</div>
+      </td>
+     
+    </tr>
+      
+          <tr class="slds-hint-parent">
+      
+      <td data-label="Problem Statement">
+        <div class="slds-truncate" title="Problem Statement">Prevent Admins/Developers from overwriting their fellow user's metadata changes
+</div>
+      </td>
+      <td data-label="Use Cases in AutoRABIT">
+        <div class="slds-truncate" title="Use Cases in AutoRABIT">
+            1. Support all conflict resolution types - Ours, Theirs, Recursive and Fast Forward<br/>
+			2. Collaborate with other users on metadata changes
+          </div>
+      </td>
+     
+    </tr>
+      
+      <tr class="slds-hint-parent">
+      
+      <td data-label="Problem Statement">
+        <div class="slds-truncate" title="Problem Statement">Cherry-pick and deploy only differences within specific user stories
+</div>
+      </td>
+      <td data-label="Use Cases in AutoRABIT">
+        <div class="slds-truncate" title="Use Cases in AutoRABIT">
+            1. Deploy specific work items (with dependencies) to higher environments that have passed testing<br/>
+            2. Leverage an existing build to re-deploy into other environments<br/>
+            3. Rollback the package either completely or selectively upon successful deployment<br/>
+            4. Delta Deployments for nested metadata components
+			
+          </div>
+      </td>
+     
+    </tr>
+      
+       <tr class="slds-hint-parent">
+      
+      <td data-label="Problem Statement">
+        <div class="slds-truncate" title="Problem Statement">Schedule deployments, code coverage and pre/post deployment steps </div>
+      </td>
+      <td data-label="Use Cases in AutoRABIT">
+        <div class="slds-truncate" title="Use Cases in AutoRABIT">
+          1. Schedule deployments (daily, weekly, webhook-based) with pre/post deployment tasks<br/>
+		  2. Automate Unit Tests by running code coverage only on dependent Test Classes<br/>
+		  3. Tag work items during deployments<br/>
+		  4. Run Pre/Post Destructive Changes during Rollback to avoid dependency errors
+	</div>
+      </td>
+     
+    </tr>
+	
+	 <tr class="slds-hint-parent">
+      
+      <td data-label="Problem Statement">
+        <div class="slds-truncate" title="Problem Statement">Migrate data records (w/ dependency across objects) from one Salesforce environment to another.
+
+</div>
+      </td>
+      <td data-label="Use Cases in AutoRABIT">
+        <div class="slds-truncate" title="Use Cases in AutoRABIT">
+           1. Dependent records across multiple objects can be migrated with no limit on #records<br/>
+		   2. Sensitive records masked during migration<br/>
+		   3. Supports Lookup, Master-Detail, Junction objects, Self References<br/>
+		   4. Schedule Data Loads or Integrate with metadata deployment
+			
+          </div>
+      </td>
+     
+    </tr>
+	
+	 <tr class="slds-hint-parent">
+      
+      <td data-label="Problem Statement">
+        <div class="slds-truncate" title="Problem Statement">Achieve CI/CD for Salesforce DX using GUI</div>
+      </td>
+      <td data-label="Use Cases in AutoRABIT">
+        <div class="slds-truncate" title="Use Cases in AutoRABIT">
+            1. Assists with preparation of logical metadata packages with depedencies<br/>
+			2. Supports creation of contextual Scratch orgs and Unlocked Packages<br/>
+			3. Version unlocked packages and commit the changes to version control
+
+			
+          </div>
+      </td>
+     
+    </tr>
+	
+	 <tr class="slds-hint-parent">
+      
+      <td data-label="Problem Statement">
+        <div class="slds-truncate" title="Problem Statement">Schedule pre/post deployment activities</div>
+      </td>
+      <td data-label="Use Cases in AutoRABIT">
+        <div class="slds-truncate" title="Use Cases in AutoRABIT">
+            1. Creation of templates to support pre/post deployment activities<br/>
+			2. Templates can be run separately or tagged with CI Jobs
+
+			
+          </div>
+      </td>
+     
+    </tr>
+	
+	 <tr class="slds-hint-parent">
+      
+      <td data-label="Problem Statement">
+        <div class="slds-truncate" title="Problem Statement">Create, version and deploy nCino feature templates with dependencies</div>
+      </td>
+      <td data-label="Use Cases in AutoRABIT">
+        <div class="slds-truncate" title="Use Cases in AutoRABIT">
+           1. Create feature templates for nCino with dependencies across sObjects<br/>
+		   2. Record the Metadata Configuration and nCino records in a branch<br/>
+		   3. Deploy nCino templates (w/ dependencies) from either Salesforce Org or Version Control
+
+			
+          </div>
+      </td>
+     
+    </tr>
+	
+	 <tr class="slds-hint-parent">
+      
+      <td data-label="Problem Statement">
+        <div class="slds-truncate" title="Problem Statement">Version and migrate your Vlocity datapacks with dependencies</div>
+      </td>
+      <td data-label="Use Cases in AutoRABIT">
+        <div class="slds-truncate" title="Use Cases in AutoRABIT">
+            1. Version and deploy Vlocity datapacks with dependencies to reduce deployment times
+
+			
+          </div>
+      </td>
+     
+    </tr>
+	
+	 <tr class="slds-hint-parent">
+      
+      <td data-label="Problem Statement">
+        <div class="slds-truncate" title="Problem Statement">Managed Package: Version metadata in Source Control and migrate data with dependencies to Salesforce</div>
+      </td>
+      <td data-label="Use Cases in AutoRABIT">
+        <div class="slds-truncate" title="Use Cases in AutoRABIT">
+            1. Constructive and Destructive changes can be packaged into one commit<br/>
+			2. Validate/Test a user story prior to a push<br/>
+			3. Dependent records across multiple objects can be migrated with no limit on #records<br/>
+			4. Schedule deployments (daily, weekly, webhook-based) with pre/post deployment tasks
+
+			
+          </div>
+      </td>
+     
+    </tr>
+	
+	 <tr class="slds-hint-parent">
+      
+      <td data-label="Problem Statement">
+        <div class="slds-truncate" title="Problem Statement">Understand who is deploying what changes to an environment</div>
+      </td>
+      <td data-label="Use Cases in AutoRABIT">
+        <div class="slds-truncate" title="Use Cases in AutoRABIT">
+            1. Visualize every day CI/CD operations and be able to generate reports on<br/>
+            a daily/weekly/monthly basis
+
+          </div>
+      </td>
+     
+    </tr>
+	
+   
+  </tbody>
+</table>
+  <!--   <aura:handler name="init" value="{!this}" action="{!c.fetchCodes}"/>
+    
+    <aura:attribute name="UseCaseList" type="POC_Use_Cases__mdt[]" default=""/>
+    <aura:attribute name="mycolumns" type="List"/>
+    
+        <lightning:datatable class="slds-table_header-fixed_container slds-scrollable_x slds-border_top" data="{! v.UseCaseList }" 
+                             columns="{! v.mycolumns }" 
+                             keyField="id"
+                             hideCheckboxColumn="true" />-->
+   
+ 
+</aura:component>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Vertakking</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Vertakkingen</value>
+    </caseValues>
+    <fields>
+        <label>Regels negeren</label>
+        <name>sf_devops__Ignore_Rules__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Naam</label>
+        <name>sf_devops__Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Bovenliggende externe verwijzing</label>
+        <name>sf_devops__Parent_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Zichtbare wijzigingen opnieuw berekenen</label>
+        <name>sf_devops__Recompute_Visible_Changes__c</name>
+    </fields>
+    <fields>
+        <label>Datum van externe verwijzing</label>
+        <name>sf_devops__Remote_Reference_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Externe verwijzing</label>
+        <name>sf_devops__Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label>Repository</label>
+        <name>sf_devops__Repository__c</name>
+        <relationshipLabel>Vertakkingen</relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Naam</nameFieldLabel>
+</CustomObjectTranslation>

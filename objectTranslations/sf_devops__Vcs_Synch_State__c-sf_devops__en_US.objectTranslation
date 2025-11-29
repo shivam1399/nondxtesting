@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Vcs Synch State</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Vcs Synch States</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>sf_devops__Last_Synch_Date__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Project__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Retry_Count__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Synch_Job_Id__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Synch_Name__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Synch_Status__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

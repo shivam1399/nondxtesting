@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>bugmeta1</label>
+    <pluralLabel>bugmeta1s</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

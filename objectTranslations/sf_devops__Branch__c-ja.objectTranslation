@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>sf_devops__Ignore_Rules__c</name>
+    </fields>
+    <fields>
+        <help>ブランチの名前。</help>
+        <label></label>
+        <name>sf_devops__Name__c</name>
+    </fields>
+    <fields>
+        <help>ブランチの作成元であるソースブランチでのリモート参照。</help>
+        <label></label>
+        <name>sf_devops__Parent_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <help>.forceignore は視覚的な変更に適用する必要があります。</help>
+        <label></label>
+        <name>sf_devops__Recompute_Visible_Changes__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Remote_Reference_Date__c</name>
+    </fields>
+    <fields>
+        <help>ブランチでの最新リモート参照。</help>
+        <label></label>
+        <name>sf_devops__Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Repository__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

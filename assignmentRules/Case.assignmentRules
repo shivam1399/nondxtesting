@@ -1,10 +1,270 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignmentRule>
+        <fullName>CaseAssnRuleCSrMBZNQIVjq</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleCuZvsXslj</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleDQiXUWILYXpT</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleGecyGFkq</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleHOdrHKCPT</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleHOwURfUBP</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleHjjjLvZp</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleIHtigzhK</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleIQWfOOMbl</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleIlxQArIwjG</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleIzlHsGoa</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleJqSkBtKQoh</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleKcGpaToHravFp</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleKcQhRQooJ</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleKdhrtOWMUsgT</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleLJTeRCNELLRL</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleMYvZdGJbmd</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleMibiSDYTO</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleNsDdVAWGjY</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleOzrbMyDYZu</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRulePRtQQPvKEJs</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRulePiUEiiot</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleQzzcIwfhF</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleRqdzvxxlM</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleSczAKPQBl</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleTFsDBECBGNbKW</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleUSdZelIw</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleUXGyICktO</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleVHtDsxtPCbq</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleWjMGTPOtdTZ</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleXWnQCPpKmV</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleYBcrOQTSG</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleYjpVOlTxkg</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleYwDHGfCAnIT</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRulebMDFYmGs</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRulebkPPlTJcJcwQS</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRulebuMEHeDAr</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRulebwmKDxQUHdE</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRulecugTpwPRLpl</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuledRpcmsjvmBJI</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuledlETQWbCqb</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuledvcQlueF</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuledypvSpISC</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleeQxBWgCzvwz</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleerWVTduvoL</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRulegQobRNpJ</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleiKmDWvTGqPPef</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleitQyrqgjIQXf</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRulejDVTCfRcid</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRulelkizmAPE</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRulenGdWzlXUqQwft</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleoHoeAWJyHBlz</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleoLdhGmkjHe</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRulepUskYgcJOR</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRulerEhOoVyLqJ</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRulestrnWCYeRCWQM</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuletnmlAEwvXwett</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRuleuFOyIWbcX</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRulevPrTxrncI</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRulewaivtuTa</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRulewnOfkpflvMFNS</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRulexJRgmSAZAT</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRulexoWFNWoWpcnY</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRulezhfuGnvAaff</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>CaseAssnRulezsqRmxpUfWBIr</fullName>
+        <active>false</active>
+    </assignmentRule>
     <assignmentRule>
         <fullName>Standard</fullName>
         <active>true</active>
         <ruleEntry>
-            <assignedTo>epic.4688c0b56b7f@orgfarm.com</assignedTo>
+            <assignedTo>qa2@ar.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -23,7 +283,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>epic.4688c0b56b7f@orgfarm.com</assignedTo>
+            <assignedTo>qa2@ar.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -42,7 +302,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>epic.4688c0b56b7f@orgfarm.com</assignedTo>
+            <assignedTo>qa2@ar.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -61,7 +321,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>epic.4688c0b56b7f@orgfarm.com</assignedTo>
+            <assignedTo>qa2@ar.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -80,7 +340,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>epic.4688c0b56b7f@orgfarm.com</assignedTo>
+            <assignedTo>qa2@ar.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.Type</field>
@@ -88,5 +348,9 @@
                 <value>Partner</value>
             </criteriaItems>
         </ruleEntry>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>oJAAAv</fullName>
+        <active>false</active>
     </assignmentRule>
 </AssignmentRules>

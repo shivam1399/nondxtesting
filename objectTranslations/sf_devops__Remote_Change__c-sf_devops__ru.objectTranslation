@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Удаленное изменение</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Удаленные изменения</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Удаленное изменение</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Удаленные изменения</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Удаленного изменения</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Удаленных изменений</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Удаленному изменению</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Удаленным изменениям</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Удаленным изменением</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Удаленными изменениями</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value>Удаленном изменении</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value>Удаленных изменениях</value>
+    </caseValues>
+    <fields>
+        <label>Отправка изменения</label>
+        <name>sf_devops__Change_Submission__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Среда</label>
+        <name>sf_devops__Environment__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Имя участника</label>
+        <name>sf_devops__Member_Name__c</name>
+    </fields>
+    <fields>
+        <label>Тип участника</label>
+        <name>sf_devops__Member_Type__c</name>
+    </fields>
+    <fields>
+        <label>Удаленное изменение (пользователь)</label>
+        <name>sf_devops__Remote_Change_By__c</name>
+    </fields>
+    <fields>
+        <label>Удаленное изменение (дата)</label>
+        <name>sf_devops__Remote_Change_On__c</name>
+    </fields>
+    <fields>
+        <label>Удаленное изменение (тип)</label>
+        <name>sf_devops__Remote_Change_Type__c</name>
+        <picklistValues>
+            <masterLabel>ADD</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHANGE</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MANUAL</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REMOVE</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RENAME</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Компонент источника</label>
+        <name>sf_devops__Source_Component__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Имя удаленного изменения</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Невозможно использовать Change_Submission из другой среды.</errorMessage>
+        <name>sf_devops__Project_Reference</name>
+    </validationRules>
+</CustomObjectTranslation>

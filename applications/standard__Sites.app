@@ -6,4 +6,5 @@
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <tabs>standard-Chatter</tabs>
+    <tabs>RajTest__c</tabs>
 </CustomApplication>

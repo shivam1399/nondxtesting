@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Soumission de modification</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Soumissions de modifications</value>
+    </caseValues>
+    <fields>
+        <label>Commentaires</label>
+        <name>sf_devops__Comment__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Completed__c</name>
+    </fields>
+    <fields>
+        <label>Résultat de la création</label>
+        <name>sf_devops__Creation_Result__c</name>
+        <relationshipLabel>Soumissions de modifications</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Résultat de l'inspection</label>
+        <name>sf_devops__Inspection_Result__c</name>
+        <relationshipLabel>Soumissions de modifications inspectées</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Modified_Remote_Changes__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Open_Beta_Migrated__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Prior_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label>Référence distante</label>
+        <name>sf_devops__Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Removed_Remote_Changes__c</name>
+    </fields>
+    <fields>
+        <label>Référentiel</label>
+        <name>sf_devops__Repository__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Soumis par Nom</label>
+        <name>sf_devops__Submitted_By_Name__c</name>
+    </fields>
+    <fields>
+        <label>Soumis par</label>
+        <name>sf_devops__Submitted_By__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Soumis le</label>
+        <name>sf_devops__Submitted_On__c</name>
+    </fields>
+    <fields>
+        <label>Élément de travail</label>
+        <name>sf_devops__Work_Item__c</name>
+        <relationshipLabel>Soumissions de modifications</relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nom de la soumission de modifications</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Prior_Remote_Reference_External_Only</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Impossible d'associer à un Élément de travail d'un autre projet.</errorMessage>
+        <name>sf_devops__Work_Item_and_Repository_Same_Project</name>
+    </validationRules>
+</CustomObjectTranslation>

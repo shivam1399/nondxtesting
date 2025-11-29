@@ -86,6 +86,13 @@
     <relatedLists>
         <relatedList>UserFollowingList</relatedList>
     </relatedLists>
+    <relatedLists>
+        <fields>TERRITORY.NAME</fields>
+        <fields>MODEL.NAME</fields>
+        <fields>MODEL.STATE</fields>
+        <fields>ASSIGNMENT_DATE</fields>
+        <relatedList>UserAssignedTerritory2sRelatedList</relatedList>
+    </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>

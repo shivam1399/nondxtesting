@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Установка пакета изменений</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Установки пакета изменений</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Установку пакета изменений</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Установки пакета изменений</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Установки пакета изменений</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Установок пакета изменений</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Установке пакета изменений</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Установкам пакета изменений</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Установкой пакета изменений</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Установками пакета изменений</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value>Установке пакета изменений</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value>Установках пакета изменений</value>
+    </caseValues>
+    <fields>
+        <label>Пакет изменений</label>
+        <name>sf_devops__Change_Bundle__c</name>
+        <relationshipLabel>Установки пакета изменений</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Deployment_Id__c</name>
+    </fields>
+    <fields>
+        <label>Результат развертывания</label>
+        <name>sf_devops__Deployment_Result__c</name>
+        <relationshipLabel>Установки пакета изменений</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Среда</label>
+        <name>sf_devops__Environment__c</name>
+        <relationshipLabel>Установки пакета изменений</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Merge_Reference__c</name>
+    </fields>
+    <fields>
+        <label>Результат слияния</label>
+        <name>sf_devops__Merge_Result__c</name>
+        <relationshipLabel>Установки пакета изменений</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Статус</label>
+        <name>sf_devops__Status__c</name>
+        <relationshipLabel>Установки пакета изменений</relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Имя установки пакета изменений</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Установка пакета изменений должна ссылаться на среду и пакет изменений из одного проекта.</errorMessage>
+        <name>sf_devops__Project_Reference</name>
+    </validationRules>
+</CustomObjectTranslation>

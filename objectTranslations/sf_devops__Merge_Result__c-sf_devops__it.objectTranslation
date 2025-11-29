@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Risultato unione</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Risultati unione</value>
+    </caseValues>
+    <fields>
+        <label>Data unione</label>
+        <name>sf_devops__Merge_Date__c</name>
+    </fields>
+    <fields>
+        <label>Riferimento remoto precedente</label>
+        <name>sf_devops__Previous_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label>Riferimento remoto</label>
+        <name>sf_devops__Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label>Nome branch di origine</label>
+        <name>sf_devops__Source_Branch_Name__c</name>
+    </fields>
+    <fields>
+        <label>Nome branch di destinazione</label>
+        <name>sf_devops__Target_Branch_Name__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome risultato unione</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Этап ожидаемых продаж</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Этапы ожидаемых продаж</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Этап ожидаемых продаж</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Этапы ожидаемых продаж</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Этапа ожидаемых продаж</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Этапов ожидаемых продаж</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Этапу ожидаемых продаж</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Этапам ожидаемых продаж</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Этапом ожидаемых продаж</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Этапами ожидаемых продаж</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value>Этапе ожидаемых продаж</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value>Этапах ожидаемых продаж</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>sf_devops__Branch_Name__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Branch_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Ответвление</label>
+        <name>sf_devops__Branch__c</name>
+        <relationshipLabel>Этапы ожидаемой продажи</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Среда</label>
+        <name>sf_devops__Environment__c</name>
+        <relationshipLabel>Этапы ожидаемой продажи</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Следующий этап</label>
+        <name>sf_devops__Next_Stage__c</name>
+        <relationshipLabel>Этапы ожидаемой продажи</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Статус операции</label>
+        <name>sf_devops__Operation_Status__c</name>
+        <relationshipLabel>Этапы ожидаемой продажи</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Ожидаемые продажи</label>
+        <name>sf_devops__Pipeline__c</name>
+        <relationshipLabel>Этапы ожидаемой продажи</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Предвыпуск</label>
+        <name>sf_devops__Prerelease__c</name>
+    </fields>
+    <fields>
+        <label>Удаленная ссылка на проверку продвижения</label>
+        <name>sf_devops__Promote_Review_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label>Статус замены</label>
+        <name>sf_devops__Swap_Status__c</name>
+        <relationshipLabel>Замены этапов ожидаемой продажи</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Состояние синхронизации</label>
+        <name>sf_devops__Synch_State__c</name>
+        <relationshipLabel>Этапы ожидаемой продажи</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Версировано</label>
+        <name>sf_devops__Versioned__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Имя этапа ожидаемой продажи</nameFieldLabel>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Branch_Without_Remote_Reference</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Невозможно изменить Pipeline_Stage в активированной ожидаемой продаже.</errorMessage>
+        <name>sf_devops__No_Changes_For_Active_Pipelines</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Невозможно добавить Pipeline_Stage к активированной ожидаемой продаже.</errorMessage>
+        <name>sf_devops__No_New_Stages_For_Active_Pipelines</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Promote_Review_Remote_Ref_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Promote_Review_Url_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Promote_Review_Versioned</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Promote_Url_Validation</name>
+    </validationRules>
+</CustomObjectTranslation>

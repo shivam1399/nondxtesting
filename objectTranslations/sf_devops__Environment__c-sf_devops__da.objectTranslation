@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Miljø</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Miljøer</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Miljø</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Miljøer</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Miljøet</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Miljøerne</value>
+    </caseValues>
+    <fields>
+        <label>Kan spore ændringer</label>
+        <name>sf_devops__Can_Track_Changes__c</name>
+    </fields>
+    <fields>
+        <label>Udløbet</label>
+        <name>sf_devops__Expired__c</name>
+    </fields>
+    <fields>
+        <label>Seneste revisionstæller</label>
+        <name>sf_devops__Last_Revision_Counter__c</name>
+    </fields>
+    <fields>
+        <label>Navngivne legitimationsoplysninger</label>
+        <name>sf_devops__Named_Credential__c</name>
+    </fields>
+    <fields>
+        <label>Handlingsresultat</label>
+        <name>sf_devops__Operation_Result__c</name>
+        <relationshipLabel>Miljøer</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Organisations-id</label>
+        <name>sf_devops__Org_Id__c</name>
+    </fields>
+    <fields>
+        <label>Projekt</label>
+        <name>sf_devops__Project__c</name>
+        <relationshipLabel>Miljøer</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Opdateringsdato</label>
+        <name>sf_devops__Refresh_Date__c</name>
+    </fields>
+    <fields>
+        <label>Opdateringskilde</label>
+        <name>sf_devops__Refresh_Source__c</name>
+        <relationshipLabel>Miljøer</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Erstatninger</label>
+        <name>sf_devops__Replaces__c</name>
+        <relationshipLabel>Erstatninger</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Testmiljø</label>
+        <name>sf_devops__Test_Environment__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Miljønavn</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Et miljø kan ikke have sit Expired__c-felt angivet til falsk.</errorMessage>
+        <name>sf_devops__Expired_Changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Et miljø kan ikke indsættes med Expired__c angivet til sandt.</errorMessage>
+        <name>sf_devops__Expired_Insert</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Et erstatningsmiljø skal være udløbet.</errorMessage>
+        <name>sf_devops__Expired_Replaces</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Refresh_Source og Refresh_Date skal begge være angivet, eller begge være tomme.</errorMessage>
+        <name>sf_devops__Refresh_Source_And_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Unique_Name</name>
+    </validationRules>
+</CustomObjectTranslation>

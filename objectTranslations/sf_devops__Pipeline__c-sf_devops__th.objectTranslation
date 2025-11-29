@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ไปป์ไลน์</value>
+    </caseValues>
+    <fields>
+        <label>เปิดใช้งานแล้ว</label>
+        <name>sf_devops__Activated__c</name>
+    </fields>
+    <fields>
+        <label>โครงการ</label>
+        <name>sf_devops__Project__c</name>
+        <relationshipLabel>ไปป์ไลน์</relationshipLabel>
+    </fields>
+    <nameFieldLabel>ชื่อไปป์ไลน์</nameFieldLabel>
+    <validationRules>
+        <errorMessage>ไปป์ไลน์ต้องมีชื่อที่ไม่ซ้ำกัน</errorMessage>
+        <name>sf_devops__Unique_Name</name>
+    </validationRules>
+</CustomObjectTranslation>

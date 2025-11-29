@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>VCS-Synchronisierungsstatus</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>VCS-Synchronisierungsstatus</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>VCS-Synchronisierungsstatus</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>VCS-Synchronisierungsstatus</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>VCS-Synchronisierungsstatus</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>VCS-Synchronisierungsstatus</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>VCS-Synchronisierungsstatus</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>VCS-Synchronisierungsstatus</value>
+    </caseValues>
+    <fields>
+        <label>Datum der letzten Synchronisierung</label>
+        <name>sf_devops__Last_Synch_Date__c</name>
+    </fields>
+    <fields>
+        <label>Projekt</label>
+        <name>sf_devops__Project__c</name>
+        <relationshipLabel>Synchronisierungsstatus</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Anzahl der Wiederholungsversuche</label>
+        <name>sf_devops__Retry_Count__c</name>
+    </fields>
+    <fields>
+        <label>ID des Synchronisierungsauftrags</label>
+        <name>sf_devops__Synch_Job_Id__c</name>
+    </fields>
+    <fields>
+        <label>Synchronisierungsname</label>
+        <name>sf_devops__Synch_Name__c</name>
+    </fields>
+    <fields>
+        <label>Synchronisierungsstatus</label>
+        <name>sf_devops__Synch_Status__c</name>
+        <relationshipLabel>VCS-Synchronisierungsstatus</relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Name des VCS-Synchronisierungsstatus</nameFieldLabel>
+</CustomObjectTranslation>

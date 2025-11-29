@@ -65,43 +65,7 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__AllTabSet</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>standard__QueueManagement</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>standard__DataManager</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>standard__RevenueCloudConsole</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>standard__SalesCloudMobile</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>standard__LightningBolt</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>standard__Audience360</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>standard__Approvals</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>standard__MSJApp</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>Get_Started_with_Agentforce</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
@@ -109,12 +73,12 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__FlowsApp</name>
+        <name>standard__AllTabSet</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>DEVHUB_ekyczpz8xpdbzr8idccy</name>
-        <type>ConnectedApp</type>
+        <name>standard__QueueManagement</name>
+        <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
         <name>Dataloader_Bulk</name>
@@ -147,5 +111,77 @@
     <appMenuItems>
         <name>Workbench</name>
         <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>DEVHUB_c0c2wqyupd0ni8jldzrl</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>QAconnApp</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>SFDCTest</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>mySFDCConn</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>ssmg__Metadata_Glimpser</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__DataManager</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>résultatsanté grâce à</name>
+        <type>Network</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Américain-New</name>
+        <type>Network</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>AutoRABIT</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>armSite1</name>
+        <type>Network</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>tgn__Test_Gen</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>apexrest</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Dreamhouse</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__FlowsApp</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__SalesCloudMobile</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__Approvals</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__DataGovernanceConsole</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__MSJApp</name>
+        <type>CustomApplication</type>
     </appMenuItems>
 </AppMenu>

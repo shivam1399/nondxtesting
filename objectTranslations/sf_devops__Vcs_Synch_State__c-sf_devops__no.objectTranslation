@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>VCS-synkroniseringstilstand</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>VCS-synkroniseringstilstander</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>VCS-synkroniseringstilstand</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>VCS-synkroniseringstilstander</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>VCS-synkroniseringstilstanden</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>VCS-synkroniseringstilstandene</value>
+    </caseValues>
+    <fields>
+        <label>Siste synkroniseringsdato</label>
+        <name>sf_devops__Last_Synch_Date__c</name>
+    </fields>
+    <fields>
+        <label>Prosjekt</label>
+        <name>sf_devops__Project__c</name>
+        <relationshipLabel>Synkroniseringstilstander</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Antall nye forsøk</label>
+        <name>sf_devops__Retry_Count__c</name>
+    </fields>
+    <fields>
+        <label>Synkroniseringsjobb-ID</label>
+        <name>sf_devops__Synch_Job_Id__c</name>
+    </fields>
+    <fields>
+        <label>Synkroniseringsnavn</label>
+        <name>sf_devops__Synch_Name__c</name>
+    </fields>
+    <fields>
+        <label>Synkroniseringsstatus</label>
+        <name>sf_devops__Synch_Status__c</name>
+        <relationshipLabel>Vcs-synkroniseringstilstander</relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Navn på Vcs-synkroniseringstilstand</nameFieldLabel>
+</CustomObjectTranslation>

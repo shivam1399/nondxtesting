@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>병합 결과</value>
+    </caseValues>
+    <fields>
+        <label>일자 병합</label>
+        <name>sf_devops__Merge_Date__c</name>
+    </fields>
+    <fields>
+        <label>이전 원격 참조</label>
+        <name>sf_devops__Previous_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label>원격 참조</label>
+        <name>sf_devops__Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label>소스 분기 이름</label>
+        <name>sf_devops__Source_Branch_Name__c</name>
+    </fields>
+    <fields>
+        <label>대상 분기 이름</label>
+        <name>sf_devops__Target_Branch_Name__c</name>
+    </fields>
+    <nameFieldLabel>병합 결과 이름</nameFieldLabel>
+</CustomObjectTranslation>

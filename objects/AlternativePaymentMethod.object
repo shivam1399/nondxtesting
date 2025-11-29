@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
         <actionName>CancelEdit</actionName>
@@ -129,6 +129,9 @@
         <fullName>BankAccountType</fullName>
     </fields>
     <fields>
+        <fullName>BankCode</fullName>
+    </fields>
+    <fields>
         <fullName>BillingFirstName</fullName>
     </fields>
     <fields>
@@ -162,6 +165,9 @@
         <fullName>MacAddress</fullName>
     </fields>
     <fields>
+        <fullName>Mandate</fullName>
+    </fields>
+    <fields>
         <fullName>NickName</fullName>
     </fields>
     <fields>
@@ -193,10 +199,5 @@
     <fields>
         <fullName>Status</fullName>
     </fields>
-    <listViews>
-        <fullName>AlternativePaymentMethod</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
     <sharingModel>Private</sharingModel>
 </CustomObject>

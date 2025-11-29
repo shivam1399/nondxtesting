@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>异步操作结果</value>
+    </caseValues>
+    <fields>
+        <label>依赖记录</label>
+        <name>sf_devops__Dependent_Records__c</name>
+    </fields>
+    <fields>
+        <label>错误详细信息</label>
+        <name>sf_devops__Error_Details__c</name>
+    </fields>
+    <fields>
+        <label>处于终止状态</label>
+        <name>sf_devops__In_Terminal_State__c</name>
+    </fields>
+    <fields>
+        <label>日志 ID</label>
+        <name>sf_devops__Log_Id__c</name>
+    </fields>
+    <fields>
+        <label>消息</label>
+        <name>sf_devops__Message__c</name>
+    </fields>
+    <fields>
+        <label>操作</label>
+        <name>sf_devops__Operation__c</name>
+    </fields>
+    <fields>
+        <label>远程命令</label>
+        <name>sf_devops__Remote_Commands__c</name>
+    </fields>
+    <fields>
+        <label>状态</label>
+        <name>sf_devops__Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ignored</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>异步操作结果名称</nameFieldLabel>
+    <validationRules>
+        <errorMessage>无法更改 Async_Operation_Result 的操作。</errorMessage>
+        <name>sf_devops__Operation_No_Change</name>
+    </validationRules>
+</CustomObjectTranslation>

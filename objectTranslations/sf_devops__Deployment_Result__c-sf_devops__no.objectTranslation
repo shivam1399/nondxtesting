@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Distribusjonsresultat</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Distribusjonsresultater</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Distribusjonsresultat</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Distribusjonsresultater</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Distribusjonsresultatet</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Distribusjonsresultatene</value>
+    </caseValues>
+    <fields>
+        <label>Sjekk distribusjonsdato</label>
+        <name>sf_devops__Check_Deploy_Date__c</name>
+    </fields>
+    <fields>
+        <label>Sjekk distribusjonsstatus</label>
+        <name>sf_devops__Check_Deploy_Status__c</name>
+        <relationshipLabel>Sjekk distribusjonsresultater</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Sjekk distribusjon</label>
+        <name>sf_devops__Check_Deploy__c</name>
+    </fields>
+    <fields>
+        <label>Fullføringsdato</label>
+        <name>sf_devops__Completion_Date__c</name>
+    </fields>
+    <fields>
+        <label>Distribusjons-ID</label>
+        <name>sf_devops__Deployment_Id__c</name>
+    </fields>
+    <fields>
+        <label>Full distribusjon</label>
+        <name>sf_devops__Full_Deploy__c</name>
+    </fields>
+    <fields>
+        <label>Antall tester fullført</label>
+        <name>sf_devops__Number_Tests_Completed__c</name>
+    </fields>
+    <fields>
+        <label>Kjør tester</label>
+        <name>sf_devops__Run_Tests__c</name>
+    </fields>
+    <fields>
+        <label>Status</label>
+        <name>sf_devops__Status__c</name>
+        <relationshipLabel>Distribusjonsresultater</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Testnivå</label>
+        <name>sf_devops__Test_Level__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Navn på distribusjonsresultat</nameFieldLabel>
+</CustomObjectTranslation>

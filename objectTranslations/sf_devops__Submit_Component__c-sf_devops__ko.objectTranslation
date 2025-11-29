@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>제출 구성 요소</value>
+    </caseValues>
+    <fields>
+        <label>변경 제출</label>
+        <name>sf_devops__Change_Submission__c</name>
+        <relationshipLabel>제출 구성 요소</relationshipLabel>
+    </fields>
+    <fields>
+        <label>비어 있음</label>
+        <name>sf_devops__Empty__c</name>
+    </fields>
+    <fields>
+        <label>파일 경로</label>
+        <name>sf_devops__File_Path__c</name>
+    </fields>
+    <fields>
+        <label>작업</label>
+        <name>sf_devops__Operation__c</name>
+    </fields>
+    <fields>
+        <label>소스 구성 요소</label>
+        <name>sf_devops__Source_Component__c</name>
+    </fields>
+    <fields>
+        <label>소스 원격 변경</label>
+        <name>sf_devops__Source_Remote_Change__c</name>
+        <relationshipLabel>제출 구성 요소</relationshipLabel>
+    </fields>
+    <nameFieldLabel>제출 구성 요소 이름</nameFieldLabel>
+    <validationRules>
+        <errorMessage>제출 구성 요소의 File_Path__c 필드는 설정한 후 변경할 수 없습니다.</errorMessage>
+        <name>sf_devops__File_Path</name>
+    </validationRules>
+</CustomObjectTranslation>

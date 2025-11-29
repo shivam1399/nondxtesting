@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Status van synchronisatie van vsc</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Statussen van synchronisatie van vsc</value>
+    </caseValues>
+    <fields>
+        <label>Datum laatste synchronisatie</label>
+        <name>sf_devops__Last_Synch_Date__c</name>
+    </fields>
+    <fields>
+        <label>Project</label>
+        <name>sf_devops__Project__c</name>
+        <relationshipLabel>Statussen van synchronisatie</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Telling opnieuw proberen</label>
+        <name>sf_devops__Retry_Count__c</name>
+    </fields>
+    <fields>
+        <label>ID van synchronisatietaak</label>
+        <name>sf_devops__Synch_Job_Id__c</name>
+    </fields>
+    <fields>
+        <label>Naam van synchronisatie</label>
+        <name>sf_devops__Synch_Name__c</name>
+    </fields>
+    <fields>
+        <label>Status van synchronisatie</label>
+        <name>sf_devops__Synch_Status__c</name>
+        <relationshipLabel>Statussen van synchronisatie van vsc</relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Naam status van synchronisatie van vsc</nameFieldLabel>
+</CustomObjectTranslation>

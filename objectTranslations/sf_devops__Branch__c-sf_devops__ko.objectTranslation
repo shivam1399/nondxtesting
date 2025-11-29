@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>분기</value>
+    </caseValues>
+    <fields>
+        <label>규칙 무시</label>
+        <name>sf_devops__Ignore_Rules__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>이름</label>
+        <name>sf_devops__Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>상위 원격 참조</label>
+        <name>sf_devops__Parent_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>가시적 변경 사항 재계산</label>
+        <name>sf_devops__Recompute_Visible_Changes__c</name>
+    </fields>
+    <fields>
+        <label>원격 참조 일자</label>
+        <name>sf_devops__Remote_Reference_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>원격 참조</label>
+        <name>sf_devops__Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label>리포지토리</label>
+        <name>sf_devops__Repository__c</name>
+        <relationshipLabel>분기</relationshipLabel>
+    </fields>
+    <nameFieldLabel>이름</nameFieldLabel>
+</CustomObjectTranslation>

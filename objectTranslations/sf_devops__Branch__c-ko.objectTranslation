@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>sf_devops__Ignore_Rules__c</name>
+    </fields>
+    <fields>
+        <help>분기의 이름입니다.</help>
+        <label></label>
+        <name>sf_devops__Name__c</name>
+    </fields>
+    <fields>
+        <help>분기가 생성된 소스 분기에 대한 원격 참조입니다.</help>
+        <label></label>
+        <name>sf_devops__Parent_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <help>가시적 변경 사항에는 .forceignore를 적용해야 합니다.</help>
+        <label></label>
+        <name>sf_devops__Recompute_Visible_Changes__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Remote_Reference_Date__c</name>
+    </fields>
+    <fields>
+        <help>지점의 최신 원격 참조입니다.</help>
+        <label></label>
+        <name>sf_devops__Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Repository__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

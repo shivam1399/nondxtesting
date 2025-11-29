@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Resultado de implementación</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Resultados de implementaciones</value>
+    </caseValues>
+    <fields>
+        <label>Comprobar fecha de implementación</label>
+        <name>sf_devops__Check_Deploy_Date__c</name>
+    </fields>
+    <fields>
+        <label>Comprobar estado de implementación</label>
+        <name>sf_devops__Check_Deploy_Status__c</name>
+        <relationshipLabel>Comprobar resultados de implementación</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Comprobar implementación</label>
+        <name>sf_devops__Check_Deploy__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de finalización</label>
+        <name>sf_devops__Completion_Date__c</name>
+    </fields>
+    <fields>
+        <label>Id. de implementación</label>
+        <name>sf_devops__Deployment_Id__c</name>
+    </fields>
+    <fields>
+        <label>Implementación completa</label>
+        <name>sf_devops__Full_Deploy__c</name>
+    </fields>
+    <fields>
+        <label>Número de pruebas completadas</label>
+        <name>sf_devops__Number_Tests_Completed__c</name>
+    </fields>
+    <fields>
+        <label>Ejecutar pruebas</label>
+        <name>sf_devops__Run_Tests__c</name>
+    </fields>
+    <fields>
+        <label>Estado</label>
+        <name>sf_devops__Status__c</name>
+        <relationshipLabel>Resultados de implementación</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Nivel de prueba</label>
+        <name>sf_devops__Test_Level__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nombre de Resultado de implementación</nameFieldLabel>
+</CustomObjectTranslation>

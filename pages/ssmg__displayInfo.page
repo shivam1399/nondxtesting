@@ -1,0 +1,154 @@
+<apex:page controller="ssmg.DisplayInfoController" tabStyle="Differences__tab" readOnly="false" action="{!restorePageState}">
+    <style>
+    	.dataColumn {
+    		width:90%;
+    	}
+    	
+    	a.actionLink {
+    		color:#015ba7;
+    		text-decoration:none;
+    	}
+    </style>
+    
+    <script>
+    	function toggleConflicted(row) {
+    		var markers = row.getElementsByTagName("img");
+    		
+    		if(markers.length > 0) {
+    			var conflictedMarker = markers[0];
+	    		if(conflictedMarker.style.display == "none") {
+	    			conflictedMarker.style.display = "block";
+	    		} else {
+	    			conflictedMarker.style.display = "none";
+	    		}
+			}
+    	}
+    </script>
+    
+    <c:actionStatus message="Please Wait..."/>
+    
+    <apex:sectionHeader title="Differences Tab" subtitle="Differences"/>
+    
+	<apex:form id="formElement">
+		<apex:pageblock title="Compare Environments">
+			<apex:pageMessages id="messages"/>
+			<apex:pageMessage summary="No environments to compare" severity="info" strength="2" rendered="{!envs.size = 0}"/>
+			
+			<apex:pageBlockButtons location="bottom" rendered="{!envs.size > 0}">
+            	<apex:commandButton value="Compare" action="{!compare}" rerender="dataInfoPanel, messages" status="actionStatus"/>
+            </apex:pageBlockButtons>
+		
+			<apex:pageBlockSection title="Enviroments to Compare" columns="2" collapsible="false" rendered="{!envs.size > 0}">
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel value="Environment:" for="leftEnvOptions" />
+					<apex:selectList value="{!leftEnv}" id="leftEnvOptions" size="1">
+						<apex:selectOptions value="{!envs}" />
+					</apex:selectList>
+				</apex:pageBlockSectionItem>
+				
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel value="Environment:" for="rightEnvOptions" />	                
+					<apex:selectList value="{!rightEnv}" id="rightEnvOptions" size="1">
+						<apex:selectOptions value="{!envs}" />
+					</apex:selectList>
+				</apex:pageBlockSectionItem>
+			</apex:pageBlockSection>
+			
+			<apex:pageBlockSection title="Metadata to Compare" columns="2" collapsible="false" rendered="{!envs.size > 0}">
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel value="Metadata Components:"/>
+					<apex:selectRadio value="{!selectedMetadataComponent}">
+			             <apex:selectOptions value="{!availableMetadataComponents}" />
+			             <apex:actionSupport event="onchange" rerender="componentsScope"/>
+		             </apex:selectRadio>
+				</apex:pageBlockSectionItem>
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel value="Components Scope:"/>
+					<apex:outputPanel id="componentsScope">
+						<apex:selectRadio value="{!isPackagedScope}" rendered="{!selectedMetadataComponent != 'sObjects'}">
+				             <apex:selectOption itemValue="false" itemLabel="Unpackaged"/>
+				             <apex:selectOption itemValue="true" itemLabel="Packaged"/>
+						</apex:selectRadio>
+						<apex:selectRadio value="{!isCustomObject}" rendered="{!selectedMetadataComponent = 'sObjects'}">
+				             <apex:selectOption itemValue="false" itemLabel="Standard"/>
+				             <apex:selectOption itemValue="true" itemLabel="Custom"/>
+						</apex:selectRadio>
+					</apex:outputPanel>
+				</apex:pageBlockSectionItem>
+			</apex:pageBlockSection>
+		</apex:pageblock>
+        
+        <apex:outputPanel id="dataInfoPanel">         
+			<apex:outputPanel id="dataInfoBlock" rendered="{!showData}">
+	     		<apex:pageBlock id="dataInfoPageBlock">
+			        <apex:pageBlockSection title="New {!selectedMetadataComponent}" columns="2">
+						<apex:outputPanel >
+					        <apex:pageBlockTable value="{!info.leftDiffList}" var="item" rendered="{!info.isLeftDiffPresent}" >
+					            <apex:column styleClass="dataColumn" value="{!item['label']}">
+					            	<apex:facet name="header">
+										<apex:outputPanel >
+											<apex:outputPanel layout="block" style="float:left; margin-top:-1px;">{!selectedMetadataComponent}</apex:outputPanel>
+											<apex:image style="margin-top:2px;" value="{!$Resource.ssmg__outgo_add}"/>
+										</apex:outputPanel>
+					            	</apex:facet>
+					            </apex:column>
+					            <apex:column headerValue="Action">
+									<apex:outputLink styleClass="actionLink" value="/apex/viewData?name={!item['name']}&label={!item['label']}&type={!selectedMetadataComponent}&envName={!URLENCODE(leftLabel)}" target="_blank">View</apex:outputLink>
+			                    </apex:column> 
+					        </apex:pageBlockTable> 
+			                <apex:pageMessage summary="No records" severity="info" strength="1" rendered="{!!info.isLeftDiffPresent}"/>
+						</apex:outputPanel>
+			            
+			            <apex:outputPanel >
+			                <apex:pageBlockTable value="{!info.rightDiffList}" var="item" rendered="{!info.isRightDiffPresent}" >
+					            <apex:column styleClass="dataColumn" value="{!item['label']}">
+					            	<apex:facet name="header">
+										<apex:outputPanel >
+											<apex:image style="float:left; margin-top:2px;" value="{!$Resource.ssmg__income_add}"/>
+											<apex:outputPanel layout="block" style="margin-top:-1px;">{!selectedMetadataComponent}</apex:outputPanel>
+										</apex:outputPanel>
+					            	</apex:facet>
+					            </apex:column> 
+					            <apex:column headerValue="Action">
+									<apex:outputLink styleClass="actionLink" value="/apex/viewData?name={!item['name']}&label={!item['label']}&type={!selectedMetadataComponent}&envName={!URLENCODE(rightLabel)}" target="_blank">View</apex:outputLink>
+			                    </apex:column>
+				        	</apex:pageBlockTable> 
+				        	<apex:pageMessage summary="No records" severity="info" strength="1" rendered="{!!info.isRightDiffPresent}"/>
+						</apex:outputPanel>
+	                </apex:pageBlockSection>
+
+					<apex:pageBlockSection title="Modified {!selectedMetadataComponent}" columns="1" rendered="{!selectedMetadataComponent != 'sObjects'}">
+				        <apex:pageBlockTable value="{!info.theChangedList}" var="item" rendered="{!info.isTheChangedPresent}">
+				            <apex:column styleClass="dataColumn" value="{!item['label']}">
+				            	<apex:facet name="header">
+									<apex:outputPanel >
+										<apex:outputPanel layout="block" style="float:left; margin-top:-1px;">{!selectedMetadataComponent}</apex:outputPanel>
+										<apex:image style="margin-top:2px;" value="{!$Resource.ssmg__conflict_add}"/>
+									</apex:outputPanel>
+								</apex:facet>
+				            </apex:column> 
+				            <apex:column headerValue="Action">
+		                    	<apex:outputLink styleClass="actionLink" value="/apex/diffInfo?name={!item['name']}&label={!item['label']}&type={!selectedMetadataComponent}&leftName={!URLENCODE(leftLabel)}&rightName={!URLENCODE(rightLabel)}" target="_blank">Compare</apex:outputLink>
+		                    </apex:column>
+				        </apex:pageBlockTable> 
+				        <apex:pageMessage summary="No records" severity="info" strength="1" rendered="{!!info.isTheChangedPresent}"/>
+			        </apex:pageBlockSection>
+	                
+	                <apex:pageBlockSection id="unmodifiedSection" title="{!IF(selectedMetadataComponent = 'sObjects', 'Modified/Unmodified', 'Unmodified')} {!selectedMetadataComponent}" columns="1">
+			            <apex:pageBlockTable value="{!info.theSameList}" var="item" rendered="{!info.isTheSamePresent}" onRowClick="toggleConflicted(this)">
+			                <apex:column styleClass="dataColumn" headerValue="{!selectedMetadataComponent}" value="{!item['label']}"/>
+			                <apex:column headerValue="Action">
+								<apex:outputLink styleClass="actionLink" value="/apex/viewData?name={!item['name']}&label={!item['label']}&type={!selectedMetadataComponent}&envName={!URLENCODE(leftLabel)}" 
+									target="_blank" rendered="{!selectedMetadataComponent != 'sObjects'}">View</apex:outputLink>
+								<apex:outputLink styleClass="actionLink" value="/apex/diffInfo?name={!item['name']}&label={!item['label']}&type={!selectedMetadataComponent}&leftName={!URLENCODE(leftLabel)}&rightName={!URLENCODE(rightLabel)}" 
+									target="_blank" rendered="{!selectedMetadataComponent == 'sObjects'}" onclick="event.stopPropagation()">Compare</apex:outputLink>
+								<apex:image style="display: none; margin-top:2px; margin-right:5px; float:right" value="{!$Resource.ssmg__conflict_add}" rendered="{!selectedMetadataComponent = 'sObjects'}"/>								
+	                       </apex:column> 
+			            </apex:pageBlockTable>
+			            <apex:pageMessage summary="No records" severity="info" strength="1" rendered="{!!info.isTheSamePresent}"/>
+					</apex:pageBlockSection>
+			    </apex:pageBlock>
+			</apex:outputPanel>
+		</apex:outputPanel>
+	</apex:form>
+</apex:page>

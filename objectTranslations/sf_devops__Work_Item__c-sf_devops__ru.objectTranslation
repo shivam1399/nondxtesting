@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Рабочий элемент</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Рабочие элементы</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Рабочий элемент</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Рабочие элементы</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Рабочего элемента</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Рабочих элементов</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Рабочему элементу</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Рабочим элементам</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Рабочим элементом</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Рабочими элементами</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value>Рабочем элементе</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value>Рабочих элементах</value>
+    </caseValues>
+    <fields>
+        <label>Назначено</label>
+        <name>sf_devops__Assigned_To__c</name>
+        <relationshipLabel>Рабочие элементы</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Branch_Name__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Branch_Parent_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Branch_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label>Ответвление</label>
+        <name>sf_devops__Branch__c</name>
+        <relationshipLabel>Рабочие элементы</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Пакет изменений</label>
+        <name>sf_devops__Change_Bundle__c</name>
+        <relationshipLabel>Рабочие элементы</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Объединить статус</label>
+        <name>sf_devops__Combine_Status__c</name>
+        <relationshipLabel>Объединить рабочие элементы</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Объединено с</label>
+        <name>sf_devops__Combined_With__c</name>
+        <relationshipLabel>Объединенные рабочие элементы</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Заключено</label>
+        <name>sf_devops__Concluded__c</name>
+    </fields>
+    <fields>
+        <label>Объединение перекрестных сред</label>
+        <name>sf_devops__Cross_Environment_Combination__c</name>
+    </fields>
+    <fields>
+        <label>Описание</label>
+        <name>sf_devops__Description__c</name>
+    </fields>
+    <fields>
+        <label>Разработка утверждена пользователем</label>
+        <name>sf_devops__Development_Approved_By__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Разработка утверждена</label>
+        <name>sf_devops__Development_Approved__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Среда разработки</label>
+        <name>sf_devops__Development_Environment__c</name>
+    </fields>
+    <fields>
+        <label>Подключенная среда</label>
+        <name>sf_devops__Environment__c</name>
+        <relationshipLabel>Рабочие элементы</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Статус операции</label>
+        <name>sf_devops__Operation_Status__c</name>
+        <relationshipLabel>Рабочие элементы</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Проект</label>
+        <name>sf_devops__Project__c</name>
+        <relationshipLabel>Рабочие элементы</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Продвинуто из среды</label>
+        <name>sf_devops__Promoted_From_Environment__c</name>
+        <relationshipLabel>Рабочие элементы</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Повышено</label>
+        <name>sf_devops__Promoted__c</name>
+    </fields>
+    <fields>
+        <label>Переместить ответвление</label>
+        <name>sf_devops__Rebase_Branch__c</name>
+        <relationshipLabel>Перемещенные рабочие элементы</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Rebase_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label>Просмотреть удаленную ссылку</label>
+        <name>sf_devops__Review_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Статус</label>
+        <name>sf_devops__State__c</name>
+    </fields>
+    <fields>
+        <label>Тема</label>
+        <name>sf_devops__Subject__c</name>
+    </fields>
+    <fields>
+        <label>Состояние синхронизации</label>
+        <name>sf_devops__Synch_State__c</name>
+        <relationshipLabel>Рабочие элементы</relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Число рабочих элементов</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Work_Item может использовать Development_Approved_By, установленное только на Development_Approved.</errorMessage>
+        <name>sf_devops__Approved_By_Without_Approved</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Необходимо установить Development_Approved_By, если данный рабочий элемент утвержден.</errorMessage>
+        <name>sf_devops__Approved_Without_Approved_By</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Рабочий элемент не может быть утвержден без проверки.</errorMessage>
+        <name>sf_devops__Approved_Without_Review</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Branch_Without_Remote_Reference</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Рабочий элемент должен принадлежать к одному проекту с его пакетом изменений.</errorMessage>
+        <name>sf_devops__Change_Bundle_Project</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Рабочий элемент не может быть объединен, если он находится в пакете.</errorMessage>
+        <name>sf_devops__Combined_Bundled</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Рабочий элемент не может быть объединен, если он не ссылается на рабочий элемент, в котором объединяется.</errorMessage>
+        <name>sf_devops__Combined_Not_Combined_With</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Рабочий элемент не может быть объединен, если он был продвинут.</errorMessage>
+        <name>sf_devops__Combined_Not_Promoted</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Рабочий элемент не может использовать установленное значение "Combined_With", если он не находится в состоянии объединенного.</errorMessage>
+        <name>sf_devops__Combined_With_Not_Combined</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Рабочий элемент не может использовать установленное значение "Combined_With" в рабочем элементе, не выполнившем операцию объединения.</errorMessage>
+        <name>sf_devops__Combined_With_Not_Survivor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Возможные значения для Concluded_c: CLOSED,, NEVERED, COMBINED или пустое.</errorMessage>
+        <name>sf_devops__Concluded_values</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Рабочий элемент не поддерживает изменение поля Concluded__c после установки.</errorMessage>
+        <name>sf_devops__Disable_Concluded</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Рабочий элемент не поддерживает отключение поля Promoted__c после установки.</errorMessage>
+        <name>sf_devops__Disable_Promoted</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Рабочие элементы не могут быть подключены к устаревшим средам.</errorMessage>
+        <name>sf_devops__Environment_Expired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Рабочий элемент должен принадлежать к одному проекту с его средой.</errorMessage>
+        <name>sf_devops__Environment_Project</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Невозможно ссылаться на среду, которая не поддерживает отслеживание изменений.</errorMessage>
+        <name>sf_devops__Environment_Requires_Tracking</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Рабочий элемент не поддерживает изменение поля Promoted_From_Environment__c после установки.</errorMessage>
+        <name>sf_devops__PromotedFromEnvironment_Changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Рабочий элемент не поддерживает значение поля Promoted_From_Environment__c, отличающееся от значения Environment__c и может быть установлено только при установке Environment__c на нуль.</errorMessage>
+        <name>sf_devops__PromotedFromEnvironment_Set</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Work_Item не может быть участником Change_Bundle, если он не был продвинут.</errorMessage>
+        <name>sf_devops__Promoted_And_Installed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Невозможно создать Work_Item с установленной отметкой "Продвинуто".</errorMessage>
+        <name>sf_devops__Promoted_On_Create</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Рабочий элемент не может быть продвинут, если он не утвержден.</errorMessage>
+        <name>sf_devops__Promoted_Without_Approval</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Рабочий элемент не может использовать установленное поле "Переместить ответвление", если он является не продвинутым, пакетированным или завершенным.</errorMessage>
+        <name>sf_devops__Rebase_Branch</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Rebase_Remote_Reference</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Remote_Reference_Without_Review</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Review_Without_Remote_Reference</name>
+    </validationRules>
+    <webLinks>
+        <label>Просмотр в центре DevOps</label>
+        <name>sf_devops__Devops_Center</name>
+    </webLinks>
+</CustomObjectTranslation>

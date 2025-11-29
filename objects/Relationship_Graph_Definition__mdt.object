@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Relationship_Graph_Definition__c</fullName>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Relationship Graph Definition</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <label>Relationship Graph Definition</label>
+    <pluralLabel>Relationship Graph Definitions</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

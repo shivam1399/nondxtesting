@@ -6,7 +6,7 @@
     <enableAppFrmAnywhereOrgPref>false</enableAppFrmAnywhereOrgPref>
     <enableAppInviteOrgPref>false</enableAppInviteOrgPref>
     <enableCapacitySchedulingPref>false</enableCapacitySchedulingPref>
-    <enableDepriveSoqlAccessGuestUserOrgPref>true</enableDepriveSoqlAccessGuestUserOrgPref>
+    <enableDepriveSoqlAccessGuestUserOrgPref>false</enableDepriveSoqlAccessGuestUserOrgPref>
     <enableDepriveSoqlAccessOrgPref>true</enableDepriveSoqlAccessOrgPref>
     <enableDontSharePartyprofWPortalOrgPref>false</enableDontSharePartyprofWPortalOrgPref>
     <enableDropInAppointmentsOrgPref>false</enableDropInAppointmentsOrgPref>
@@ -20,8 +20,7 @@
     <enablePreBookedFallbackMechOrgPref>false</enablePreBookedFallbackMechOrgPref>
     <enableSchedulerPaymentsPref>false</enableSchedulerPaymentsPref>
     <enableShareSaWithArOrgPref>false</enableShareSaWithArOrgPref>
-    <enableTopicOrTemplate>false</enableTopicOrTemplate>
-    <enableTopicTimeSlot>true</enableTopicTimeSlot>
+    <enableTopicTimeSlot>false</enableTopicTimeSlot>
     <partyProfMultiShrPrtnrsOrgPref>false</partyProfMultiShrPrtnrsOrgPref>
     <rlaEditIfAccHasEdit>false</rlaEditIfAccHasEdit>
 </IndustriesSettings>

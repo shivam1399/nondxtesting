@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Item de trabalho</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Itens de trabalho</value>
+    </caseValues>
+    <fields>
+        <label>Atribuído a</label>
+        <name>sf_devops__Assigned_To__c</name>
+        <relationshipLabel>Itens de trabalho</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Branch_Name__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Branch_Parent_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Branch_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label>Ramificação</label>
+        <name>sf_devops__Branch__c</name>
+        <relationshipLabel>Itens de trabalho</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Pacote de alteração</label>
+        <name>sf_devops__Change_Bundle__c</name>
+        <relationshipLabel>Itens de trabalho</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Combinar status</label>
+        <name>sf_devops__Combine_Status__c</name>
+        <relationshipLabel>Combinar itens de trabalho</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Combinar com</label>
+        <name>sf_devops__Combined_With__c</name>
+        <relationshipLabel>Itens de trabalho combinados</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Concluído</label>
+        <name>sf_devops__Concluded__c</name>
+    </fields>
+    <fields>
+        <label>Combinação entre ambientes</label>
+        <name>sf_devops__Cross_Environment_Combination__c</name>
+    </fields>
+    <fields>
+        <label>Descrição</label>
+        <name>sf_devops__Description__c</name>
+    </fields>
+    <fields>
+        <label>Desenvolvimento aprovado por</label>
+        <name>sf_devops__Development_Approved_By__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Desenvolvimento aprovado</label>
+        <name>sf_devops__Development_Approved__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Ambiente de desenvolvimento</label>
+        <name>sf_devops__Development_Environment__c</name>
+    </fields>
+    <fields>
+        <label>Ambiente conectado</label>
+        <name>sf_devops__Environment__c</name>
+        <relationshipLabel>Itens de trabalho</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Status da operação</label>
+        <name>sf_devops__Operation_Status__c</name>
+        <relationshipLabel>Itens de trabalho</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Projeto</label>
+        <name>sf_devops__Project__c</name>
+        <relationshipLabel>Itens de trabalho</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Promovido do ambiente</label>
+        <name>sf_devops__Promoted_From_Environment__c</name>
+        <relationshipLabel>Itens de trabalho</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Promovido</label>
+        <name>sf_devops__Promoted__c</name>
+    </fields>
+    <fields>
+        <label>Ramificação de reconstrução</label>
+        <name>sf_devops__Rebase_Branch__c</name>
+        <relationshipLabel>Itens de trabalho reconstruídos</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Rebase_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label>Revise a referência remota</label>
+        <name>sf_devops__Review_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Status</label>
+        <name>sf_devops__State__c</name>
+    </fields>
+    <fields>
+        <label>Assunto</label>
+        <name>sf_devops__Subject__c</name>
+    </fields>
+    <fields>
+        <label>Estado da sincronização</label>
+        <name>sf_devops__Synch_State__c</name>
+        <relationshipLabel>Itens de trabalho</relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Número do item de trabalho</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Um Work_Item não pode ter Development_Approved_By definido se não for Development_Approved.</errorMessage>
+        <name>sf_devops__Approved_By_Without_Approved</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Você deve definir Development_Approved_By quando este item de trabalho for aprovado.</errorMessage>
+        <name>sf_devops__Approved_Without_Approved_By</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Um item de trabalho não pode ser aprovado sem uma revisão.</errorMessage>
+        <name>sf_devops__Approved_Without_Review</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Branch_Without_Remote_Reference</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Um item de trabalho deve pertencer ao mesmo projeto que seu pacote de alterações.</errorMessage>
+        <name>sf_devops__Change_Bundle_Project</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Um item de trabalho não pode ser combinado se estiver em um pacote.</errorMessage>
+        <name>sf_devops__Combined_Bundled</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Um item de trabalho não pode ser combinado se não fizer referência ao item de trabalho com o qual está sendo combinado.</errorMessage>
+        <name>sf_devops__Combined_Not_Combined_With</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Um item de trabalho não pode ser combinado se nunca tiver sido promovido.</errorMessage>
+        <name>sf_devops__Combined_Not_Promoted</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Um item de trabalho não pode ter a configuração Combined_With se não estiver no estado Combinado.</errorMessage>
+        <name>sf_devops__Combined_With_Not_Combined</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Um item de trabalho não pode ter a configuração Combined_With para um item de trabalho que não executou a operação Combinar.</errorMessage>
+        <name>sf_devops__Combined_With_Not_Survivor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Os valores possíveis para Concluded_c são: FECHADO, NUNCA, COMBINADO ou vazio.</errorMessage>
+        <name>sf_devops__Concluded_values</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Um item de trabalho não pode ter seu campo Concluded__c alterado uma vez definido.</errorMessage>
+        <name>sf_devops__Disable_Concluded</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Um item de trabalho não pode ter seu campo Promoted__c desabilitado uma vez definido.</errorMessage>
+        <name>sf_devops__Disable_Promoted</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Itens de trabalho não podem ser conectados a ambientes expirados.</errorMessage>
+        <name>sf_devops__Environment_Expired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Um item de trabalho deve pertencer ao mesmo projeto que seu ambiente.</errorMessage>
+        <name>sf_devops__Environment_Project</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Não é possível referenciar o ambiente que não oferece suporte ao rastreamento de alterações.</errorMessage>
+        <name>sf_devops__Environment_Requires_Tracking</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Um item de trabalho não pode ter seu campo Promoted_From_Environment__c alterado uma vez definido.</errorMessage>
+        <name>sf_devops__PromotedFromEnvironment_Changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Um item de trabalho não pode ter seu campo Promoted_From_Environment__c definido com um valor diferente do valor de Environment__c e só pode ser definido quando Environment__c estiver sendo definido como nulo.</errorMessage>
+        <name>sf_devops__PromotedFromEnvironment_Set</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Um Work_Item não pode ser membro de um Change_Bundle se nunca tiver sido promovido.</errorMessage>
+        <name>sf_devops__Promoted_And_Installed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Você não pode criar um Work_Item com o sinalizador promovido definido.</errorMessage>
+        <name>sf_devops__Promoted_On_Create</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Um item de trabalho não pode ser promovido se não for aprovado.</errorMessage>
+        <name>sf_devops__Promoted_Without_Approval</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Um item de trabalho não pode ter o campo Ramificação de reconstrução definido se estiver não promovido, empacotado ou concluído.</errorMessage>
+        <name>sf_devops__Rebase_Branch</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Rebase_Remote_Reference</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Remote_Reference_Without_Review</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Review_Without_Remote_Reference</name>
+    </validationRules>
+    <webLinks>
+        <label>Visualizar no DevOps Center</label>
+        <name>sf_devops__Devops_Center</name>
+    </webLinks>
+</CustomObjectTranslation>

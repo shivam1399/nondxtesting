@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Risultato distribuzione</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Risultati distribuzione</value>
+    </caseValues>
+    <fields>
+        <label>Controlla data distribuzione</label>
+        <name>sf_devops__Check_Deploy_Date__c</name>
+    </fields>
+    <fields>
+        <label>Controlla stato distribuzione</label>
+        <name>sf_devops__Check_Deploy_Status__c</name>
+        <relationshipLabel>Controlla risultati distribuzione</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Controlla distribuzione</label>
+        <name>sf_devops__Check_Deploy__c</name>
+    </fields>
+    <fields>
+        <label>Data completamento</label>
+        <name>sf_devops__Completion_Date__c</name>
+    </fields>
+    <fields>
+        <label>ID distribuzione</label>
+        <name>sf_devops__Deployment_Id__c</name>
+    </fields>
+    <fields>
+        <label>Distribuzione completa</label>
+        <name>sf_devops__Full_Deploy__c</name>
+    </fields>
+    <fields>
+        <label>Numero di test completati</label>
+        <name>sf_devops__Number_Tests_Completed__c</name>
+    </fields>
+    <fields>
+        <label>Esegui test</label>
+        <name>sf_devops__Run_Tests__c</name>
+    </fields>
+    <fields>
+        <label>Stato</label>
+        <name>sf_devops__Status__c</name>
+        <relationshipLabel>Risultati della distribuzione</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Livello test</label>
+        <name>sf_devops__Test_Level__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome risultato distribuzione</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

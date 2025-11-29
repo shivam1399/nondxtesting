@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>배포 구성 요소</value>
+    </caseValues>
+    <fields>
+        <label>배포 결과</label>
+        <name>sf_devops__Deployment_Result__c</name>
+        <relationshipLabel>구성 요소 배포</relationshipLabel>
+    </fields>
+    <fields>
+        <label>파일 경로</label>
+        <name>sf_devops__File_Path__c</name>
+    </fields>
+    <fields>
+        <label>강제 무시</label>
+        <name>sf_devops__Force_Ignored__c</name>
+    </fields>
+    <fields>
+        <label>작업</label>
+        <name>sf_devops__Operation__c</name>
+    </fields>
+    <fields>
+        <label>소스 구성 요소</label>
+        <name>sf_devops__Source_Component__c</name>
+    </fields>
+    <nameFieldLabel>구성 요소 이름 배포</nameFieldLabel>
+</CustomObjectTranslation>

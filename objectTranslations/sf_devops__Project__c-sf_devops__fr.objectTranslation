@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Projet</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Projets</value>
+    </caseValues>
+    <fields>
+        <label>Description</label>
+        <name>sf_devops__Description__c</name>
+    </fields>
+    <fields>
+        <label>Masquer</label>
+        <name>sf_devops__Hidden__c</name>
+    </fields>
+    <fields>
+        <label>Répertoires du package sfdx-project.json</label>
+        <name>sf_devops__Package_Directories__c</name>
+    </fields>
+    <fields>
+        <label>Référentiel de la plate-forme</label>
+        <name>sf_devops__Platform_Repository__c</name>
+        <relationshipLabel>Projets de la plate-forme</relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nom du projet</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage>Platform_Repository__c ne peut pas être modifié.</errorMessage>
+        <name>sf_devops__No_Platform_Repository_Change</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Les projets doivent avoir un nom unique.</errorMessage>
+        <name>sf_devops__Unique_Name</name>
+    </validationRules>
+    <webLinks>
+        <label>Afficher dans le Centre DevOps</label>
+        <name>sf_devops__Devops_Center</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,15 @@
+<apex:page standardStylesheets="true" controller="ssmg.ShowFileInfoController" tabStyle="File_Content__tab" action="{!searchData}" readOnly="true">
+  	<apex:sectionHeader title="{!EnvName}" subtitle="{!fileLabel}"/>
+  	
+	<apex:pageblock >
+		<apex:pageMessages id="messages"/>
+		<apex:panelGrid columns="2" cellspacing="2" width="100%" id="theGrid">
+			<apex:outputPanel title="{!EnvName}" rendered="{!!packageFile}" layout="block">
+				<textarea id="baseText" readonly="readonly" style="width: 100%; height: 610px; margin: 0px;">{!fileContent}</textarea>
+			</apex:outputPanel>
+			<apex:outputPanel title="{!EnvName}" rendered="{!packageFile}">
+				<apex:pageMessage summary="Package file content is not visible" severity="info" strength="2"/>
+			</apex:outputPanel>
+		</apex:panelGrid>
+	</apex:pageblock>
+</apex:page>

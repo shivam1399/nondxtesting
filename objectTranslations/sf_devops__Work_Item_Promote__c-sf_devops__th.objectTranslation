@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>การส่งเสริมรายการงาน</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>sf_devops__Completion_Date__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Deployment_Id__c</name>
+    </fields>
+    <fields>
+        <label>ผลการปรับใช้</label>
+        <name>sf_devops__Deployment_Result__c</name>
+        <relationshipLabel>การเลื่อนขั้นรายการงาน</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ผลการผสาน</label>
+        <name>sf_devops__Merge_Result__c</name>
+        <relationshipLabel>การเลื่อนขั้นรายการงาน</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ลำดับขั้นไปป์ไลน์</label>
+        <name>sf_devops__Pipeline_Stage__c</name>
+        <relationshipLabel>การเลื่อนขั้นรายการงาน</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ขีดจำกัดการรีเบส</label>
+        <name>sf_devops__Rebase_Limit__c</name>
+    </fields>
+    <fields>
+        <label>สถานะการปรับใช้</label>
+        <name>sf_devops__Rebase_Status__c</name>
+        <relationshipLabel>การปรับใช้การเลื่อนขั้นรายการงาน</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label>สถานะ</label>
+        <name>sf_devops__Status__c</name>
+        <relationshipLabel>การเลื่อนขั้นรายการงาน</relationshipLabel>
+    </fields>
+    <fields>
+        <label>รายการงาน</label>
+        <name>sf_devops__Work_Item__c</name>
+        <relationshipLabel>การเลื่อนขั้นรายการงาน</relationshipLabel>
+    </fields>
+    <nameFieldLabel>ชื่อการเลื่อนขั้นรายการงาน</nameFieldLabel>
+    <validationRules>
+        <errorMessage>คุณไม่สามารถเลื่อนขั้น Work_Item ไปยังไปป์ไลน์ที่ไม่ได้ใช้งาน</errorMessage>
+        <name>sf_devops__No_Promotion_to_Inactive_Pipeline</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>ไม่สามารถเลื่อนขั้น Work_Item ที่เป็นสมาชิกของ Change_Bundle ไปยัง Pipeline_Stage</errorMessage>
+        <name>sf_devops__Promoted_And_Installed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>ไม่สามารถเลื่อนขั้น Work_Item ไปยัง Pipeline_Stage ที่มีเวอร์ชัน</errorMessage>
+        <name>sf_devops__Promoted_To_Versioned</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>ไม่สามารถเลื่อนขั้น WorkItem ถ้ายังไม่ได้รับอนุมัติ</errorMessage>
+        <name>sf_devops__Promoted_Without_Approval</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>สามารถเลื่อนขั้น WorkItem ไปยังลำดับขั้นภายในโครงการเดียวกันได้เท่านั้น</errorMessage>
+        <name>sf_devops__Promoted_Wrong_Project</name>
+    </validationRules>
+</CustomObjectTranslation>

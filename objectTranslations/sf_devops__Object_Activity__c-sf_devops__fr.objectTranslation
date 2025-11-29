@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Activité de l'objet</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Activités de l'objet</value>
+    </caseValues>
+    <fields>
+        <label>Date d'activité</label>
+        <name>sf_devops__Activity_Date__c</name>
+    </fields>
+    <fields>
+        <label>Type d'activité</label>
+        <name>sf_devops__Activity_Type__c</name>
+    </fields>
+    <fields>
+        <label>Soumission de modification</label>
+        <name>sf_devops__Change_Submission__c</name>
+        <relationshipLabel>Activités de l'objet</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Environnement</label>
+        <name>sf_devops__Environment__c</name>
+        <relationshipLabel>Activités de l'objet</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Masqué</label>
+        <name>sf_devops__Hidden__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Message__c</name>
+    </fields>
+    <fields>
+        <label>Résultat de l'opération</label>
+        <name>sf_devops__Operation_Result__c</name>
+        <relationshipLabel>Activités de l'objet</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Activité parente</label>
+        <name>sf_devops__Parent_Activity__c</name>
+        <relationshipLabel>Activités enfants</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Pipeline</label>
+        <name>sf_devops__Pipeline__c</name>
+        <relationshipLabel>Activités de l'objet</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Projet</label>
+        <name>sf_devops__Project__c</name>
+        <relationshipLabel>Activités de l'objet</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Résumé</label>
+        <name>sf_devops__Summary__c</name>
+    </fields>
+    <fields>
+        <label>Étape du pipeline cible</label>
+        <name>sf_devops__Target_Pipeline_Stage__c</name>
+        <relationshipLabel>Activités de l'objet cible</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Élément de travail</label>
+        <name>sf_devops__Work_Item__c</name>
+        <relationshipLabel>Activités de l'objet</relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nom de l'activité de l'objet</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage>La Change_Submission__c référencée doit provenir du même Work_Item.</errorMessage>
+        <name>sf_devops__Change_Submission_Work_Item</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Le Environment__c référencé doit provenir du même projet que Object_Activity__c.</errorMessage>
+        <name>sf_devops__Environment_Project</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La Parent_Activity__c référencée doit provenir du même projet que Object_Activity__c.</errorMessage>
+        <name>sf_devops__Parent_Activity_Project</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Le Pipeline__c référencé doit provenir du même projet que Object_Activity__c.</errorMessage>
+        <name>sf_devops__Pipeline_Project</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La Target_Pipeline_Stage__c référencée doit provenir du même Pipeline.</errorMessage>
+        <name>sf_devops__Target_Stage_Pipeline</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Le Work_Item__c référencé doit provenir du même projet que Object_Activity__c.</errorMessage>
+        <name>sf_devops__Work_Item_Project</name>
+    </validationRules>
+</CustomObjectTranslation>

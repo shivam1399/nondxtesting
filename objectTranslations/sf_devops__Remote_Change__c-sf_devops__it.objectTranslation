@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Modifica remota</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Modifiche remote</value>
+    </caseValues>
+    <fields>
+        <label>Invio di modifiche</label>
+        <name>sf_devops__Change_Submission__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Ambiente</label>
+        <name>sf_devops__Environment__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Nome membro</label>
+        <name>sf_devops__Member_Name__c</name>
+    </fields>
+    <fields>
+        <label>Tipo di membro</label>
+        <name>sf_devops__Member_Type__c</name>
+    </fields>
+    <fields>
+        <label>Modifica remota di</label>
+        <name>sf_devops__Remote_Change_By__c</name>
+    </fields>
+    <fields>
+        <label>Modifica remota il</label>
+        <name>sf_devops__Remote_Change_On__c</name>
+    </fields>
+    <fields>
+        <label>Tipo di modifica remota</label>
+        <name>sf_devops__Remote_Change_Type__c</name>
+        <picklistValues>
+            <masterLabel>ADD</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHANGE</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MANUAL</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REMOVE</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RENAME</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Componente di origine</label>
+        <name>sf_devops__Source_Component__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nome modifica remota</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage>Impossibile avere un Change_Submission da un altro ambiente.</errorMessage>
+        <name>sf_devops__Project_Reference</name>
+    </validationRules>
+</CustomObjectTranslation>

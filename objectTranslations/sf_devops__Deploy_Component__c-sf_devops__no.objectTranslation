@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Distribusjonskomponent</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Distribusjonskomponenter</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Distribusjonskomponent</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Distribusjonskomponenter</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Distribusjonskomponenten</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Distribusjonskomponentene</value>
+    </caseValues>
+    <fields>
+        <label>Distribusjonsresultat</label>
+        <name>sf_devops__Deployment_Result__c</name>
+        <relationshipLabel>Distribusjonskomponenter</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Filbane</label>
+        <name>sf_devops__File_Path__c</name>
+    </fields>
+    <fields>
+        <label>Fast ignorert</label>
+        <name>sf_devops__Force_Ignored__c</name>
+    </fields>
+    <fields>
+        <label>Operasjon</label>
+        <name>sf_devops__Operation__c</name>
+    </fields>
+    <fields>
+        <label>Kildekomponent</label>
+        <name>sf_devops__Source_Component__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Navn på distribusjonskomponent</nameFieldLabel>
+</CustomObjectTranslation>

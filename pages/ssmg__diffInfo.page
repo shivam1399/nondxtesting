@@ -1,0 +1,94 @@
+<apex:page standardStylesheets="true" controller="ssmg.DiffInfoController" tabStyle="File_Content__tab" action="{!searchData}" readOnly="true">
+	<apex:includeScript value="{!$Resource.ssmg__difflibJs}" />
+	<apex:includeScript value="{!$Resource.ssmg__diffviewJs}" />
+
+	<apex:stylesheet value="{!$Resource.ssmg__diffview}" />
+		
+	<style>
+		.origFilesArea {
+			width:100%;
+			height:300px;
+		}
+		
+		.texttitle {
+			padding:5px;
+		}
+		
+		.viewModePanel {
+			border:1px solid black;
+			margin:10px;
+			padding-top:5px;
+			padding-bottom:5px;
+			width:25%;
+		}
+		
+		.viewModeItem{
+			margin:5px;
+		}
+	</style>
+	<script>
+		function diffUsingJS(viewType) {
+			'use strict';
+			var byId = function(id) {
+				return document.getElementById(id);
+			},
+			base = difflib.stringAsLines(byId("baseText").value),
+		    newtxt = difflib.stringAsLines(byId("newText").value),
+			sm = new difflib.SequenceMatcher(base, newtxt),
+			opcodes = sm.get_opcodes(),
+			diffoutputdiv = byId("diffoutput");
+			//contextSize = byId("contextSize").value;
+			
+			diffoutputdiv.innerHTML = "";
+
+			diffoutputdiv.appendChild(diffview.buildView({
+				baseTextLines: base,
+				newTextLines: newtxt,
+				opcodes: opcodes,
+				baseTextName: "{!JSENCODE(leftLabel)} {!JSENCODE(fileLabel)}",
+				newTextName: "{!JSENCODE(rightLabel)} {!JSENCODE(fileLabel)}",
+				contextSize: null,
+				viewType: viewType
+			}));
+		}
+		
+		window.onload = function() {
+			diffUsingJS(0);
+	    }
+	</script>
+	<body>
+		<apex:sectionHeader title="{!leftLabel} vs {!rightLabel}" subtitle="{!fileLabel}"/>
+	    <apex:pageMessage summary="No conflicts found." severity="info" strength="2" rendered="{!!isConflicted}"/>
+	    
+		<apex:pageblock >
+		    <apex:pageMessages id="messages"/>
+           
+			<apex:pageBlockSection collapsible="false" title="View Mode" columns="1">
+			    <apex:pageBlockSectionItem >
+			    	<input  type="radio" name="_viewtype" id="sidebyside" onclick="diffUsingJS(0);" checked="checked"/> 
+			    	<label for="sidebyside">Side by Side</label>
+			    </apex:pageBlockSectionItem>
+			    <apex:pageBlockSectionItem >
+			    	<input type="radio" name="_viewtype" id="inline" onclick="diffUsingJS(1);" /> 
+			    	<label for="inline">In-line</label>
+			    </apex:pageBlockSectionItem>
+			</apex:pageBlockSection>
+			<div id="diffoutput"></div>
+		</apex:pageblock>
+		
+		<div style="display:none">
+			<apex:pageblock title="Original Files">
+				<apex:panelGrid columns="2" cellspacing="2" width="100%" id="theGrid">
+		                 <apex:outputPanel title="{!leftLabel}">
+		                     <div class="texttitle"><b>{!JSENCODE(leftLabel)} {!JSENCODE(fileLabel)}</b></div>
+		                     <textarea id="baseText" class="origFilesArea" readonly="readonly">{!leftFile}</textarea>		
+		                 </apex:outputPanel>
+		                 <apex:outputPanel title="{!rightLabel}">
+		                     <div class="texttitle"><b>{!JSENCODE(rightLabel)} {!JSENCODE(fileLabel)}</b></div>
+		                     <textarea id="newText" class="origFilesArea" readonly="readonly">{!rightFile}</textarea>			
+		                 </apex:outputPanel>
+				</apex:panelGrid>
+			</apex:pageblock>
+		</div>		
+	</body>
+</apex:page>

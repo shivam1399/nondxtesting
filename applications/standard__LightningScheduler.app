@@ -5,7 +5,7 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
-    <label>Salesforce Scheduler Setup</label>
+    <label>Lightning Scheduler Setup</label>
     <navType>Standard</navType>
     <tabs>standard-LightningSchedulerSetupAssistant</tabs>
     <tabs>standard-ServiceTerritory</tabs>
@@ -14,5 +14,6 @@
     <tabs>standard-WorkType</tabs>
     <tabs>standard-OperatingHours</tabs>
     <tabs>standard-ServiceAppointment</tabs>
+    <tabs>RajTest__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

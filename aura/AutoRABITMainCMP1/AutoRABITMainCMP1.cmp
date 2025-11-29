@@ -1,0 +1,138 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+	<aura:attribute name="disabled" type="Boolean" default="true" />
+    <aura:attribute name="disabledMain" type="Boolean" default="false" />
+    <aura:attribute name="enableSuccess" type="Boolean" default="false" />
+    <aura:attribute name="saved" type="Boolean" default="false" />
+     <aura:attribute name="error" type="Boolean" default="false" />
+    <aura:attribute name="errormsg" type="Boolean" default="false" />
+    <aura:attribute name="errormsgPS" type="Boolean" default="false" />
+    <aura:attribute name="errormsgPS2" type="Boolean" default="false" />
+    <aura:attribute name="showSpinner" type="Boolean" default="false" />
+    <aura:attribute name="Hide" type="Boolean" default="false" />
+    <aura:attribute name="UCerrormsg1" type="Boolean" default="false" />
+    <aura:attribute name="UCerrormsg2" type="Boolean" default="false" />
+    <aura:attribute name="UCerrormsg3" type="Boolean" default="false" />
+
+    <aura:if isTrue="{!v.showSpinner}">
+        <lightning:spinner />
+    </aura:if> 
+ 
+       
+         <aura:if isTrue="{!v.disabled}" >
+        <lightning:layout>
+           
+            <lightning:layoutItem size="12">
+                 <div class="slds-box ">
+                		<c:ARMPOCUseCases/>
+                    
+                </div>
+                 <div class="slds-float_right">
+            <lightning:button variant="brand" type="button" name="Back" label="Back" onclick="{!c.ClickBack}" />
+             <lightning:button variant="brand" type="button" name="Next" label="Next" onclick="{!c.ClickNext}" />
+                </div>
+            </lightning:layoutItem>
+        </lightning:layout>
+        </aura:if>
+        
+    <aura:if isTrue="{!v.disabledMain}" >
+    <aura:if isTrue="{!!v.saved}">
+    
+    <div class="slds-m-around_xx-large">
+        <lightning:recordEditForm objectApiName="PoC_Evaluation__c" aura:id="pocForm" onload="{!c.handleLoad}"  onsubmit="{!c.handleSubmit}"
+            onsuccess="{!c.handleSuccess}">
+            <lightning:layout multipleRows="true">
+                
+				
+                <lightning:layoutItem size="6">
+            <span>
+                <div class="slds-box ">
+               <div class="slds-text-heading_large slds-text-align_Right slds-text-color_destructive">
+                            Company Info:</div>
+                    
+                  <lightning:inputField  fieldName="Company_Name__c" required="true" />
+                    <lightning:inputField  fieldName="Contact_Name__c"  />
+                    <lightning:inputField  fieldName="Contact_Email__c"  /><br/>
+                    <lightning:inputField  fieldName="Product__c" aura:id="type" class="slds-hidden" />
+                     
+                    <div class="slds-text-heading_large slds-text-align_Right slds-text-color_destructive">
+                            Problem Statements:</div>
+               		<lightning:inputField  fieldName="ARM_Problem_Statement_1__c" aura:id="PS1" required="true" onchange="{!c.handleChange}"/>
+               		 <aura:if isTrue="{!v.errormsg}" >
+                         <div class="slds-text-body_small slds-text-align_Right slds-text-color_destructive">
+                            Complete this field.</div>
+                    </aura:if>
+                    <lightning:inputField  fieldName="Use_Cases_in_AutoRABIT__c" aura:id="UC1" required="true"/>
+                    <aura:if isTrue="{!v.UCerrormsg1}" >
+                         <div class="slds-text-body_small slds-text-align_Right slds-text-color_destructive">
+                            Please select Use Case</div>
+                    </aura:if>
+                   <lightning:inputField  fieldName="ARM_Problem_Statement_2__c" aura:id="PS2" onchange="{!c.handleChange}"/>
+               		 <aura:if isTrue="{!v.errormsgPS}" >
+                         <div class="slds-text-body_small slds-text-align_Right slds-text-color_destructive">
+                            Value is already selected</div>
+                    </aura:if>
+                    <lightning:inputField  fieldName="Use_Cases_in_AutoRABIT1__c" aura:id="UC2"/>
+                    <aura:if isTrue="{!v.UCerrormsg2}" >
+                         <div class="slds-text-body_small slds-text-align_Right slds-text-color_destructive">
+                            Please select Use Cases</div>
+                    </aura:if>
+                   <lightning:inputField  fieldName="ARM_Problem_Statement_3__c" aura:id="PS3" onchange="{!c.handleChange}"/>
+               		 <aura:if isTrue="{!v.errormsgPS2}" >
+                         <div class="slds-text-body_small slds-text-align_Right slds-text-color_destructive">
+                            Value is already selected</div>
+                    </aura:if>
+                    <lightning:inputField  fieldName="Use_Cases_in_AutoRABIT2__c" aura:id="UC3"/>
+                    <aura:if isTrue="{!v.UCerrormsg3}" >
+                         <div class="slds-text-body_small slds-text-align_Right slds-text-color_destructive">
+                             select Use Case</div>
+                    </aura:if>
+                </div>			
+            </span>
+               
+                </lightning:layoutItem>
+                <lightning:layoutItem size="1">
+                </lightning:layoutItem>
+                <lightning:layoutItem size="5">
+           
+            <span>
+               <div class="slds-box slds-text-align_left">
+               <div class="slds-text-heading_large  slds-text-color_destructive ">
+                   Integrations you would like to see as part of PoC?</div><br/>
+                   <aura:if isTrue="{!v.error}">
+                   <div class="slds-text-heading_small  slds-text-color_destructive "> 
+                       <lightning:icon iconName="utility:warning" alternativeText="Warning!" title="Warning" />Please select only 2 values</div>
+                   </aura:if>
+                
+                   	<lightning:inputField  fieldName="Version_Control_System__c"  aura:id="VC" onchange="{!c.onCheck}" /><br/>
+               		<lightning:inputField  fieldName="ALM_System__c" aura:id="ALM" onchange="{!c.onCheck}" /><br/>
+               		<lightning:inputField  fieldName="Static_Code_Analysis__c" aura:id="SCA" onchange="{!c.onCheck}" /><br/>
+                   	<lightning:inputField  fieldName="nCino_Vlocity__c" aura:id="NC" onchange="{!c.onCheck}" /><br/>
+               		
+                </div> 			
+            </span>
+                </lightning:layoutItem>
+                
+            </lightning:layout><br/>
+            <div class="slds-float_right slds-p-right_xx-small">
+            <lightning:button variant="brand" type="button" name="Save" label="Submit" onclick="{!c.handlePOC}" />
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="slds-float_right slds-p-right_xx-small">
+            <lightning:button variant="brand" type="button" name="Clear" label="Back" onclick="{!c.Clear}" />
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="slds-float_right slds-p-right_xx-small">
+            <lightning:button variant="brand" type="button" name="Cancel" label="Cancel" onclick="{!c.Cancel}" />
+            </div>
+        </lightning:recordEditForm>
+        </div>
+       
+       
+    </aura:if>
+     <aura:if isTrue="{!v.saved}">
+        <div class="slds-text-heading_large slds-text-align_center slds-text-color_success slds-box">
+                             Thaaaank you for submitting the use cases</div>
+        </aura:if>
+        
+      </aura:if>
+        
+    
+</aura:component>

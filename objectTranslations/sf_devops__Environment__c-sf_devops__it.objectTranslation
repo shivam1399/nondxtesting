@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Ambiente</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Ambienti</value>
+    </caseValues>
+    <fields>
+        <label>Può monitorare le modifiche</label>
+        <name>sf_devops__Can_Track_Changes__c</name>
+    </fields>
+    <fields>
+        <label>Scaduto</label>
+        <name>sf_devops__Expired__c</name>
+    </fields>
+    <fields>
+        <label>Ultimo contatore revisioni</label>
+        <name>sf_devops__Last_Revision_Counter__c</name>
+    </fields>
+    <fields>
+        <label>Credenziale denominata</label>
+        <name>sf_devops__Named_Credential__c</name>
+    </fields>
+    <fields>
+        <label>Risultato operazione</label>
+        <name>sf_devops__Operation_Result__c</name>
+        <relationshipLabel>Ambienti</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ID organizzazione</label>
+        <name>sf_devops__Org_Id__c</name>
+    </fields>
+    <fields>
+        <label>Progetto</label>
+        <name>sf_devops__Project__c</name>
+        <relationshipLabel>Ambienti</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Data aggiornamento</label>
+        <name>sf_devops__Refresh_Date__c</name>
+    </fields>
+    <fields>
+        <label>Origine aggiornamento</label>
+        <name>sf_devops__Refresh_Source__c</name>
+        <relationshipLabel>Ambienti</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Sostituisce</label>
+        <name>sf_devops__Replaces__c</name>
+        <relationshipLabel>Sostituisce</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Ambiente di test</label>
+        <name>sf_devops__Test_Environment__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome ambiente</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage>Un ambiente non può avere il campo Expired__c impostato su false.</errorMessage>
+        <name>sf_devops__Expired_Changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Un ambiente non può essere inserito con Expired__c impostato su true.</errorMessage>
+        <name>sf_devops__Expired_Insert</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Un ambiente da sostituire deve essere scaduto.</errorMessage>
+        <name>sf_devops__Expired_Replaces</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Refresh_Source e Refresh_Date devono essere entrambi impostati o vuoti.</errorMessage>
+        <name>sf_devops__Refresh_Source_And_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Unique_Name</name>
+    </validationRules>
+</CustomObjectTranslation>

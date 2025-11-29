@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Objektaktivitet</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Objektaktiviteter</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>En objektaktivitet</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Objektaktiviteter</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Objektaktiviteten</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Objektaktiviteterna</value>
+    </caseValues>
+    <fields>
+        <label>Aktivitetsdatum</label>
+        <name>sf_devops__Activity_Date__c</name>
+    </fields>
+    <fields>
+        <label>Aktivitetstyp</label>
+        <name>sf_devops__Activity_Type__c</name>
+    </fields>
+    <fields>
+        <label>Ändringsinskickning</label>
+        <name>sf_devops__Change_Submission__c</name>
+        <relationshipLabel>Objektaktiviteter</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Miljö</label>
+        <name>sf_devops__Environment__c</name>
+        <relationshipLabel>Objektaktiviteter</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Dold</label>
+        <name>sf_devops__Hidden__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Message__c</name>
+    </fields>
+    <fields>
+        <label>Operationsresultat</label>
+        <name>sf_devops__Operation_Result__c</name>
+        <relationshipLabel>Objektaktiviteter</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Överordnad aktivitet</label>
+        <name>sf_devops__Parent_Activity__c</name>
+        <relationshipLabel>Underordnade aktiviteter</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Pipeline</label>
+        <name>sf_devops__Pipeline__c</name>
+        <relationshipLabel>Objektaktiviteter</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Projekt</label>
+        <name>sf_devops__Project__c</name>
+        <relationshipLabel>Objektaktiviteter</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Sammanfattning</label>
+        <name>sf_devops__Summary__c</name>
+    </fields>
+    <fields>
+        <label>Målpipelinefas</label>
+        <name>sf_devops__Target_Pipeline_Stage__c</name>
+        <relationshipLabel>Målobjektaktiviteter</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Arbetsobjekt</label>
+        <name>sf_devops__Work_Item__c</name>
+        <relationshipLabel>Objektaktiviteter</relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Namn på objektaktivitet</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Den refererade Change_Submission__c måste komma från samma Work_Item.</errorMessage>
+        <name>sf_devops__Change_Submission_Work_Item</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Den refererade Environment__c måste vara från samma projekt som Object_Activity__c.</errorMessage>
+        <name>sf_devops__Environment_Project</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Den refererade Parent_Activity__c måste vara från samma projekt som Object_Activity__c.</errorMessage>
+        <name>sf_devops__Parent_Activity_Project</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Den refererade Pipeline__c måste vara från samma projekt som Object_Activity__c.</errorMessage>
+        <name>sf_devops__Pipeline_Project</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Den refererade Target_Pipeline_Stage__c måste vara från samma pipeline.</errorMessage>
+        <name>sf_devops__Target_Stage_Pipeline</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Den refererade Work_Item__c måste vara från samma projekt som Object_Activity__c.</errorMessage>
+        <name>sf_devops__Work_Item_Project</name>
+    </validationRules>
+</CustomObjectTranslation>

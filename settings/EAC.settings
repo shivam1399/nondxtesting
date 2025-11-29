@@ -9,5 +9,5 @@
     <enableInsightsInTimelineEacStd>false</enableInsightsInTimelineEacStd>
     <provisionProductivityFeatures>false</provisionProductivityFeatures>
     <s2XSvcAccEmail>false</s2XSvcAccEmail>
-    <syncInternalEvents>true</syncInternalEvents>
+    <syncInternalEvents>false</syncInternalEvents>
 </EACSettings>

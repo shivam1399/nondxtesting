@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Composant à soumettre</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Composants à soumettre</value>
+    </caseValues>
+    <fields>
+        <label>Soumission de modification</label>
+        <name>sf_devops__Change_Submission__c</name>
+        <relationshipLabel>Composants à soumettre</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Vide</label>
+        <name>sf_devops__Empty__c</name>
+    </fields>
+    <fields>
+        <label>Chemin d'accès au fichier</label>
+        <name>sf_devops__File_Path__c</name>
+    </fields>
+    <fields>
+        <label>Opération</label>
+        <name>sf_devops__Operation__c</name>
+    </fields>
+    <fields>
+        <label>Composant source</label>
+        <name>sf_devops__Source_Component__c</name>
+    </fields>
+    <fields>
+        <label>Modification distante source</label>
+        <name>sf_devops__Source_Remote_Change__c</name>
+        <relationshipLabel>Composants à soumettre</relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nom du composant à soumettre</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage>Une fois le Composant à soumettre défini, son champ File_Path__c ne peut pas être modifié.</errorMessage>
+        <name>sf_devops__File_Path</name>
+    </validationRules>
+</CustomObjectTranslation>

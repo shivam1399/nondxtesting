@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>เปลี่ยนบันเดิล</value>
+    </caseValues>
+    <fields>
+        <label>โครงการ</label>
+        <name>sf_devops__Project__c</name>
+        <relationshipLabel>บันเดิลการเปลี่ยนแปลง</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ชื่อเวอร์ชัน</label>
+        <name>sf_devops__Version_Name__c</name>
+    </fields>
+    <nameFieldLabel>ชื่อบันเดิลการเปลี่ยนแปลง</nameFieldLabel>
+    <validationRules>
+        <errorMessage>บันเดิลการเปลี่ยนแปลงต้องมีชื่อที่ไม่ซ้ำกัน</errorMessage>
+        <name>sf_devops__Unique_Name</name>
+    </validationRules>
+</CustomObjectTranslation>

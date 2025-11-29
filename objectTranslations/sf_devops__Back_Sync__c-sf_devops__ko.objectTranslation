@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>역동기화</value>
+    </caseValues>
+    <fields>
+        <label>배포 결과</label>
+        <name>sf_devops__Deployment_Result__c</name>
+        <relationshipLabel>역동기화</relationshipLabel>
+    </fields>
+    <fields>
+        <label>대상 환경</label>
+        <name>sf_devops__Destination_Environment__c</name>
+        <relationshipLabel>대상 역동기화</relationshipLabel>
+    </fields>
+    <fields>
+        <label>수정 버전 카운터 종료</label>
+        <name>sf_devops__End_Revision_Counter__c</name>
+    </fields>
+    <fields>
+        <label>작업 결과</label>
+        <name>sf_devops__Operation_Result__c</name>
+        <relationshipLabel>역동기화</relationshipLabel>
+    </fields>
+    <fields>
+        <label>소스 파이프라인 스테이지</label>
+        <name>sf_devops__Source_Pipeline_Stage__c</name>
+        <relationshipLabel>소스 역동기화</relationshipLabel>
+    </fields>
+    <fields>
+        <label>수정 버전 카운터 시작</label>
+        <name>sf_devops__Start_Revision_Counter__c</name>
+    </fields>
+    <nameFieldLabel>역동기화 이름</nameFieldLabel>
+</CustomObjectTranslation>

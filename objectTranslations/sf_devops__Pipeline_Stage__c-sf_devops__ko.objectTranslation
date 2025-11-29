@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>파이프라인 스테이지</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>sf_devops__Branch_Name__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Branch_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>분기</label>
+        <name>sf_devops__Branch__c</name>
+        <relationshipLabel>파이프라인 스테이지</relationshipLabel>
+    </fields>
+    <fields>
+        <label>환경</label>
+        <name>sf_devops__Environment__c</name>
+        <relationshipLabel>파이프라인 스테이지</relationshipLabel>
+    </fields>
+    <fields>
+        <label>다음 스테이지</label>
+        <name>sf_devops__Next_Stage__c</name>
+        <relationshipLabel>파이프라인 스테이지</relationshipLabel>
+    </fields>
+    <fields>
+        <label>작업 상태</label>
+        <name>sf_devops__Operation_Status__c</name>
+        <relationshipLabel>파이프라인 스테이지</relationshipLabel>
+    </fields>
+    <fields>
+        <label>파이프라인</label>
+        <name>sf_devops__Pipeline__c</name>
+        <relationshipLabel>파이프라인 스테이지</relationshipLabel>
+    </fields>
+    <fields>
+        <label>시험판</label>
+        <name>sf_devops__Prerelease__c</name>
+    </fields>
+    <fields>
+        <label>원격 참조 검토 승격</label>
+        <name>sf_devops__Promote_Review_Remote_Reference__c</name>
+    </fields>
+    <fields>
+        <label>교체 상태</label>
+        <name>sf_devops__Swap_Status__c</name>
+        <relationshipLabel>파이프라인 스테이지 교체</relationshipLabel>
+    </fields>
+    <fields>
+        <label>동기화 상태</label>
+        <name>sf_devops__Synch_State__c</name>
+        <relationshipLabel>파이프라인 스테이지</relationshipLabel>
+    </fields>
+    <fields>
+        <label>버전 지정됨</label>
+        <name>sf_devops__Versioned__c</name>
+    </fields>
+    <nameFieldLabel>파이프라인 스테이지 이름</nameFieldLabel>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Branch_Without_Remote_Reference</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>활성화된 파이프라인의 Pipeline_Stage을(를) 수정할 수 없습니다.</errorMessage>
+        <name>sf_devops__No_Changes_For_Active_Pipelines</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>활성화된 파이프라인에 Pipeline_Stage을(를) 추가할 수 없습니다.</errorMessage>
+        <name>sf_devops__No_New_Stages_For_Active_Pipelines</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Promote_Review_Remote_Ref_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Promote_Review_Url_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Promote_Review_Versioned</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Promote_Url_Validation</name>
+    </validationRules>
+</CustomObjectTranslation>

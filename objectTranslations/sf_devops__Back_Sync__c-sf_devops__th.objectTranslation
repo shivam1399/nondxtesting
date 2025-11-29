@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>แบ็กซิงค์</value>
+    </caseValues>
+    <fields>
+        <label>ผลการปรับใช้</label>
+        <name>sf_devops__Deployment_Result__c</name>
+        <relationshipLabel>แบ็กซิงค์</relationshipLabel>
+    </fields>
+    <fields>
+        <label>สภาพแวดล้อมปลายทาง</label>
+        <name>sf_devops__Destination_Environment__c</name>
+        <relationshipLabel>แบ็กซิงค์ปลายทาง</relationshipLabel>
+    </fields>
+    <fields>
+        <label>สิ้นสุดตัวนับการปรับปรุง</label>
+        <name>sf_devops__End_Revision_Counter__c</name>
+    </fields>
+    <fields>
+        <label>ผลการดำเนินการ</label>
+        <name>sf_devops__Operation_Result__c</name>
+        <relationshipLabel>แบ็กซิงค์</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ลำดับขั้นไปป์ไลน์ต้นทาง</label>
+        <name>sf_devops__Source_Pipeline_Stage__c</name>
+        <relationshipLabel>แบ็กซิงค์ต้นทาง</relationshipLabel>
+    </fields>
+    <fields>
+        <label>เริ่มตัวนับการปรับปรุง</label>
+        <name>sf_devops__Start_Revision_Counter__c</name>
+    </fields>
+    <nameFieldLabel>ชื่อแบ็กซิงค์</nameFieldLabel>
+</CustomObjectTranslation>

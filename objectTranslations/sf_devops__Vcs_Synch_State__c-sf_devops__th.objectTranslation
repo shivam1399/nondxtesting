@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>สถานะการซิงค์ VCS</value>
+    </caseValues>
+    <fields>
+        <label>วันที่ซิงค์ล่าสุด</label>
+        <name>sf_devops__Last_Synch_Date__c</name>
+    </fields>
+    <fields>
+        <label>โครงการ</label>
+        <name>sf_devops__Project__c</name>
+        <relationshipLabel>สถานะการซิงค์</relationshipLabel>
+    </fields>
+    <fields>
+        <label>จำนวนการลองซ้ำ</label>
+        <name>sf_devops__Retry_Count__c</name>
+    </fields>
+    <fields>
+        <label>รหัสประจำงานการซิงค์</label>
+        <name>sf_devops__Synch_Job_Id__c</name>
+    </fields>
+    <fields>
+        <label>ชื่อการซิงค์</label>
+        <name>sf_devops__Synch_Name__c</name>
+    </fields>
+    <fields>
+        <label>สถานะการซิงค์</label>
+        <name>sf_devops__Synch_Status__c</name>
+        <relationshipLabel>สถานะการซิงค์ VCS</relationshipLabel>
+    </fields>
+    <nameFieldLabel>ชื่อสถานะการซิงค์ VCS</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Kildemedlemsreferanse</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Kildemedlemsreferanser</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Kildemedlemsreferanse</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Kildemedlemsreferanser</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Kildemedlemsreferansen</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Kildemedlemsreferansene</value>
+    </caseValues>
+    <fields>
+        <label>Er Slett</label>
+        <name>sf_devops__Is_Delete__c</name>
+    </fields>
+    <fields>
+        <label>Er Ny</label>
+        <name>sf_devops__Is_New__c</name>
+    </fields>
+    <fields>
+        <label>Ekstern endring</label>
+        <name>sf_devops__Remote_Change__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Revisjonsteller</label>
+        <name>sf_devops__Revision_Counter__c</name>
+    </fields>
+    <fields>
+        <label>Kildemedlem-ID</label>
+        <name>sf_devops__Source_Member_Id__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Navn på kildemedlemsreferanse</nameFieldLabel>
+</CustomObjectTranslation>

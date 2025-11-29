@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CustomPUdXGMPJOEFq</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CustomPUdXGMPJOEFqs</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>Field25850__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Field53768__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

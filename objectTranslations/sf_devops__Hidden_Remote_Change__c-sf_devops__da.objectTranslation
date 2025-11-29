@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Skjult fjernændring</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Skjulte fjernændringer</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Skjult fjernændring</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Skjulte fjernændringer</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Skjulte fjernændring</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Skjulte fjernændringer</value>
+    </caseValues>
+    <fields>
+        <label>Skjult af Tvunget ignorering</label>
+        <name>sf_devops__Hidden_by_Force_Ignore__c</name>
+    </fields>
+    <fields>
+        <label>Fjernændring</label>
+        <name>sf_devops__Remote_Change__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Arbejdselement</label>
+        <name>sf_devops__Work_Item__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Navn på skjult fjernændring</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,4 +1,6 @@
 {
-  "defaultMetadataPath": "",
-  "defaultFeaturesPath": {}
+  "defaultMetadataPath" : "",
+  "defaultFeaturesPath" : {
+    "ncino" : null
+  }
 }

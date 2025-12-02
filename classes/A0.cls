@@ -1,7 +1,7 @@
 public Class A0
-{//conflict
+{//No conflict
 public Account createAccount(String name)  //method to create ac
-{//comment source line4 src
+{//comment source line4 srcmo
 Account QDTest= new Account();
 Account QDTest1 = new Account();
 Account QDTest2 = new Account();

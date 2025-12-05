@@ -21,4 +21,9 @@
         <default>false</default>
         <label>Email</label>
     </standardValue>
+    <standardValue>
+        <fullName>task type1</fullName>
+        <default>false</default>
+        <label>task type1</label>
+    </standardValue>
 </StandardValueSet>

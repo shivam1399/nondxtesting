@@ -32,11 +32,6 @@
         <label>Task</label>
     </standardValue>
     <standardValue>
-        <fullName>Live Agent</fullName>
-        <default>false</default>
-        <label>Live Agent</label>
-    </standardValue>
-    <standardValue>
         <fullName>Messaging</fullName>
         <default>false</default>
         <label>Messaging</label>

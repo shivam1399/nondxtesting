@@ -21,19 +21,4 @@
         <default>false</default>
         <label>Inactive</label>
     </standardValue>
-    <standardValue>
-        <fullName>NewUsageType_SK</fullName>
-        <default>false</default>
-        <label>NewUsageType_SK</label>
-    </standardValue>
-    <standardValue>
-        <fullName>NewUsageTypesk</fullName>
-        <default>false</default>
-        <label>NewUsageTypesk</label>
-    </standardValue>
-    <standardValue>
-        <fullName>NewUsageType</fullName>
-        <default>false</default>
-        <label>NewUsageType</label>
-    </standardValue>
 </StandardValueSet>
